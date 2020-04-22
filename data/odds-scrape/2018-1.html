@@ -1,0 +1,2649 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<style>
+body {
+	font-size: 75%;
+	font-family: Arial,sans-serif;
+	background: white;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-body.png') 0 0 repeat;
+	font-family: Tahoma,Verdana,Arial;
+	background-color: #202020 !important;
+}
+html {
+	#overflow:auto: ;
+}
+.wrap {
+	padding-top: 1px;
+}
+.autofill_body {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #333;
+	-webkit-box-shadow: 5px 5px 5px #333;
+	z-index: 999;
+}
+.fb_reset {
+	background: none;
+	border: 0;
+	border-spacing: 0px;
+	color: #000;
+	cursor: auto;
+	direction: ltr;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1;
+	margin: 0;
+	overflow: visible;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	text-shadow: none;
+	text-transform: none;
+	visibility: visible;
+	white-space: normal;
+	word-spacing: normal;
+}
+.effect-sqare-parent {
+	position: absolute;
+	background: #FF9800;
+}
+.help {
+	font-size: 80%;
+}
+.help-box4 {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-help-corner.png') 0 100% no-repeat;
+	padding-bottom: 5px;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index: 99;
+	text-align: left;
+}
+.y-h {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-help-corner2.png') 0 100% no-repeat;
+}
+.help-box4 .wrap-help {
+	border: 1px solid #28292E;
+	border-width: 1px 0;
+	display: block;
+	margin: 0 1px;
+}
+.y-h .wrap-help {
+	border-color: #EC981D;
+}
+.spc-nowrap {
+	white-space: nowrap;
+}
+.help-box4 .spc {
+	position: relative;
+	display: block;
+	border: 1px solid #28292E;
+	border-width: 0 1px;
+	margin: 0 -1px;
+	color: white;
+	background: #2B2E34 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-help1.png') 0 0 repeat-x;
+	padding: 3px 5px;
+}
+.y-h .spc {
+	border-color: #EC981D;
+	background: #FF9C0A url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-help2.png') 0 0 repeat-x;
+	color: #333333;
+}
+.fb_reset > div {
+	overflow: hidden;
+}
+#mother-main {
+	width: 990px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 4px 0 1px;
+	position: relative;
+}
+#top-right-social-column {
+	position: absolute;
+	top: 4px;
+	left: 990px;
+}
+#mother {
+	width: 990px;
+}
+.adsenvelope {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
+.adstextvpad {
+	padding-right: 12px !important;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+.banx-header {
+	margin: 5px 0 9px 5px;
+}
+.adsclear {
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+}
+#header {
+	height: 166px;
+	font-size: 11px;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-body.png') 1px 0 repeat;
+	border-radius: 5px;
+}
+#main-menu {
+	top: -9.5em;
+	margin-top: 8px;
+	position: relative;
+	margin-bottom: 3em;
+	z-index: 2;
+}
+/* @media all and (min-width:0px) */
+#main-menu {
+	top: -9.5em;
+}
+#right-ad-column {
+	position: relative;
+	float: right;
+	margin: -115px 0 0 0;
+}
+#wrap, #update_wrap {
+	top: -9.4em;
+	margin: -1px -2px 0;
+	position: relative;
+}
+#box-top {
+	padding-top: 0px;
+}
+.cor-l-t, .cor-r-t, .cor-l-b, .cor-r-b {
+	position: absolute;
+	background-image: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-corners.png");
+	width: 7px;
+	height: 7px;
+	overflow: hidden;
+	display: none;
+}
+.cor-l-t {
+	left: 0px;
+	top: 0px;
+	background-position: left top;
+}
+.cor-r-t {
+	right: 0px;
+	top: 0px;
+	background-position: right top;
+}
+.cor-l-b {
+	left: 0px;
+	bottom: 0px;
+	background-position: left top;
+	background-image: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-corners-bottom.png");
+}
+.cor-r-b {
+	right: 0px;
+	bottom: 0px;
+	background-position: right top;
+	background-image: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-corners-bottom.png");
+}
+.break {
+	height: 1px;
+	font-size: 1px;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	display: block;
+	margin: 0;
+	padding: 0 !important;
+}
+a {
+	color: #c21018;
+	text-decoration: none;
+}
+#scroll-to-top {
+	padding: 0px;
+	position: absolute;
+	left: -60px;
+	bottom: 34px;
+	display: block;
+}
+#scroll-to-top span {
+	cursor: pointer;
+	display: block;
+	background: #777 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/icon-top.png') no-repeat 50% 30%;
+	min-width: 45px;
+	height: 20px;
+	color: #fff;
+	padding: 35px 5px 0 5px;
+	white-space: nowrap;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: inset 2px 0px 3px rgba(0,0,0,0.2);
+	font-size: 11px;
+}
+#box-bottom {
+	padding: 0 2px 2px;
+	margin-bottom: -1px;
+}
+#main {
+	padding: 0 0 1px;
+	background: white;
+	zoom: 1;
+	padding-bottom: 20px;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-mother.png') top left repeat-y;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#footer {
+	background: #F3F2F3;
+	padding: 5px 18px;
+	border-top: 1px solid #D0CCD0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+p {
+	line-height: 1.4;
+	margin-bottom: 10px;
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 92%;
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+.r {
+	display: inline;
+	float: right;
+}
+.l {
+	display: inline;
+	float: left;
+}
+span.footer {
+	margin-top: 8px !important;
+}
+.share-button {
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	margin-right: 4px;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icons-social.3.png') 0 -600px no-repeat;
+}
+.twitter {
+	background-position: 0 -616px;
+}
+a.twitter {
+	background-color: transparent;
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-social.png') no-repeat scroll 0 0;
+	background-position: 0 -31px !important;
+	text-decoration: none;
+	width: 88px;
+	height: 31px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 4px 0 35px;
+	vertical-align: middle;
+}
+a.facebook {
+	background-color: transparent;
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-social.png') no-repeat scroll 0 0;
+	background-position: -88px -31px !important;
+	text-decoration: none;
+	width: 87px;
+	height: 31px;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+a.gpwa {
+	background-color: transparent;
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-social.png') no-repeat scroll 0 0;
+	background-position: -175px -31px !important;
+	text-decoration: none;
+	width: 71px;
+	height: 31px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.status-dot-green {
+	background-color: #87b794;
+}
+#status-dot {
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	margin-bottom: 2px;
+	margin-left: 6px;
+	border-radius: 2px;
+}
+#breadcrumb {
+	font-size: 92%;
+	padding: 12px 22px 9px;
+	background: #F1EFF1;
+	margin: 0;
+	border-bottom: 1px solid #D0CCD0;
+	margin-bottom: 6px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+hr {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.hidden {
+	display: none !important;
+}
+#col-left {
+	float: left;
+	width: 744px;
+}
+#col-right {
+	float: right;
+	width: 235px;
+	padding: 0 5px 0;
+}
+#my-box {
+	margin-bottom: 5px;
+}
+.corner-box3 {
+	margin-bottom: 6px;
+	background-color: #ffffff !important;
+}
+.corner-box {
+	margin: 0 0 6px 0;
+}
+.corner-box-no-margin {
+	margin: 0 0 0 0;
+}
+.rm-banner {
+	padding: 0 0 3px 0;
+}
+.rm-banner a.multi-line-button {
+	font-family: Arial,sans-serif,Helvetica,"Trebuchet MS","Lucida Grande";
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	-o-background-clip: padding-box;
+	-ms-background-clip: padding-box;
+	-khtml-background-clip: padding-box;
+	background-clip: padding-box;
+	border-width: 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border-style: solid;
+	color: white;
+	display: block;
+	padding: 10px 0;
+	width: 235px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #bf4040;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(228, 80, 80)), color-stop(100%, rgb(173, 27, 27)));
+	background-image: -moz-linear-gradient(top,#e45050 0%,#ad1b1b 100%);
+	background-image: linear-gradient(top,#e45050 0%,#ad1b1b 100%);
+	border-color: #732626;
+	border-left-color: #bf4040;
+	border-top-color: #bf4040;
+	-moz-box-shadow: rgba(230,230,230,0.5) 1px 1px 0 0 inset;
+	-webkit-box-shadow: rgba(230,230,230,0.5) 1px 1px 0 0 inset;
+	-o-box-shadow: rgba(230,230,230,0.5) 1px 1px 0 0 inset;
+	box-shadow: inset 1px 1px 0px 0px rgba(230,230,230,0.5);
+	color: white;
+	text-shadow: 0px 1px 2px #555;
+}
+.rm-banner a.multi-line-button .line-top {
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+}
+.rm-banner a.multi-line-button .line-normal {
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-top: 0px;
+}
+.rm-banner a.multi-line-button .line-normal.highlight-off {
+	color: #ffc000;
+	background-color: transparent !important;
+}
+.corner-box .spc {
+	background: #FF9800;
+}
+.corner-box .dark2 {
+	background: #D6D6D6;
+}
+.corner-box .head {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-norm-t-l.png') 0 0 no-repeat;
+}
+.corner-box .dark2 .head {
+	background: #575757 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark2-t-l.png') 0 0 no-repeat;
+}
+table {
+	font-family: Tahoma,Arial,sans-serif;
+	width: 100%;
+	font-size: 92%;
+	border: none;
+	border-collapse: collapse;
+	empty-cells: show;
+	margin-top: 0px;
+}
+.corner-box .light {
+	background: #D6D6D6;
+}
+.corner-box .body {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-norm-b-l.png') 0 100% no-repeat;
+}
+.corner-box .light .body {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-l.png') 0 100% no-repeat;
+}
+.corner-box .dark2 .body {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-l.png') 0 100% no-repeat;
+}
+.all {
+	font-weight: bold;
+	font-size: 11px;
+}
+.corner-box .all {
+	padding: 5px 11px 4px;
+	border-top: 1px solid #C1C1C1;
+	margin: 0;
+	text-align: right;
+}
+.corner-box .all {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-norm-b-r.png') 100% 100% no-repeat;
+}
+.corner-box .light .all {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-r.png') 100% 100% no-repeat;
+}
+.corner-box .dark2 .all {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-r.png') 100% 100% no-repeat;
+}
+.all a {
+	color: black;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 0 -315px no-repeat;
+	padding: 0 0 0 11px;
+}
+table th a {
+	color: #333333;
+	text-decoration: none;
+}
+.sicona {
+	background-color: transparent;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/icon-sport.png') no-repeat scroll 32px 79px;
+	text-decoration: none;
+	padding-left: 18px;
+	display: block;
+	float: left;
+}
+.siconleft {
+	background-color: transparent;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/icon-sport.png') no-repeat scroll 32px 79px;
+	text-decoration: none;
+	padding-left: 19px;
+}
+.s14 {
+	background-position: -1px -901px !important;
+}
+.s21 {
+	background-position: -1px -1379px !important;
+}
+.s4 {
+	background-position: -1px -159px !important;
+}
+.s6 {
+	background-position: -1px -212px !important;
+}
+.s2 {
+	background-position: -1px -106px !important;
+}
+.s36 {
+	background-position: -1px -1640px !important;
+}
+.s1 {
+	background-position: -1px -53px !important;
+}
+.corner-box3 a {
+	color: #2c2c2c;
+}
+.corner-box .light .all a, .corner-box .yellow .all a {
+	color: #333333;
+}
+table td, table th {
+	text-align: left;
+	border: none;
+}
+table td {
+	background-color: #eeeeee;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid white;
+	border-width: 1px 0 1px 1px;
+}
+.bold {
+	font-weight: bold !important;
+}
+.corner-box td {
+	padding: 3px 7px 4px 7px !important;
+	background: #EEEEEE url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-corner-table.png') 0 100% repeat-x;
+	border-left: 0;
+}
+table.rm-bonus-offer td {
+	background: 0;
+	border: 0;
+}
+table.rm-bonus-offer td.logo {
+	margin: 0 !important;
+	padding: 0 7px 0 0 !important;
+}
+table.rm-bonus-offer td.desc {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 105%;
+}
+.bb-skrillneteller {
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal2004140957241587486007/img/icon/ico-skrillneteller-0.png') 0 0 no-repeat !important;
+}
+.bb-rebelbetting {
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal2004140957241587486007/img/icon/ico-rebelbetting-0.png') 0 0 no-repeat !important;
+}
+td.logo a.bb {
+	display: block;
+	width: 46px;
+	height: 40px;
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal2004140957241587486007/img/logos/bookmaker-bonus-list.png') 0 0 no-repeat;
+}
+.corner-box .dark2 .head .dark-title {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark2-t-r.png') 100% 0 no-repeat;
+	color: #eeeeee;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial,Helvetica,sans-serif;
+}
+h2 {
+	font-size: 17px;
+}
+#col-left h1, #col-content2 h1 {
+	font-size: 18px;
+}
+#col-content h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#col-content2 h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.corner-box h2 {
+	font-size: 92%;
+	padding: 4px 11px 5px;
+	margin: 0;
+	margin-bottom: 0px;
+	font-family: Tahoma,Verdana,Arial;
+}
+/* @media all and (min-width:0px) */
+.corner-box h2 {
+	margin-bottom: -1px;
+}
+.corner-box3 .dark {
+	background: 0;
+}
+.corner-box3 .dark .head {
+	background: #575757 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark2-t-l.png') 0 0 no-repeat;
+}
+.box {
+	margin: 0 0 0 1px;
+}
+/* @media all and (min-width:0px) */
+.box {
+	margin: 0;
+}
+.corner-box3 .dark .body {
+	background: #D6D6D6 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-l.png') 0 100% no-repeat;
+}
+.corner-box3 .dark .body .all {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-r.png') 100% 100% no-repeat;
+	padding: 5px 11px 4px;
+	border-top: 1px solid #C1C1C1;
+	margin: 0;
+	text-align: right;
+}
+.table-time {
+	padding: 0 5px;
+	text-align: center;
+	white-space: nowrap;
+}
+.table-participant {
+	width: 99% !important;
+}
+.center {
+	text-align: center;
+}
+.table-odds {
+	padding: 3px 8px;
+	text-align: center;
+}
+.result-ok {
+	background-color: #80b62a !important;
+}
+.info-value {
+	color: #a0a0a0;
+}
+table.table-main td {
+	background-color: #eeeeee;
+	border: 1px solid #e7e7e7;
+}
+table td.odds-nowrp {
+	padding: 3px 0 !important;
+}
+table tbody tr.odd td {
+	background-color: #ffffff;
+}
+table.table-main tr.odd td {
+	background-color: #ffffff;
+}
+.corner-box3 .dark tr.odd td {
+	background-color: #ffffff;
+}
+table.top-event td.column div.overflow {
+	width: 106px !important;
+	overflow: hidden;
+	white-space: nowrap;
+}
+table.top-event td.column span.event {
+	overflow: hidden;
+}
+table tbody tr.even td {
+	background-color: #f2f2f2;
+}
+table.table-main tr.even td {
+	background-color: #f2f2f2;
+}
+.corner-box3 .dark tr.even td {
+	background-color: #f2f2f2;
+}
+.corner-box3 .dark .head .dark-title {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark2-t-r.png') 100% 0 no-repeat;
+	color: #eeeeee;
+}
+.corner-box3 h2 {
+	font-size: 92%;
+	padding: 5px 11px 4px;
+	margin: 0;
+	font-family: Tahoma,Verdana,Arial;
+}
+.adstext {
+	height: auto !important;
+	text-align: center;
+	color: #b0b0b0;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+.adsclick {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	z-index: 99;
+	left: 0px;
+	top: 0px;
+	background: white;
+	opacity: 0;
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.adsgraphvert {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 10px !important;
+}
+.adsgvert {
+	width: 100%;
+	height: 100%;
+	background: url(https://rb.oddsportal.com/x/oddsportal200414095724/img/advert/icon-advertv.gif) no-repeat 0 50%;
+}
+.adsenvelope iframe, .adsenvelope div {
+	width: 100%;
+	height: 100%;
+}
+div#bt-all-events-standings {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -226px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 2px 0 0 0;
+	height: 11px;
+}
+div#bt-odds-archive {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -81px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 1px 0 0 0;
+	height: 11px;
+}
+div#bt-moving-margins {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -64px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 2px 0 0 0;
+	height: 12px;
+}
+div#bt-divergent-margins {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -145px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 2px 0 0 0;
+	height: 12px;
+}
+div#bt-hot-matches {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -48px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 1px 0 0 0;
+	height: 11px;
+}
+div#bt-value-bets {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -129px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 1px 0 0 0;
+	height: 11px;
+}
+div#bt-blocked-games {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 0 no-repeat;
+	padding: 0 0 0 15px;
+	margin: 1px 0 0 0;
+	height: 11px;
+}
+div#bt-dropping-odds {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-rmenu-set.png') 0 -32px no-repeat;
+	padding: 0 0 0 15px;
+	margin: 1px 0 0 0;
+	height: 11px;
+}
+.rightSportMenu {
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+.main-menu2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main-menu2 ul.main-filter {
+	list-style: none;
+	padding: 0;
+}
+#main ul {
+	font-size: 92%;
+}
+.rightSportMenu li {
+	padding: 2px 4px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #E7E7E7;
+	line-height: 12px;
+	padding: 4px 5px;
+}
+.f {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/flags/flags.png') no-repeat scroll -4px -621px;
+	height: 11px;
+	line-height: 11px;
+	width: 16px;
+	display: block;
+	float: left;
+	margin: 1px 0 0 6px;
+}
+.ficon {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/flags/flags.png') no-repeat scroll -4px -621px;
+	height: 11px;
+	line-height: 11px;
+	width: 16px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	margin: 1px 5px 0 0;
+	cursor: pointer;
+	font-size: 1px !important;
+}
+.f-200 {
+	background-position: -32px -565px !important;
+}
+.corner-box3 span.f {
+	margin: 2px 3px 0 0;
+}
+.rightSportMenu li a {
+	padding-left: 3px;
+}
+.number {
+	color: #666666;
+}
+.corner-box3 span.number {
+	color: #a0a0a0;
+}
+.corner-box3 .hiconright h2 {
+	padding: 4px 11px 5px;
+}
+.siconright {
+	background-color: transparent;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/icon-sport.png') 6px 0.35em no-repeat scroll !important;
+	text-decoration: none;
+	padding: 0 0 1px 20px !important;
+	margin: 0 0 0 -4px !important;
+}
+.sr36 {
+	background-position: -1px -1638px !important;
+}
+.corner-box3 .hiconright h2 span {
+	padding-top: 1px !important;
+}
+#my-box .head {
+	background: #FF9800 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-mybox-head.png') 0 0 no-repeat;
+}
+#my-coupon-container .coupon-footer {
+	background: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark-grad-bottom3.png") no-repeat scroll 0 100% #404040;
+	padding: 4px 10px 6px 10px;
+	border-top: 1px solid #919191;
+	text-align: right;
+}
+#my-coupon-container .coupon-footer span {
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+}
+.all-white a {
+	color: black;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 0 -335px no-repeat;
+	padding: 0 0 0 11px;
+}
+#my-coupon-container a {
+	color: #eeeeee;
+}
+#my-coupon-container .coupon-footer a {
+	color: #eeeeee;
+	font-size: 11px;
+	font-weight: normal;
+}
+#my-box li {
+	background: #404040 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-dark-grad.png') 0 0 repeat-x;
+	padding: 3px 11px;
+	color: white;
+	border-top: 1px solid #919191;
+	border-left: 1px solid #7F7F7F;
+	border-right: 1px solid #7F7F7F;
+}
+#my-coupon-container li {
+	background: #404040;
+}
+#my-coupon-container li {
+	color: #eeeeee;
+	padding: 0 5px 2px;
+	padding-top: 0px !important;
+	font-size: 11px;
+}
+#my-box li:first-child {
+	border-top: none;
+	padding-top: 4px;
+}
+#my-coupon-container li.coupon-empty-info {
+	background-color: #252525;
+	border: none;
+}
+ul p, table p {
+	font-size: 100%;
+}
+#my-coupon-container li.coupon-empty-info p {
+	font-size: 11px;
+	padding: 3px 5px 5px;
+	margin: 0;
+}
+#my-box .head-bottom {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-mybox-head-b-open.png') 100% 100% no-repeat;
+	overflow: hidden;
+	width: 100%;
+}
+#my-box h2 {
+	font-size: 92%;
+	text-transform: none;
+	font-family: Tahoma,Verdana,Arial;
+	margin: 0;
+	padding: 6px 30px 7px 7px;
+	top: 1px;
+	margin-bottom: 0px;
+	line-height: 16px;
+}
+#my-box .head h2 {
+	float: left;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 2px -178px no-repeat;
+	padding: 7px 0 6px 26px;
+}
+#my-box .head a {
+	color: #333333;
+	text-decoration: none;
+}
+#my-box .head a.coupon-arrow {
+	background: #fff url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 0 -280px no-repeat;
+	margin-top: 6px;
+	margin-right: 2px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: right;
+	cursor: pointer;
+}
+#col-content {
+	float: right;
+	padding: 6px 6px 0;
+	width: 771px;
+}
+#col-left #col-content {
+	width: 537px;
+}
+#col-side {
+	width: 185px;
+	float: left;
+	padding: 0 4px 10px 5px;
+	margin-right: -1px;
+}
+div.spacer10 {
+	font-size: 0px;
+	height: 10px;
+	line-height: 10px;
+}
+#search-box {
+	background: #5C5C5C url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-search.png') 0 0 repeat-y;
+}
+.adstextpad {
+	padding-bottom: 20px !important;
+}
+#col-side h2 {
+	padding-bottom: 1px;
+	margin: 0 0 0.2em 6px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+#side-menu h2 {
+	font-size: 114%;
+}
+#side-menu ul {
+	border-bottom: 1px solid #D0CCD0;
+}
+#side-menu ul li {
+	border-top: 1px solid #D0CCD0;
+	background: #E6E6E6 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-side-menu.png') 0 1px repeat-x;
+}
+#side-menu ul li div.sport_name {
+	border: 1px solid white;
+	border-width: 1px 0;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/dot-arrow-right.png') 0 0.70em no-repeat;
+	padding: 5px 0 5px 10px;
+}
+#main ul ul {
+	font-size: 100%;
+}
+#side-menu ul ul, #side-menu ul ul li {
+	border: none;
+}
+#side-menu ul ul {
+	padding: 1px 0 3px;
+	background: white;
+	font-size: 100%;
+}
+#side-menu ul ul li {
+	margin: 5px 0 0 0;
+	background: none;
+}
+.f-8 {
+	background-position: -116px -621px !important;
+}
+.s28 {
+	background-position: -1px -1693px !important;
+}
+.s12 {
+	background-position: -1px -848px !important;
+}
+.s5 {
+	background-position: -1px -264px !important;
+}
+.s7 {
+	background-position: -1px -636px !important;
+}
+.s3 {
+	background-position: -1px 0 !important;
+}
+#side-menu ul li a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333333;
+}
+#side-menu ul ul a {
+	background: none;
+	text-transform: none;
+	font-weight: normal;
+	padding: 0 0 0 6px;
+	display: inline;
+	border: none;
+	font-weight: bold;
+}
+#side-menu ul ul ul {
+	padding: 0 0 1px 17px;
+}
+#side-menu ul ul ul li {
+	margin: 3px 0 3px 1px;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/dot-s.png') 0 0.5em no-repeat;
+	padding-left: 11px;
+}
+#side-menu ul ul ul a {
+	text-decoration: underline;
+	color: #c21018;
+	padding: 0;
+	font-weight: normal;
+}
+.f-106 {
+	background-position: -172px -285px !important;
+}
+.f-158 {
+	background-position: -144px -453px !important;
+}
+.f-6 {
+	background-position: -228px -593px !important;
+}
+.f-52 {
+	background-position: -32px -117px !important;
+}
+.f-39 {
+	background-position: -172px -61px !important;
+}
+.f-24 {
+	background-position: -32px -33px !important;
+}
+.f-todays-matches {
+	background-position: -144px -621px !important;
+}
+.f-23 {
+	background-position: -172px -5px !important;
+}
+.f-62 {
+	background-position: -256px -117px !important;
+}
+.f-184 {
+	background-position: -256px -509px !important;
+}
+.f-218 {
+	background-position: -200px -537px !important;
+}
+.f-31 {
+	background-position: -4px -89px !important;
+}
+.f-176 {
+	background-position: -4px -173px !important;
+}
+.f-141 {
+	background-position: -88px -397px !important;
+}
+.f-popular {
+	background-position: -256px -593px !important;
+}
+#search-box .spc {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-search-top.png') 0 0 no-repeat;
+}
+#search-box div.form {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-search-bottom.png') 0 100% no-repeat;
+	padding: 8px;
+}
+#search-box h2 {
+	color: white;
+	text-transform: none;
+	font-size: 11px;
+	margin: -1px 0 4px 1px;
+	font-family: Tahoma;
+}
+#search-box p {
+	margin: 0 0 1px 1px;
+}
+.form a {
+	text-decoration: none !important;
+}
+#search-submit {
+	background: 0 -360px no-repeat url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png');
+	float: right;
+	width: 30px;
+	height: 23px;
+	cursor: pointer;
+}
+.int-text {
+	vertical-align: middle;
+	font-family: Tahoma,Verdana,Arial;
+	font-size: 100%;
+}
+.form .int-text {
+	padding: 2px 1px;
+	width: 200px;
+	border: 1px solid #ABADB3;
+}
+#search-box input {
+	vertical-align: middle;
+}
+#search-box .int-text {
+	padding: 4px 2px;
+	width: 125px;
+	border: 1px solid #ABADB3;
+	color: #a0a0a0;
+	height: 13px;
+}
+#search-submit span {
+	display: none;
+}
+#my-box2 {
+	margin-bottom: 0px;
+}
+#my-box2 .head-closed {
+	background: #444444 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-mybox2-head-closed.png') 0 0 no-repeat;
+}
+#my-box2 .body {
+	padding-bottom: 2px;
+}
+.manage-my-leagues {
+	margin: -2px 0 0 0;
+}
+.corner-box .dark2 .body2 {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-light-b-l.png') 0 100% no-repeat;
+}
+#my-box2 .head-bottom {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-mybox2-head-b-open.png') 100% 100% no-repeat;
+	overflow: hidden;
+	width: 100%;
+}
+#my-box2 h2 {
+	font-size: 92%;
+	text-transform: none;
+	font-family: Tahoma,Verdana,Arial;
+	margin: 0;
+	padding: 6px 30px 7px 11px;
+	position: relative;
+	top: 1px;
+	margin-bottom: 0px;
+	line-height: 16px;
+	color: #eeeeee;
+}
+#my-box2 h2 a {
+	color: #eeeeee;
+}
+#my-box2 .head a.my-leagues-open-button, #my-box2 .head-closed a.my-leagues-open-button {
+	margin: 0 -28px 0 0;
+	display: block;
+	width: 17px;
+	height: 16px;
+	float: right;
+	cursor: pointer;
+}
+.break5 {
+	height: 5px;
+	font-size: 5px;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	display: block;
+	margin: 0;
+	padding: 0 !important;
+}
+#event-wait-msg-main {
+	padding: 20px 0 0 250px;
+}
+#share-buttons-detail {
+	margin: 0 0 5px 0;
+	height: 16px;
+}
+.about-text {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.cleaner {
+	clear: both;
+	display: block;
+	font-size: 0px !important;
+	height: 0px !important;
+	padding: 0 !important;
+}
+.cleaner {
+	clear: both;
+}
+#bookmarks-link a {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 0 -315px no-repeat;
+	padding: 0 0 0 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+#event-wait-msg {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ajax-loader-orange.gif') no-repeat 10px 5px;
+	padding: 45px 0 0 0;
+}
+#pagination {
+	margin: 20px auto;
+	text-align: center;
+}
+#pagination a {
+	margin-right: 5px;
+}
+#pagination span {
+	font-size: 11px;
+	color: black;
+}
+#pagination span {
+	display: inline-block;
+	line-height: 19px;
+	width: 21px;
+	background-color: #d6d6d6;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/pagination.png') 0 0 no-repeat;
+}
+#pagination span.active-page {
+	background-position: -32px 0 !important;
+	color: white;
+	margin-right: 5px;
+}
+#pagination span.arrow {
+	display: inline-block;
+	line-height: 19px;
+	width: 21px;
+	background-color: #d6d6d6;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/pagination-arrow.png') 0 0 no-repeat;
+}
+tr.table-dummyrow {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.result-ok a {
+	color: white !important;
+}
+td.odds-nowrp span, td.odds-nowrp a {
+	padding-left: none;
+	padding-right: none;
+	display: block;
+	width: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+a.deactivate, .deactivate .name a, .deactivate .odds-nowrp a {
+	color: #575757;
+}
+tr.table-dummyrow td {
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: #fff;
+}
+table th {
+	background-color: #cccccc;
+	border: 1px solid white;
+	padding: 3px 10px;
+	border-width: 1px 0 1px 1px;
+}
+table tr.dark th {
+	background-color: #575757 !important;
+	color: #eee;
+	border-top: none;
+	font-weight: normal;
+}
+.tl, .center .tl {
+	text-align: left;
+}
+tr.center th {
+	text-align: center;
+}
+table.table-main th {
+	background-color: #cccccc;
+	border: 1px solid #e7e7e7;
+	font-weight: normal;
+}
+table.table-main th.first2 {
+	border-left: 1px solid #cccccc;
+}
+table.table-main tr.nob-border th {
+	border-bottom: none;
+}
+.ico-bookmarker-info a, span.ico-event-info {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/icon/ico-bookmaker-info.png') 0 0 no-repeat scroll;
+	float: left;
+	height: 13px;
+	width: 12px;
+	cursor: pointer;
+	margin: 2px 0 0 0;
+	padding: 0 0 0 2px;
+}
+span.ico-event-info {
+	cursor: default;
+	float: right;
+	width: 11px;
+	background-position: 0 0 !important;
+}
+table.table-main tr.dark th {
+	text-align: left;
+}
+.bfl {
+	display: block;
+	float: left;
+}
+table tr.dark a {
+	color: #eee;
+	text-decoration: none;
+	font-weight: normal;
+}
+.bflp {
+	display: block;
+	float: left;
+	padding: 0 4px 0 3px;
+}
+.tab-nav-line-margin, .tab-nav-line {
+	position: relative;
+	zoom: 1;
+	width: 100%;
+	border-bottom: 3px solid #FF9800;
+	font-size: 1px;
+}
+.tab-nav-line-margin {
+	margin-bottom: 1px;
+}
+.main-menu2 ul li {
+	float: left;
+	width: auto;
+}
+.main-menu2 ul li span.active {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png') right -150px repeat;
+	white-space: nowrap;
+	margin: 0 6px 0 0;
+}
+.main-menu2.main-menu-gray ul li span.active {
+	background: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png") no-repeat scroll right -450px transparent;
+}
+.main-menu2 ul li span.active strong {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png') 0 -100px no-repeat;
+	padding: 5px 5px 9px 6px;
+	margin: 0 1px 0 0;
+	font-weight: bold;
+	color: #000;
+}
+.main-menu2.main-menu-gray ul li span.active strong {
+	background: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png") no-repeat scroll 0 -400px transparent;
+}
+.main-menu2 ul li span.active a {
+	color: #000000;
+}
+.main-menu2.main-menu-gray ul li span.active a {
+	color: #fff;
+}
+.main-menu2 ul li span.inactive {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png') right -50px no-repeat;
+	white-space: nowrap;
+	margin: 0 6px 0 0;
+}
+.main-menu2 ul li span.inactive strong {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/submenu-a.png') 0 0 no-repeat;
+	padding: 5px 5px 9px 6px;
+	margin: 0 1px 0 0;
+}
+.main-menu2 ul li span.inactive strong a {
+	margin: 0 1px 0 0;
+	font-weight: bold;
+	color: #666666;
+}
+.out {
+	position: absolute;
+	left: -2000px;
+	top: -2000px;
+}
+.scrolling-banner-wrap {
+	text-align: center;
+	float: left;
+	margin-bottom: 10px;
+}
+.scrolling-banner-wrap.static-position {
+	position: static;
+}
+#right-ad-column-child {
+	position: absolute;
+	margin: 0 0 0 5px;
+}
+#main-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#main-menu ul li {
+	float: left;
+	display: inline;
+	margin-right: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#main-menu ul li:first-child {
+	margin-left: 3px;
+}
+#main-menu ul li:first-child.active {
+	margin-left: 4px;
+}
+#main-menu ul li a {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-main-li-24.png') 100% 0 no-repeat;
+	color: #cecfd1;
+	text-decoration: none;
+	min-width: 125px;
+	padding-right: 21px;
+	margin-top: 3px;
+	white-space: nowrap;
+}
+#main-menu ul li a span {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-main-li-24.png') -21px 0 no-repeat;
+	display: block;
+	min-height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 11px;
+	min-width: 125px;
+	cursor: pointer;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul li a, #main-menu ul li a span {
+	min-width: 0px;
+	width: 155px;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul li a, #main-menu ul li a span {
+	min-width: 0px;
+	width: 155px;
+}
+#main-menu ul li.last a {
+	background-position: 100% -118px;
+}
+#main-menu ul li strong {
+	display: block;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-main-li-24.png') 100% -272px no-repeat;
+	color: #263248;
+	min-width: 123px;
+	padding-right: 25px;
+	position: relative;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul li strong {
+	min-width: 0px;
+	width: 158px;
+}
+#main-menu ul .sub-menu {
+	position: absolute;
+	left: 0px;
+	top: 3.1em;
+	z-index: 5;
+	width: 715px;
+	padding-right: 275px;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-sub-menu.png') 100% 0 no-repeat;
+}
+#main-menu ul .sub-menu ul {
+	overflow: hidden;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-sub-menu.png') 100% 100% no-repeat;
+	position: relative;
+	top: 6px;
+	padding-left: 11px;
+	min-height: 29px;
+	padding-right: 275px;
+	margin-right: -275px;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul .sub-menu ul {
+	padding-left: 16px;
+}
+#main-menu ul .sub-menu ul {
+	padding-right: 5px !important;
+	overflow: visible !important;
+}
+#main-menu ul .sub-menu li {
+	min-width: 0px;
+	margin: 5px 0;
+	font-size: 92%;
+	border-left: 1px solid #FFC672;
+}
+#main-menu ul .sub-menu li li {
+	font-size: 100%;
+}
+#main-menu ul .sub-menu ul li li {
+	float: none;
+	display: block;
+	margin: 0;
+	border: 0;
+}
+#main-menu ul .sub-menu li:first-child {
+	border: none;
+}
+#main-menu ul .sub-menu ul li ul {
+	background: #FF9800;
+	margin-top: 18px;
+	margin-left: -1px;
+	padding: 10px 5px 5px 5px;
+	z-index: 100;
+	position: absolute;
+	display: none;
+	float: left;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-box-shadow: 3px 12px 13px rgba(50,50,50,0.63);
+	-moz-box-shadow: 3px 12px 13px rgba(50,50,50,0.63);
+	box-shadow: 3px 12px 13px rgba(50,50,50,0.63);
+}
+#main-menu ul li.active a {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	color: #263248;
+}
+#main-menu ul .sub-menu li a {
+	background: none;
+	display: inline;
+	padding: 0 12px;
+	margin: 0;
+	line-height: 19px;
+	color: #263248;
+}
+#main-menu ul .sub-menu a.dropdowner:hover, #main-menu ul .sub-menu a.dropdowner {
+	cursor: default;
+	text-decoration: none;
+	color: #263248;
+}
+#main-menu ul .sub-menu li:first-child a {
+	padding-left: 0px;
+}
+#main-menu ul .sub-menu li.select a {
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png') 100% -455px no-repeat;
+	padding-right: 20px;
+}
+#main-menu ul .sub-menu ul li li a, #main-menu ul .sub-menu ul li.active li a, #main-menu ul .sub-menu ul li.select li a, #main-menu ul .sub-menu ul li.active.select li a {
+	background: none !important;
+	padding: 2px 2px 2px 8px !important;
+	display: block;
+	line-height: normal;
+	min-height: 20px;
+	width: 155px;
+}
+#main-menu ul li strong span {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/bg-main-li-24.png') 0 -272px no-repeat;
+	display: block;
+	min-height: 36px;
+	line-height: 37px;
+	padding-top: 3px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 117%;
+	min-width: 130px;
+	padding-left: 10px;
+	margin-left: -9px;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul li strong span {
+	min-width: 0px;
+	width: 160px;
+}
+#main-menu ul li:first-child strong span {
+	min-width: 120px;
+	margin-left: -4px;
+}
+/* @media all and (min-width:0px) */
+#main-menu ul li:first-child strong span {
+	min-width: 0px;
+	width: 150px;
+}
+#nav-skip {
+	position: absolute;
+	left: -2000px;
+}
+#logo-box {
+	padding: 1px 33px 0 0;
+	margin: 8px 0 0 10px;
+	float: left;
+}
+#user-header {
+	float: right;
+}
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#user-header-r1, #user-header-r2 {
+	display: block;
+	clear: both;
+	width: auto;
+	float: right;
+}
+#user-header-r1 {
+	height: 24px;
+}
+#user-header-r2 {
+	float: right;
+	background: #404040;
+	background: rgba(164,164,164,0.3);
+	height: 20px;
+	padding: 6px 6px 7px 0;
+	margin-top: 1px;
+	< borderRadius(4) >: ;
+}
+#user-header-r1 div, #user-header-r2 div {
+	float: left;
+	width: auto;
+}
+.inline-btn-2 {
+	border: none;
+	background: none;
+	font-family: Tahoma,Verdana,Arial;
+	font-weight: bold;
+	color: #263248;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	width: auto;
+	height: 22px;
+	overflow: visible;
+	vertical-align: top !important;
+}
+#user-header button.inline-btn-2 {
+	margin: -1px -2px 0 5px !important;
+}
+.inline-btn-2 span {
+	display: inline-block;
+	background: #FF9800 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky2.png') 0 0 no-repeat;
+	padding: 0;
+	margin: 0;
+}
+.inline-btn-2 span span {
+	font-size: 0.85em;
+	white-space: nowrap;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky2.png') 100% -50px no-repeat;
+	color: #263248;
+	display: block;
+	height: 18px;
+	border: none;
+	padding: 4px 10px 0 10px;
+	margin: 0;
+}
+.inline-btn-2.button-red2 span {
+	color: #fff;
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky.png') 100% -558px no-repeat;
+}
+.inline-btn-2.button-red2 span span {
+	background: transparent url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky.png') 0 -508px no-repeat;
+	margin: 0 2px 0 0;
+	padding: 4px 8px 4px 10px;
+}
+.inline-btn-2.button-dark span {
+	background: #FF9800 url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky2.png') 0 -200px no-repeat;
+}
+.inline-btn-2.button-dark span span {
+	background: url('https://rb.oddsportal.com/x/oddsportal200414095724/img/buttonky2.png') 100% -250px no-repeat;
+}
+.user-header-fakeselect, a.user-header-fakeselect {
+	border: 1px #606060 solid;
+	background: #000;
+	color: #fff;
+	padding: 2px 2px 2px 1px;
+	font-size: 11px;
+	margin: 0;
+	cursor: pointer;
+	display: block;
+}
+.user-header-fakeselect-options a {
+	display: block;
+	padding: 2px 2px 2px 7px;
+	color: #fff;
+}
+#header a {
+	font-size: 11px;
+}
+.user-header-fakeselect span {
+	background: url("https://rb.oddsportal.com/x/oddsportal200414095724/img/ico-content-set.png") no-repeat scroll transparent;
+	padding-right: 21px;
+	padding: 0 20px 0 7px;
+	height: 15px;
+	display: block;
+}
+#user-header-timezone-expander span, .user-header-fakeselect-border-fix span {
+	background-position: 100% -519px;
+}
+#user-header label {
+	color: #fff;
+	padding: 3px 4px 0 9px;
+	display: block;
+}
+.user-header-fakeselect-options {
+	position: absolute;
+	z-index: 100;
+	background: #222;
+	border: 1px #3E3E3E solid;
+	margin-top: -1px;
+}
+#user-header-oddsformat {
+	width: 77px;
+}
+#user-header-oddsformat-expander span {
+	background-position: 100% -519px;
+}
+#logo-box h1, #logo-box p {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+#top-right-social-column-child {
+	position: absolute;
+	margin: 0 0 0 5px;
+}
+.fb_iframe_widget {
+	display: inline-block;
+	position: relative;
+}
+.fb_iframe_widget span {
+	display: inline-block;
+	position: relative;
+	text-align: justify;
+}
+.fb_iframe_widget iframe {
+	position: absolute;
+}
+</style>
+</head>
+<body>
+
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>&amp;lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3GJZ5" height="0" width="0" style="display:none;visibility:hidden"&amp;gt;&amp;lt;/iframe&amp;gt;</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<div class="wrap">
+
+<div id="mother-main">
+
+			<div id="top-right-social-column">
+				<div id="top-right-social-column-child">
+					<div class="fb-like fb_iframe_widget" style="margin-top:3px;" data-href="http://www.facebook.com/OddsPortal" data-share="false" data-show-faces="true" data-action="like" data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=393736670647047&amp;container_width=0&amp;href=http%3A%2F%2Fwww.facebook.com%2FOddsPortal&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true"><span style="width: 82px; height: 20px; vertical-align: bottom;"><iframe name="f1a2d523cac2374" width="1000px" height="1000px" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/plugins/like.php?action=like&amp;app_id=393736670647047&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Dfd1f29e14dbc9%26domain%3Dwww.oddsportal.com%26origin%3Dhttps%253A%252F%252Fwww.oddsportal.com%252Ff375b5af9355008%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.facebook.com%2FOddsPortal&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true" frameborder="0" scrolling="no" allowfullscreen="true" style="border: medium; border-image: none; width: 82px; height: 20px; visibility: visible;" allowtransparency="true" data-testid="fb:like Facebook Social Plugin" allow="encrypted-media"></iframe></span></div>
+				</div>
+			</div>
+		
+<div id="mother">
+<div class="adsenvelope adstextvpad banx-header" id="lsadvert-zid-1877" style="width: 728px;"><div style="height: 90px;"><div class="adscontent" id="lsadvert-header"><iframe name="banx-header" id="lsadvert-zid-1877-iframe" frameborder="0" scrolling="no" style="width: 728px; height: 90px;"></iframe></div><div class="adsgraphvert"><div class="adsgvert atv-en"></div></div></div></div><div class="adsclear"></div><div id="header">
+
+	<div id="nav-skip">
+		<a title="Proceed to content (Keyboard shortcut: Alt + 2)" accesskey="2" href="#col-content">Proceed to content</a>
+		&nbsp;|&nbsp;
+		<a href="#main-menu">Proceed to main menu</a>
+		&nbsp;|&nbsp;
+		<a href="#search-box">Proceed to search</a>
+
+		<hr class="hidden">
+	</div>
+
+	<div id="logo-box">
+		<p>
+			<a href="/">
+				<img width="293" height="39" alt="ODDS Portal" src="/img/logo-odds-portal.png">
+			</a>
+		</p>
+
+		<hr class="hidden">
+	</div>
+
+	<div id="user-header">
+		<div id="user-header-r1">
+			<div>
+				<a class="user-header-fakeselect" id="user-header-oddsformat-expander" onclick="ElementSelect.expand( 'user-header-oddsformat' , 'user-header-oddsformat-expander' )"><span>US Odds</span></a>
+				<ul class="user-header-fakeselect-options hidden" id="user-header-oddsformat">
+					<li><a onclick="changeOddsFormat(1); return false;" href="#"><span>EU Odds</span></a></li>
+					<li><a onclick="changeOddsFormat(2); return false;" href="#"><span>UK Odds</span></a></li>
+					<li><a onclick="changeOddsFormat(3); return false;" href="#"><span>US Odds</span></a></li>
+					<li><a onclick="changeOddsFormat(4); return false;" href="#"><span>HK Odds</span></a></li>
+					<li><a onclick="changeOddsFormat(5); return false;" href="#"><span>MA Odds</span></a></li>
+					<li><a onclick="changeOddsFormat(6); return false;" href="#"><span>IN Odds</span></a></li>
+
+				</ul>
+			</div>
+			<div><label>Time:</label></div>
+			<div>
+				<a class="user-header-fakeselect" id="user-header-timezone-expander" onclick="op.showHideTimeZone();ElementSelect.expand( 'user-header-timezone' , 'user-header-timezone-expander' , null , function(){op.hideTimeZone()} );this.blur();return false;" href="#"><span>21 Apr 18:17, GMT 0</span></a>
+			</div>
+
+
+		</div><form id="user-header-r2" action="/" method="post"><div class="fix"><button name="login-submit" class="inline-btn-2 r button-dark" onclick="document.location = '/login/';" type="button"><span><span>Login</span></span></button></div><div><button class="inline-btn-2 r button-red2" onclick="document.location = '/register/';" type="button"><span><span>REGISTER</span></span></button></div></form>
+
+		
+
+	</div>
+
+	<div class="break"></div>
+</div>
+
+<div id="main-menu">
+	<h2 class="out">Main menu</h2>
+    <!-- TOP MENU -->
+	<ul>
+		<li class="active">
+						<strong><span><a id="main-odds-comparison_2" href="/">Odds Comparison</a></span></strong>
+							<div class="sub-menu">
+								<ul><li><a id="main-home-odds-home_3" href="/">Home</a></li><li><a id="main-next-games_7" href="/matches/">Next Matches</a></li><li><a id="main-dropping-odds_43" href="/dropping-odds/">Dropping Odds</a></li><li><a id="main-sure-bets_25" href="/sure-bets/">Sure Bets</a></li><li><a id="main-next-games-live_64" href="/inplay-odds/">In-Play Odds</a></li><li><a id="main-all-events_44" href="/events/">All Events</a></li><li class="select select-hover"><ul><li><a id="main-blocked-games_41" href="/blocked/">Blocked Odds</a></li><li><a id="main-value-bets_24" href="/value-bets/">Value Bets</a></li><li><a id="main-hot-matches_33" href="/hot-matches/">Hot Matches</a></li><li><a id="main-divergent-margins_54" href="/handicaps/">Best Handicaps</a></li><li><a id="main-moving-margins_55" href="/moving-margins/">Moving Margins</a></li><li><a id="main-odds-archive_47" href="/results/">Archived Results</a></li><li><a id="main-all-events-standings_81" href="/standings/">Standings</a></li></ul><a class="dropdowner" id="main-betting-tools_87">Betting tools</a></li></ul>
+			<div class="break"></div>
+			</div>
+			</li><li><a id="community-main_90" href="/community/"><span>Community</span></a></li><li><a id="main-live-scores_6" href="/livescores/"><span>Live Scores</span></a></li><li class="last"><a id="main-bookmakers_5" href="/bookmakers/"><span>Bookmakers</span></a></li>	</ul>
+
+    <!-- END TOP MENU -->
+	<div class="break"></div>
+	<hr class="hidden">
+</div>
+
+			<div id="right-ad-column">
+				<div class="scrolling-banner-top-stop"></div>
+				<div class="scrolling-banner-wrap static-position" style="left: 990px;">
+					<div id="right-ad-column-child">
+						<div class="adsenvelope banx-RS1" id="lsadvert-zid-523" style="width: 202px; display: none;"><div style="height:600px"><div class="adscontent" id="lsadvert-RS1"><iframe name="banx-RS1" id="lsadvert-zid-523-iframe" frameborder="0" scrolling="no" style="allowTransparency: true; visibility: hidden; width:202px; height:600px"></iframe></div></div></div><div class="adstext"><span>advertisement</span></div>					</div>
+				</div>
+			</div>
+			
+<div id="wrap">
+	<div id="box-top">
+		<div id="box-bottom">
+			<div class="home" id="main">
+				<div id="breadcrumb">
+					<h2 class="out">You are here</h2>
+					 <a href="/">Home</a> » <a href="/esports/">eSports</a> » <a href="/esports/usa/">USA</a> » <a href="/esports/usa/overwatch-overwatch-league-2018/results/">OverWatch Overwatch League 2018</a> »
+																OverWatch Overwatch League 2018 Odds											
+				</div>
+
+				<hr class="hidden">
+				            <div id="col-left">
+				<div id="col-content">
+					<h1>OverWatch Overwatch League 2018 Results &amp; Historical Odds</h1>                    <!-- PAGE BODY -->
+					<div class="main-menu2 menu-round" id="tournament_menu"><ul class="main-filter"><li><span class="inactive"><strong><a href="/esports/usa/overwatch-overwatch-league-2018/">NEXT MATCHES</a></strong></span></li><li><span class="active"><strong><a href="/esports/usa/overwatch-overwatch-league-2018/results/">RESULTS</a></strong></span></li><li class="standings"><span class="inactive"><strong><a href="/esports/usa/overwatch-overwatch-league-2018/standings/">STANDINGS</a></strong></span></li></ul></div><div class="break5"></div><div class="main-menu2 main-menu-gray"><ul class="main-filter"><li><span class="inactive"><strong><a href="/esports/usa/overwatch-overwatch-league/results/">2020</a></strong></span></li><li><span class="inactive"><strong><a href="/esports/usa/overwatch-overwatch-league-2019/results/">2019</a></strong></span></li><li><span class="active"><strong><a href="/esports/usa/overwatch-overwatch-league-2018/results/">2018</a></strong></span></li></ul></div><div class="break5"></div><div class="box"><div class="tab-nav-line-margin"></div></div><div id="tournamentTable" style="display: block;"><table class=" table-main" id="tournamentTable"><colgroup><col width="50"><col width="*"><col width="50"><col width="50"><col width="50"><col width="50"><col width="50"></colgroup><tbody><tr class="dark center" xtid="35374"><th class="first2 tl" colspan="7"><a class="bfl sicona s36" href="/esports/">eSports</a><span class="bflp">»</span><a class="bfl" href="/esports/usa/"><span class="ficon f-200">&nbsp;</span>USA</a><span class="bflp">»</span><a href="/esports/usa/overwatch-overwatch-league-2018/">OverWatch Overwatch League 2018</a></th></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1532808000-2-0-0-1">28 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="YLpW6XNr"><td class="table-time datet t1532808000-1-1-0-0 ">20:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/philadelphia-fusion-overwatch-london-spitfire-overwatch-YLpW6XNr/">Philadelphia Fusion - <span class="bold">London Spitfire</span></a><span class="ico-event-info" onmouseover="toolTip('London Spitfire (Overwatch) wins series 2-0. 2nd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">0:3</td><td class="odds-nowrp" xodd="tft" xoid="E-35osfx2s5a4x0x7qai8"><a onclick="globals.ch.togle(this , 'E-35osfx2s5a4x0x7qai8');return false;" href="" xparam="odds_text">+300</a></td><td class="result-ok odds-nowrp" xodd="azxxfazxx" xoid="E-35osfx2s5a4x0x7qai9"><a onclick="globals.ch.togle(this , 'E-35osfx2s5a4x0x7qai9');return false;" href="" xparam="odds_text">-455</a></td><td class="center info-value">1</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1532217600-2-0-0-1">22 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="lfUQe9qg"><td class="table-time datet t1532217600-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/new-york-excelsior-overwatch-philadelphia-fusion-overwatch-lfUQe9qg/">New York Excelsior - Philadelphia Fusion</a><span class="ico-event-info" onmouseover="toolTip('Philadelphia Fusion (Overwatch) wins series 2-0. 2nd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="1|1" xoid="-"><span>-</span></td><td class="odds-nowrp" xodd="1|1" xoid="-"><span>-</span></td><td class="center info-value">4</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1532131200-2-0-0-1">21 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="Y18iL3tF"><td class="table-time datet t1532131200-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-london-spitfire-overwatch-Y18iL3tF/">Los Angeles Valiant - <span class="bold">London Spitfire</span></a><span class="ico-event-info" onmouseover="toolTip('London Spitfire (Overwatch) wins series 2-0. 2nd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">0:3</td><td class="odds-nowrp" xodd="az8cfaz8c" xoid="E-357v4x2s5a4x0x7ouea"><a onclick="globals.ch.togle(this , 'E-357v4x2s5a4x0x7ouea');return false;" href="" xparam="odds_text">-120</a></td><td class="result-ok odds-nowrp" xodd="az8cfazo" xoid="E-357v4x2s5a4x0x7oueb"><a onclick="globals.ch.togle(this , 'E-357v4x2s5a4x0x7oueb');return false;" href="" xparam="odds_text">-167</a></td><td class="center info-value">4</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1531965600-2-0-0-1">19 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="jwJnMqR8"><td class="table-time datet t1531965600-1-1-0-0 ">02:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-london-spitfire-overwatch-jwJnMqR8/">Los Angeles Valiant - <span class="bold">London Spitfire</span></a><span class="ico-event-info" onmouseover="toolTip('1st leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="azepfazte" xoid="E-357v3x2s5a4x0x7oue8"><a onclick="globals.ch.togle(this , 'E-357v3x2s5a4x0x7oue8');return false;" href="" xparam="odds_text">-222</a></td><td class="result-ok odds-nowrp" xodd="czapfxzep" xoid="E-357v3x2s5a4x0x7oue9"><a onclick="globals.ch.togle(this , 'E-357v3x2s5a4x0x7oue9');return false;" href="" xparam="odds_text">+156</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="A3VMdkUn"><td class="table-time datet t1531958400-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/new-york-excelsior-overwatch-philadelphia-fusion-overwatch-A3VMdkUn/">New York Excelsior - <span class="bold">Philadelphia Fusion</span></a><span class="ico-event-info" onmouseover="toolTip('1st leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">0:3</td><td class="odds-nowrp" xodd="azcofazca" xoid="E-357gox2s5a4x0x7os7c"><a onclick="globals.ch.togle(this , 'E-357gox2s5a4x0x7os7c');return false;" href="" xparam="odds_text">-323</a></td><td class="result-ok odds-nowrp" xodd="czpfcztx" xoid="E-357gox2s5a4x0x7os7d"><a onclick="globals.ch.togle(this , 'E-357gox2s5a4x0x7os7d');return false;" href="" xparam="odds_text">+242</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1531598400-2-0-0-1">14 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="06ct59qd"><td class="table-time datet t1531598400-1-1-0-0 ">20:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-gladiators-overwatch-london-spitfire-overwatch-06ct59qd/">Los Angeles Gladiators - <span class="bold">London Spitfire</span></a><span class="ico-event-info" onmouseover="toolTip('Series tied 1-1. 2nd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">0:3</td><td class="odds-nowrp" xodd="aztafazc9" xoid="E-33ochx2s5a4x0x7kmms"><a onclick="globals.ch.togle(this , 'E-33ochx2s5a4x0x7kmms');return false;" href="" xparam="odds_text">-256</a></td><td class="result-ok odds-nowrp" xodd="cfxz8t" xoid="E-33ochx2s5a4x0x7kmmt"><a onclick="globals.ch.togle(this , 'E-33ochx2s5a4x0x7kmmt');return false;" href="" xparam="odds_text">+184</a></td><td class="center info-value">4</td></tr><tr class=" deactivate" xeid="2c8etUq6"><td class="table-time datet t1531533600-1-1-0-0 ">02:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-philadelphia-fusion-overwatch-2c8etUq6/">Boston Uprising - <span class="bold">Philadelphia Fusion</span></a><span class="ico-event-info" onmouseover="toolTip('Philadelphia Fusion (Overwatch) wins series 2-1. 3rd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="azoofazoo" xoid="E-357gix2s5a4x0x7os70"><a onclick="globals.ch.togle(this , 'E-357gix2s5a4x0x7os70');return false;" href="" xparam="odds_text">-152</a></td><td class="result-ok odds-nowrp" xodd="xzafxza" xoid="E-357gix2s5a4x0x7os71"><a onclick="globals.ch.togle(this , 'E-357gix2s5a4x0x7os71');return false;" href="" xparam="odds_text">+110</a></td><td class="center info-value">1</td></tr><tr class="odd deactivate" xeid="MFbx6kUk"><td class="table-time datet t1531526400-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-philadelphia-fusion-overwatch-MFbx6kUk/"><span class="bold">Boston Uprising</span> - Philadelphia Fusion</a><span class="ico-event-info" onmouseover="toolTip('Series tied 1-1. 2nd leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="xzxfxzx" xoid="E-33ocgx2s5a4x0x7kmmq"><a onclick="globals.ch.togle(this , 'E-33ocgx2s5a4x0x7kmmq');return false;" href="" xparam="odds_text">+120</a></td><td class="odds-nowrp" xodd="azoxfazox" xoid="E-33ocgx2s5a4x0x7kmmr"><a onclick="globals.ch.togle(this , 'E-33ocgx2s5a4x0x7kmmr');return false;" href="" xparam="odds_text">-161</a></td><td class="center info-value">4</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1531360800-2-0-0-1">12 Jul 2018</span> - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="vi9X6VEq"><td class="table-time datet t1531360800-1-1-0-0 ">02:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-gladiators-overwatch-london-spitfire-overwatch-vi9X6VEq/"><span class="bold">Los Angeles Gladiators</span> - London Spitfire</a><span class="ico-event-info" onmouseover="toolTip('1st leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">3:0</td><td class="result-ok odds-nowrp" xodd="az8efazpt" xoid="E-33ocfx2s5a4x0x7kmmo"><a onclick="globals.ch.togle(this , 'E-33ocfx2s5a4x0x7kmmo');return false;" href="" xparam="odds_text">-135</a></td><td class="odds-nowrp" xodd="xzt9fxz0p" xoid="E-33ocfx2s5a4x0x7kmmp"><a onclick="globals.ch.togle(this , 'E-33ocfx2s5a4x0x7kmmp');return false;" href="" xparam="odds_text">+106</a></td><td class="center info-value">3</td></tr><tr class=" deactivate" xeid="4bI5BB6S"><td class="table-time datet t1531353600-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-philadelphia-fusion-overwatch-4bI5BB6S/">Boston Uprising - <span class="bold">Philadelphia Fusion</span></a><span class="ico-event-info" onmouseover="toolTip('1st leg.', this, event, '4');allowHideTootip(false);delayHideTip(200);return false;" onmouseout="allowHideTootip(true);delayHideTip(200);">&nbsp;</span></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="az9faz8" xoid="E-33ocex2s5a4x0x7kmmm"><a onclick="globals.ch.togle(this , 'E-33ocex2s5a4x0x7kmmm');return false;" href="" xparam="odds_text">-125</a></td><td class="result-ok odds-nowrp" xodd="xz09faz98" xoid="E-33ocex2s5a4x0x7kmmn"><a onclick="globals.ch.togle(this , 'E-33ocex2s5a4x0x7kmmn');return false;" href="" xparam="odds_text">-102</a></td><td class="center info-value">3</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1529280000-2-0-0-1">18 Jun 2018</span> - Fourth stage - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="WYTtp5KL"><td class="table-time datet t1529280000-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-new-york-excelsior-overwatch-WYTtp5KL/"><span class="bold">Los Angeles Valiant</span> - New York Excelsior</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="xzc8fxzc8" xoid="E-33o30x2s5a4x0x7klfc"><a onclick="globals.ch.togle(this , 'E-33o30x2s5a4x0x7klfc');return false;" href="" xparam="odds_text">+138</a></td><td class="odds-nowrp" xodd="azecfazec" xoid="E-33o30x2s5a4x0x7klfd"><a onclick="globals.ch.togle(this , 'E-33o30x2s5a4x0x7klfd');return false;" href="" xparam="odds_text">-189</a></td><td class="center info-value">1</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1529272800-2-0-0-1">17 Jun 2018</span> - Fourth stage - Play Offs</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="nL63kWLK"><td class="table-time datet t1529272800-1-1-0-0 ">22:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/dallas-fuel-overwatch-new-york-excelsior-overwatch-nL63kWLK/">Dallas Fuel - <span class="bold">New York Excelsior</span></a></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="ofezop" xoid="E-33ntkx2s5a4x0x7kl45"><a onclick="globals.ch.togle(this , 'E-33ntkx2s5a4x0x7kl45');return false;" href="" xparam="odds_text">+467</a></td><td class="result-ok odds-nowrp" xodd="azapfaza" xoid="E-33ntkx2s5a4x0x7kl46"><a onclick="globals.ch.togle(this , 'E-33ntkx2s5a4x0x7kl46');return false;" href="" xparam="odds_text">-1000</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="4dHbjC6E"><td class="table-time datet t1529265600-1-1-0-0 ">20:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-los-angeles-gladiators-overwatch-4dHbjC6E/"><span class="bold">Los Angeles Valiant</span> - Los Angeles Gladiators</a></td><td class="center bold table-odds table-score">3:2</td><td class="result-ok odds-nowrp" xodd="xzxcfxz0a" xoid="E-33ntjx2s5a4x0x7kl43"><a onclick="globals.ch.togle(this , 'E-33ntjx2s5a4x0x7kl43');return false;" href="" xparam="odds_text">+100</a></td><td class="odds-nowrp" xodd="xz0pfazp8" xoid="E-33ntjx2s5a4x0x7kl44"><a onclick="globals.ch.togle(this , 'E-33ntjx2s5a4x0x7kl44');return false;" href="" xparam="odds_text">-128</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1529120700-2-0-0-1">16 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="vJaNT7L0"><td class="table-time datet t1529120700-1-1-0-0 ">03:45</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/dallas-fuel-overwatch-los-angeles-valiant-overwatch-vJaNT7L0/"><span class="bold">Dallas Fuel</span> - Los Angeles Valiant</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="oftz8e" xoid="E-32jilx2s5a4x0x7g39r"><a onclick="globals.ch.togle(this , 'E-32jilx2s5a4x0x7g39r');return false;" href="" xparam="odds_text">+384</a></td><td class="odds-nowrp" xodd="azxefaza8" xoid="E-32jilx2s5a4x0x7g39s"><a onclick="globals.ch.togle(this , 'E-32jilx2s5a4x0x7g39s');return false;" href="" xparam="odds_text">-556</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="0S0JUm6f"><td class="table-time datet t1529110800-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-gladiators-overwatch-seoul-dynasty-overwatch-0S0JUm6f/"><span class="bold">Los Angeles Gladiators</span> - Seoul Dynasty</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="azcafazxo" xoid="E-32jikx2s5a4x0x7g39p"><a onclick="globals.ch.togle(this , 'E-32jikx2s5a4x0x7g39p');return false;" href="" xparam="odds_text">-385</a></td><td class="odds-nowrp" xodd="tzefczpe" xoid="E-32jikx2s5a4x0x7g39q"><a onclick="globals.ch.togle(this , 'E-32jikx2s5a4x0x7g39q');return false;" href="" xparam="odds_text">+275</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1529103600-2-0-0-1">15 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="I3BEVTjl"><td class="table-time datet t1529103600-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/houston-outlaws-overwatch-new-york-excelsior-overwatch-I3BEVTjl/">Houston Outlaws - <span class="bold">New York Excelsior</span></a></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="xz8xfxzo8" xoid="E-32jijx2s5a4x0x7g39n"><a onclick="globals.ch.togle(this , 'E-32jijx2s5a4x0x7g39n');return false;" href="" xparam="odds_text">+168</a></td><td class="result-ok odds-nowrp" xodd="azefaztt" xoid="E-32jijx2s5a4x0x7g39o"><a onclick="globals.ch.togle(this , 'E-32jijx2s5a4x0x7g39o');return false;" href="" xparam="odds_text">-227</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="6T7AW9yr"><td class="table-time datet t1529031600-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/new-york-excelsior-overwatch-boston-uprising-overwatch-6T7AW9yr/">New York Excelsior - <span class="bold">Boston Uprising</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="azacfazax" xoid="E-32jiix2s5a4x0x7g39l"><a onclick="globals.ch.togle(this , 'E-32jiix2s5a4x0x7g39l');return false;" href="" xparam="odds_text">-833</a></td><td class="result-ok odds-nowrp" xodd="ozcfezc9" xoid="E-32jiix2s5a4x0x7g39m"><a onclick="globals.ch.togle(this , 'E-32jiix2s5a4x0x7g39m');return false;" href="" xparam="odds_text">+438</a></td><td class="center info-value">4</td></tr><tr class="odd deactivate" xeid="llLryjTQ"><td class="table-time datet t1529024400-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/florida-mayhem-overwatch-london-spitfire-overwatch-llLryjTQ/">Florida Mayhem - <span class="bold">London Spitfire</span></a></td><td class="center bold table-odds table-score">0:4</td><td class="odds-nowrp" xodd="x0faxzca" xoid="E-32jihx2s5a4x0x7g39j"><a onclick="globals.ch.togle(this , 'E-32jihx2s5a4x0x7g39j');return false;" href="" xparam="odds_text">+1131</a></td><td class="result-ok odds-nowrp" xodd="az0pfaz0e" xoid="E-32jihx2s5a4x0x7g39k"><a onclick="globals.ch.togle(this , 'E-32jihx2s5a4x0x7g39k');return false;" href="" xparam="odds_text">-2000</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1529017200-2-0-0-1">14 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="AcMvxWDK"><td class="table-time datet t1529017200-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/houston-outlaws-overwatch-philadelphia-fusion-overwatch-AcMvxWDK/"><span class="bold">Houston Outlaws</span> - Philadelphia Fusion</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="cza8fxz99" xoid="E-32jigx2s5a4x0x7g39h"><a onclick="globals.ch.togle(this , 'E-32jigx2s5a4x0x7g39h');return false;" href="" xparam="odds_text">+199</a></td><td class="odds-nowrp" xodd="aztfazcp" xoid="E-32jigx2s5a4x0x7g39i"><a onclick="globals.ch.togle(this , 'E-32jigx2s5a4x0x7g39i');return false;" href="" xparam="odds_text">-270</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="hMRZxCbE"><td class="table-time datet t1528945200-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/seoul-dynasty-overwatch-dallas-fuel-overwatch-hMRZxCbE/"><span class="bold">Seoul Dynasty</span> - Dallas Fuel</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="xz0ofazp8" xoid="E-32jifx2s5a4x0x7g39f"><a onclick="globals.ch.togle(this , 'E-32jifx2s5a4x0x7g39f');return false;" href="" xparam="odds_text">-128</a></td><td class="odds-nowrp" xodd="efxze9" xoid="E-32jifx2s5a4x0x7g39g"><a onclick="globals.ch.togle(this , 'E-32jifx2s5a4x0x7g39g');return false;" href="" xparam="odds_text">+159</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="EVSVwhq8"><td class="table-time datet t1528938000-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-san-francisco-shock-overwatch-EVSVwhq8/"><span class="bold">Los Angeles Valiant</span> - San Francisco Shock</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="azcefazcx" xoid="E-32jiex2s5a4x0x7g39d"><a onclick="globals.ch.togle(this , 'E-32jiex2s5a4x0x7g39d');return false;" href="" xparam="odds_text">-312</a></td><td class="odds-nowrp" xodd="czt8fczc8" xoid="E-32jiex2s5a4x0x7g39e"><a onclick="globals.ch.togle(this , 'E-32jiex2s5a4x0x7g39e');return false;" href="" xparam="odds_text">+238</a></td><td class="center info-value">4</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1528930800-2-0-0-1">13 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="0SvlF867"><td class="table-time datet t1528930800-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-gladiators-overwatch-shanghai-dragons-overwatch-0SvlF867/"><span class="bold">Los Angeles Gladiators</span> - Shanghai Dragons</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="az0efaz0c" xoid="E-32jidx2s5a4x0x7g39b"><a onclick="globals.ch.togle(this , 'E-32jidx2s5a4x0x7g39b');return false;" href="" xparam="odds_text">-3333</a></td><td class="odds-nowrp" xodd="atz8pfaxzo9" xoid="E-32jidx2s5a4x0x7g39c"><a onclick="globals.ch.togle(this , 'E-32jidx2s5a4x0x7g39c');return false;" href="" xparam="odds_text">+1169</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1528513200-2-0-0-1">09 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="WYXXIj7r"><td class="table-time datet t1528513200-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/philadelphia-fusion-overwatch-seoul-dynasty-overwatch-WYXXIj7r/"><span class="bold">Philadelphia Fusion</span> - Seoul Dynasty</a></td><td class="center bold table-odds table-score">3:2</td><td class="result-ok odds-nowrp" xodd="aztafazc8" xoid="E-32ji9x2s5a4x0x7g393"><a onclick="globals.ch.togle(this , 'E-32ji9x2s5a4x0x7g393');return false;" href="" xparam="odds_text">-263</a></td><td class="odds-nowrp" xodd="czx8fcz0c" xoid="E-32ji9x2s5a4x0x7g394"><a onclick="globals.ch.togle(this , 'E-32ji9x2s5a4x0x7g394');return false;" href="" xparam="odds_text">+202</a></td><td class="center info-value">3</td></tr><tr class=" deactivate" xeid="UPo6NWbR"><td class="table-time datet t1528506000-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/florida-mayhem-overwatch-dallas-fuel-overwatch-UPo6NWbR/">Florida Mayhem - <span class="bold">Dallas Fuel</span></a></td><td class="center bold table-odds table-score">0:4</td><td class="odds-nowrp" xodd="ezefczex" xoid="E-32ji8x2s5a4x0x7g391"><a onclick="globals.ch.togle(this , 'E-32ji8x2s5a4x0x7g391');return false;" href="" xparam="odds_text">+252</a></td><td class="result-ok odds-nowrp" xodd="aztofazcc" xoid="E-32ji8x2s5a4x0x7g392"><a onclick="globals.ch.togle(this , 'E-32ji8x2s5a4x0x7g392');return false;" href="" xparam="odds_text">-303</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1528498800-2-0-0-1">08 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="n1d1OCqL"><td class="table-time datet t1528498800-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-shanghai-dragons-overwatch-n1d1OCqL/"><span class="bold">Boston Uprising</span> - Shanghai Dragons</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="azatfaza" xoid="E-32ji7x2s5a4x0x7g38v"><a onclick="globals.ch.togle(this , 'E-32ji7x2s5a4x0x7g38v');return false;" href="" xparam="odds_text">-1000</a></td><td class="odds-nowrp" xodd="8z0cfozct" xoid="E-32ji7x2s5a4x0x7g390"><a onclick="globals.ch.togle(this , 'E-32ji7x2s5a4x0x7g390');return false;" href="" xparam="odds_text">+534</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="YchcPhUE"><td class="table-time datet t1528426800-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/san-francisco-shock-overwatch-philadelphia-fusion-overwatch-YchcPhUE/">San Francisco Shock - <span class="bold">Philadelphia Fusion</span></a></td><td class="center bold table-odds table-score">1:2</td><td class="odds-nowrp" xodd="azetfaztt" xoid="E-32ji6x2s5a4x0x7g38t"><a onclick="globals.ch.togle(this , 'E-32ji6x2s5a4x0x7g38t');return false;" href="" xparam="odds_text">-227</a></td><td class="result-ok odds-nowrp" xodd="xzpefxzo8" xoid="E-32ji6x2s5a4x0x7g38u"><a onclick="globals.ch.togle(this , 'E-32ji6x2s5a4x0x7g38u');return false;" href="" xparam="odds_text">+168</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="vyggQYE8"><td class="table-time datet t1528420200-1-1-0-0 ">01:10</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-gladiators-overwatch-new-york-excelsior-overwatch-vyggQYE8/"><span class="bold">Los Angeles Gladiators</span> - New York Excelsior</a></td><td class="center bold table-odds table-score">3:2</td><td class="result-ok odds-nowrp" xodd="8f8" xoid="E-32ji5x2s5a4x0x7g38r"><a onclick="globals.ch.togle(this , 'E-32ji5x2s5a4x0x7g38r');return false;" href="" xparam="odds_text">+700</a></td><td class="odds-nowrp" xodd="az0ofaz0o" xoid="E-32ji5x2s5a4x0x7g38s"><a onclick="globals.ch.togle(this , 'E-32ji5x2s5a4x0x7g38s');return false;" href="" xparam="odds_text">-1667</a></td><td class="center info-value">1</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1528412400-2-0-0-1">07 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="0pfkREa2"><td class="table-time datet t1528412400-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-london-spitfire-overwatch-0pfkREa2/"><span class="bold">Los Angeles Valiant</span> - London Spitfire</a></td><td class="center bold table-odds table-score">2:1</td><td class="result-ok odds-nowrp" xodd="azefaze" xoid="E-32ji4x2s5a4x0x7g38p"><a onclick="globals.ch.togle(this , 'E-32ji4x2s5a4x0x7g38p');return false;" href="" xparam="odds_text">-200</a></td><td class="odds-nowrp" xodd="xzefxze" xoid="E-32ji4x2s5a4x0x7g38q"><a onclick="globals.ch.togle(this , 'E-32ji4x2s5a4x0x7g38q');return false;" href="" xparam="odds_text">+150</a></td><td class="center info-value">1</td></tr><tr class=" deactivate" xeid="MaO8IMe2"><td class="table-time datet t1528341300-1-1-0-0 ">03:15</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/dallas-fuel-overwatch-houston-outlaws-overwatch-MaO8IMe2/">Dallas Fuel - <span class="bold">Houston Outlaws</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="az9xfaz8a" xoid="E-32ji3x2s5a4x0x7g38n"><a onclick="globals.ch.togle(this , 'E-32ji3x2s5a4x0x7g38n');return false;" href="" xparam="odds_text">-123</a></td><td class="result-ok odds-nowrp" xodd="xzafaz9t" xoid="E-32ji3x2s5a4x0x7g38o"><a onclick="globals.ch.togle(this , 'E-32ji3x2s5a4x0x7g38o');return false;" href="" xparam="odds_text">-106</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="r9P4J2td"><td class="table-time datet t1528334100-1-1-0-0 ">01:15</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/shanghai-dragons-overwatch-florida-mayhem-overwatch-r9P4J2td/">Shanghai Dragons - <span class="bold">Florida Mayhem</span></a></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="cz8tfczo9" xoid="E-32ji2x2s5a4x0x7g38l"><a onclick="globals.ch.togle(this , 'E-32ji2x2s5a4x0x7g38l');return false;" href="" xparam="odds_text">+269</a></td><td class="result-ok odds-nowrp" xodd="azx9fazxp" xoid="E-32ji2x2s5a4x0x7g38m"><a onclick="globals.ch.togle(this , 'E-32ji2x2s5a4x0x7g38m');return false;" href="" xparam="odds_text">-370</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1528326000-2-0-0-1">06 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="lnQ0KrRk"><td class="table-time datet t1528326000-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/seoul-dynasty-overwatch-boston-uprising-overwatch-lnQ0KrRk/">Seoul Dynasty - <span class="bold">Boston Uprising</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="azo8fazet" xoid="E-32ji1x2s5a4x0x7g38j"><a onclick="globals.ch.togle(this , 'E-32ji1x2s5a4x0x7g38j');return false;" href="" xparam="odds_text">-185</a></td><td class="result-ok odds-nowrp" xodd="xzocfxztc" xoid="E-32ji1x2s5a4x0x7g38k"><a onclick="globals.ch.togle(this , 'E-32ji1x2s5a4x0x7g38k');return false;" href="" xparam="odds_text">+143</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527969600-2-0-0-1">02 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="hvoQQplM"><td class="table-time datet t1527969600-1-1-0-0 ">20:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/london-spitfire-overwatch-dallas-fuel-overwatch-hvoQQplM/">London Spitfire - <span class="bold">Dallas Fuel</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="aztcfazc8" xoid="E-32jhux2s5a4x0x7g38d"><a onclick="globals.ch.togle(this , 'E-32jhux2s5a4x0x7g38d');return false;" href="" xparam="odds_text">-263</a></td><td class="result-ok odds-nowrp" xodd="cztxfxz9e" xoid="E-32jhux2s5a4x0x7g38e"><a onclick="globals.ch.togle(this , 'E-32jhux2s5a4x0x7g38e');return false;" href="" xparam="odds_text">+195</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="O4tMRQYF"><td class="table-time datet t1527908400-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-san-francisco-shock-overwatch-O4tMRQYF/">Boston Uprising - <span class="bold">San Francisco Shock</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="czefcza8" xoid="E-32jhtx2s5a4x0x7g38b"><a onclick="globals.ch.togle(this , 'E-32jhtx2s5a4x0x7g38b');return false;" href="" xparam="odds_text">+218</a></td><td class="result-ok odds-nowrp" xodd="azcpfazct" xoid="E-32jhtx2s5a4x0x7g38c"><a onclick="globals.ch.togle(this , 'E-32jhtx2s5a4x0x7g38c');return false;" href="" xparam="odds_text">-294</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="pEsIS6J9"><td class="table-time datet t1527901200-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/florida-mayhem-overwatch-seoul-dynasty-overwatch-pEsIS6J9/">Florida Mayhem - <span class="bold">Seoul Dynasty</span></a></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="cz9ofczoa" xoid="E-32jhsx2s5a4x0x7g389"><a onclick="globals.ch.togle(this , 'E-32jhsx2s5a4x0x7g389');return false;" href="" xparam="odds_text">+261</a></td><td class="result-ok odds-nowrp" xodd="azcxfazx8" xoid="E-32jhsx2s5a4x0x7g38a"><a onclick="globals.ch.togle(this , 'E-32jhsx2s5a4x0x7g38a');return false;" href="" xparam="odds_text">-357</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527894000-2-0-0-1">01 Jun 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="2khDTn43"><td class="table-time datet t1527894000-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/houston-outlaws-overwatch-shanghai-dragons-overwatch-2khDTn43/"><span class="bold">Houston Outlaws</span> - Shanghai Dragons</a></td><td class="center bold table-odds table-score">3:0</td><td class="result-ok odds-nowrp" xodd="az08faz0o" xoid="E-32jhrx2s5a4x0x7g387"><a onclick="globals.ch.togle(this , 'E-32jhrx2s5a4x0x7g387');return false;" href="" xparam="odds_text">-1667</a></td><td class="odds-nowrp" xodd="aaf8z0p" xoid="E-32jhrx2s5a4x0x7g388"><a onclick="globals.ch.togle(this , 'E-32jhrx2s5a4x0x7g388');return false;" href="" xparam="odds_text">+707</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="lnl9USlc"><td class="table-time datet t1527822000-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/philadelphia-fusion-overwatch-los-angeles-gladiators-overwatch-lnl9USlc/">Philadelphia Fusion - <span class="bold">Los Angeles Gladiators</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="xzc8fxzce" xoid="E-32jhqx2s5a4x0x7g385"><a onclick="globals.ch.togle(this , 'E-32jhqx2s5a4x0x7g385');return false;" href="" xparam="odds_text">+135</a></td><td class="result-ok odds-nowrp" xodd="azocfazeo" xoid="E-32jhqx2s5a4x0x7g386"><a onclick="globals.ch.togle(this , 'E-32jhqx2s5a4x0x7g386');return false;" href="" xparam="odds_text">-179</a></td><td class="center info-value">4</td></tr><tr class="odd deactivate" xeid="zq0R5qCd"><td class="table-time datet t1527814800-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/san-francisco-shock-overwatch-dallas-fuel-overwatch-zq0R5qCd/"><span class="bold">San Francisco Shock</span> - Dallas Fuel</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="azopfazox" xoid="E-32jhpx2s5a4x0x7g383"><a onclick="globals.ch.togle(this , 'E-32jhpx2s5a4x0x7g383');return false;" href="" xparam="odds_text">-161</a></td><td class="odds-nowrp" xodd="xzxefxzxc" xoid="E-32jhpx2s5a4x0x7g384"><a onclick="globals.ch.togle(this , 'E-32jhpx2s5a4x0x7g384');return false;" href="" xparam="odds_text">+123</a></td><td class="center info-value">4</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527807600-2-0-0-1">31 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="dh1N6Pdj"><td class="table-time datet t1527807600-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/london-spitfire-overwatch-boston-uprising-overwatch-dh1N6Pdj/"><span class="bold">London Spitfire</span> - Boston Uprising</a></td><td class="center bold table-odds table-score">2:1</td><td class="result-ok odds-nowrp" xodd="azefazto" xoid="E-32jhox2s5a4x0x7g381"><a onclick="globals.ch.togle(this , 'E-32jhox2s5a4x0x7g381');return false;" href="" xparam="odds_text">-217</a></td><td class="odds-nowrp" xodd="xzpefxzoe" xoid="E-32jhox2s5a4x0x7g382"><a onclick="globals.ch.togle(this , 'E-32jhox2s5a4x0x7g382');return false;" href="" xparam="odds_text">+165</a></td><td class="center info-value">4</td></tr><tr class=" deactivate" xeid="GtpQ75sp"><td class="table-time datet t1527735600-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-los-angeles-gladiators-overwatch-GtpQ75sp/"><span class="bold">Los Angeles Valiant</span> - Los Angeles Gladiators</a></td><td class="center bold table-odds table-score">3:0</td><td class="result-ok odds-nowrp" xodd="czxafxz8x" xoid="E-32jhnx2s5a4x0x7g37v"><a onclick="globals.ch.togle(this , 'E-32jhnx2s5a4x0x7g37v');return false;" href="" xparam="odds_text">+181</a></td><td class="odds-nowrp" xodd="azefaztx" xoid="E-32jhnx2s5a4x0x7g380"><a onclick="globals.ch.togle(this , 'E-32jhnx2s5a4x0x7g380');return false;" href="" xparam="odds_text">-238</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="EXcbCoZS"><td class="table-time datet t1527728400-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/seoul-dynasty-overwatch-shanghai-dragons-overwatch-EXcbCoZS/"><span class="bold">Seoul Dynasty</span> - Shanghai Dragons</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="azaafaza" xoid="E-32jhmx2s5a4x0x7g37t"><a onclick="globals.ch.togle(this , 'E-32jhmx2s5a4x0x7g37t');return false;" href="" xparam="odds_text">-1000</a></td><td class="odds-nowrp" xodd="pzafozxo" xoid="E-32jhmx2s5a4x0x7g37u"><a onclick="globals.ch.togle(this , 'E-32jhmx2s5a4x0x7g37u');return false;" href="" xparam="odds_text">+526</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527721200-2-0-0-1">30 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="KAbfDRJM"><td class="table-time datet t1527721200-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/new-york-excelsior-overwatch-philadelphia-fusion-overwatch-KAbfDRJM/"><span class="bold">New York Excelsior</span> - Philadelphia Fusion</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="aza9fazao" xoid="E-32jhlx2s5a4x0x7g37r"><a onclick="globals.ch.togle(this , 'E-32jhlx2s5a4x0x7g37r');return false;" href="" xparam="odds_text">-625</a></td><td class="odds-nowrp" xodd="eftzp9" xoid="E-32jhlx2s5a4x0x7g37s"><a onclick="globals.ch.togle(this , 'E-32jhlx2s5a4x0x7g37s');return false;" href="" xparam="odds_text">+379</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527379200-2-0-0-1">27 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="67fjE74G"><td class="table-time datet t1527379200-1-1-0-0 ">00:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/dallas-fuel-overwatch-philadelphia-fusion-overwatch-67fjE74G/"><span class="bold">Dallas Fuel</span> - Philadelphia Fusion</a></td><td class="center bold table-odds table-score">3:1</td><td class="result-ok odds-nowrp" xodd="ezxofcz99" xoid="E-32jhkx2s5a4x0x7g37p"><a onclick="globals.ch.togle(this , 'E-32jhkx2s5a4x0x7g37p');return false;" href="" xparam="odds_text">+299</a></td><td class="odds-nowrp" xodd="aztfazxo" xoid="E-32jhkx2s5a4x0x7g37q"><a onclick="globals.ch.togle(this , 'E-32jhkx2s5a4x0x7g37q');return false;" href="" xparam="odds_text">-385</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527372000-2-0-0-1">26 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="Or5oFmkA"><td class="table-time datet t1527372000-1-1-0-0 ">22:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/shanghai-dragons-overwatch-new-york-excelsior-overwatch-Or5oFmkA/">Shanghai Dragons - <span class="bold">New York Excelsior</span></a></td><td class="center bold table-odds table-score">0:4</td><td class="odds-nowrp" xodd="x0facze" xoid="E-32jhjx2s5a4x0x7g37n"><a onclick="globals.ch.togle(this , 'E-32jhjx2s5a4x0x7g37n');return false;" href="" xparam="odds_text">+1250</a></td><td class="result-ok odds-nowrp" xodd="az09faz0c" xoid="E-32jhjx2s5a4x0x7g37o"><a onclick="globals.ch.togle(this , 'E-32jhjx2s5a4x0x7g37o');return false;" href="" xparam="odds_text">-3333</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="ph6sGTZ3"><td class="table-time datet t1527364800-1-1-0-0 ">20:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/seoul-dynasty-overwatch-london-spitfire-overwatch-ph6sGTZ3/">Seoul Dynasty - <span class="bold">London Spitfire</span></a></td><td class="center bold table-odds table-score">2:3</td><td class="odds-nowrp" xodd="tzefcz8a" xoid="E-32jhix2s5a4x0x7g37l"><a onclick="globals.ch.togle(this , 'E-32jhix2s5a4x0x7g37l');return false;" href="" xparam="odds_text">+281</a></td><td class="result-ok odds-nowrp" xodd="azcefazxe" xoid="E-32jhix2s5a4x0x7g37m"><a onclick="globals.ch.togle(this , 'E-32jhix2s5a4x0x7g37m');return false;" href="" xparam="odds_text">-400</a></td><td class="center info-value">5</td></tr><tr class="odd deactivate" xeid="GI1wH9Kc"><td class="table-time datet t1527303600-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/san-francisco-shock-overwatch-houston-outlaws-overwatch-GI1wH9Kc/"><span class="bold">San Francisco Shock</span> - Houston Outlaws</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="cz0pfxzo8" xoid="E-32jhhx2s5a4x0x7g37j"><a onclick="globals.ch.togle(this , 'E-32jhhx2s5a4x0x7g37j');return false;" href="" xparam="odds_text">+168</a></td><td class="odds-nowrp" xodd="xzxefazee" xoid="E-32jhhx2s5a4x0x7g37k"><a onclick="globals.ch.togle(this , 'E-32jhhx2s5a4x0x7g37k');return false;" href="" xparam="odds_text">-182</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="xS2ZHk5i"><td class="table-time datet t1527296400-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/new-york-excelsior-overwatch-seoul-dynasty-overwatch-xS2ZHk5i/"><span class="bold">New York Excelsior</span> - Seoul Dynasty</a></td><td class="center bold table-odds table-score">4:0</td><td class="result-ok odds-nowrp" xodd="azacfaz09" xoid="E-32jhgx2s5a4x0x7g37h"><a onclick="globals.ch.togle(this , 'E-32jhgx2s5a4x0x7g37h');return false;" href="" xparam="odds_text">-1111</a></td><td class="odds-nowrp" xodd="8foztc" xoid="E-32jhgx2s5a4x0x7g37i"><a onclick="globals.ch.togle(this , 'E-32jhgx2s5a4x0x7g37i');return false;" href="" xparam="odds_text">+543</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527289200-2-0-0-1">25 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="zNOjg6Sj"><td class="table-time datet t1527289200-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/los-angeles-valiant-overwatch-boston-uprising-overwatch-zNOjg6Sj/"><span class="bold">Los Angeles Valiant</span> - Boston Uprising</a></td><td class="center bold table-odds table-score">3:2</td><td class="result-ok odds-nowrp" xodd="azxefazxx" xoid="E-32jhfx2s5a4x0x7g37f"><a onclick="globals.ch.togle(this , 'E-32jhfx2s5a4x0x7g37f');return false;" href="" xparam="odds_text">-455</a></td><td class="odds-nowrp" xodd="tzeftz08" xoid="E-32jhfx2s5a4x0x7g37g"><a onclick="globals.ch.togle(this , 'E-32jhfx2s5a4x0x7g37g');return false;" href="" xparam="odds_text">+308</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527130800-2-0-0-1">24 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="lElBDzE5"><td class="table-time datet t1527130800-1-1-0-0 ">03:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/houston-outlaws-overwatch-los-angeles-gladiators-overwatch-lElBDzE5/">Houston Outlaws - <span class="bold">Los Angeles Gladiators</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="azpefazop" xoid="E-32jhbx2s5a4x0x7g377"><a onclick="globals.ch.togle(this , 'E-32jhbx2s5a4x0x7g377');return false;" href="" xparam="odds_text">-149</a></td><td class="result-ok odds-nowrp" xodd="xzc8fxzat" xoid="E-32jhbx2s5a4x0x7g378"><a onclick="globals.ch.togle(this , 'E-32jhbx2s5a4x0x7g378');return false;" href="" xparam="odds_text">+114</a></td><td class="center info-value">5</td></tr><tr class=" deactivate" xeid="ANk7EGba"><td class="table-time datet t1527123600-1-1-0-0 ">01:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/florida-mayhem-overwatch-los-angeles-valiant-overwatch-ANk7EGba/">Florida Mayhem - <span class="bold">Los Angeles Valiant</span></a></td><td class="center bold table-odds table-score">1:3</td><td class="odds-nowrp" xodd="pzefez0c" xoid="E-32jhax2s5a4x0x7g375"><a onclick="globals.ch.togle(this , 'E-32jhax2s5a4x0x7g375');return false;" href="" xparam="odds_text">+403</a></td><td class="result-ok odds-nowrp" xodd="azefazxx" xoid="E-32jhax2s5a4x0x7g376"><a onclick="globals.ch.togle(this , 'E-32jhax2s5a4x0x7g376');return false;" href="" xparam="odds_text">-455</a></td><td class="center info-value">5</td></tr><tr class="center nob-border"><th class="first2 tl" colspan="4"><span class="datet t1527116400-2-0-0-1">23 May 2018</span> - Fourth stage</th><th>1</th><th>2</th><th xparam="Number of available bookmakers odds~2">B's</th></tr><tr class="table-dummyrow"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd deactivate" xeid="G0j3Fdqg"><td class="table-time datet t1527116400-1-1-0-0 ">23:00</td><td class="name table-participant" colspan="2"><a href="/esports/usa/overwatch-overwatch-league-2018/boston-uprising-overwatch-dallas-fuel-overwatch-G0j3Fdqg/">Boston Uprising - <span class="bold">Dallas Fuel</span></a></td><td class="center bold table-odds table-score">0:3</td><td class="odds-nowrp" xodd="azccfazae" xoid="E-32jh9x2s5a4x0x7g373"><a onclick="globals.ch.togle(this , 'E-32jh9x2s5a4x0x7g373');return false;" href="" xparam="odds_text">-667</a></td><td class="result-ok odds-nowrp" xodd="pz9afezp" xoid="E-32jh9x2s5a4x0x7g374"><a onclick="globals.ch.togle(this , 'E-32jh9x2s5a4x0x7g374');return false;" href="" xparam="odds_text">+470</a></td><td class="center info-value">5</td></tr></tbody></table><div id="pagination"><a href="#/" x-page="1"><span class="arrow">|«</span></a><a href="#/" x-page="1"><span class="arrow">«</span></a><span class="active-page">1</span><a href="#/page/2/" x-page="2"><span>2</span></a><a href="#/page/3/" x-page="3"><span>3</span></a><a href="#/page/4/" x-page="4"><span>4</span></a><a href="#/page/5/" x-page="5"><span>5</span></a><a href="#/page/2/" x-page="2"><span class="arrow">»</span></a><a href="#/page/5/" x-page="5"><span class="arrow">»|</span></a></div></div><div id="event-wait-msg-main" style="display: none;"><div id="event-wait-msg"></div></div><p id="bookmarks-link"><a href="#" xtext="OverWatch Overwatch League 2018" xbid="35374">Remove "OverWatch Overwatch League 2018" from My Leagues</a></p><div id="share-buttons-detail"><span title="Share on Facebook" class="share-button facebook" onclick="share_button_click('facebook');"></span><span title="Share on Twitter" class="share-button twitter" onclick="share_button_click('twitter');"></span><span class="cleaner" style="clear:both;"></span></div><div id="bonnus-offers-placeholder"></div><div class="about-text"><div class="cms"><p>Help for Odds Archive page: This page serves to display archive odds / historical odds of OverWatch Overwatch League 2018 which is sorted in USA category of OddsPortal odds comparison service. Find out what chances and odds the teams had in historical matches, browse through historical odds archive of previous matches in OverWatch Overwatch League 2018. Odds Portal makes evidence of highest or lowest odds, opening and closing odds and average / highest values for OverWatch Overwatch League 2018 archive matches.</p></div></div>                    <!--  END PAGE BODY -->
+				</div>
+                <!-- LEFT MENU -->
+				<div id="col-side">
+                    <!-- SPORT MENU -->
+						<div id="bookmarks-menu"><div id="my-box2"><div class=" head-closed" id="my-box2-head"><div class="head-bottom"><h2><a class="my-leagues-open-button" onclick="return clickMenu('lmbt');" href="#"> </a><a onclick="return clickMenu('lmbt');" href="#">My Leagues</a> <span id="my-leagues-count">(0)</span></h2></div></div><div class="body box"><div id="lmbt"><table class="table-main"></table></div></div><div class="corner-box manage-my-leagues"><div class="spc dark2"><div class="body2"><p class="all"><span class="r"><a href="/manage-my-leagues/">Manage My Leagues</a></span>&nbsp;</p></div></div></div></div></div>
+	<div class="spacer10"></div>
+	<div id="search-box">
+		<div class="spc">
+			<div class="form">
+				<h2><label for="search">Search</label></h2>
+
+				<p>
+					<a id="search-submit" xparam="Search"><span>Search</span></a>
+					<input name="search-event" class="int-text" id="search" type="text" value="team / player" autocomplete="off">
+
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="spacer10"></div>
+	<div class="adsenvelope adstextpad banx-left_menu_1" id="lsadvert-zid-254" style="width: 185px;"><div style="height: 60px;"><div class="adsclick" style="width: 100% !important; height: 100% !important" onclick="window.open('https://ads.livesportmedia.eu/www/delivery/ck.php?oaparams=2__bannerid=69424__zoneid=254')"></div><div class="adscontent" id="lsadvert-left_menu_1"><iframe name="banx-left_menu_1" id="lsadvert-zid-254-iframe" frameborder="0" scrolling="no" style="width: 185px; height: 60px;"></iframe></div><div class="adstext"><span>advertisement</span></div></div></div><div id="side-menu"><h2>Sports</h2>
+<ul id="sports-menu">
+
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s1" onclick="return clickMenu('s_1');" href="/soccer/">Soccer</a></div>
+                                        <div class="hidden" id="s_1">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/soccer/">Today's matches</a></li>
+		                                            <li class="country"><span class="f f-popular">&nbsp;</span><a onclick="return clickMenu('sub_1_popular');" href="#"> <span>Popular</span></a>
+		                                                <ul class="hidden" id="sub_1_popular">
+	                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                <li class="tournament" id="pt_38855">
+                                                    <a href="/soccer/spain/laliga/">LaLiga</a>
+                                                    <span class="number"> (1)</span>
+                                                </li>
+                                            
+	                                            </ul>
+	                                        </li>
+                                        <li class="country"><span class="f f-31">&nbsp;</span><a onclick="return clickMenu('sub_1_31');" href="/soccer/belarus/"> <span>Belarus</span></a>  <ul class="hidden" id="sub_1_31"><li class="tournament" id="t_41808">
+                                            <a href="/soccer/belarus/vysshaya-liga/">Vysshaya Liga</a><span class="number"> (8)</span>  </li>
+	                                
+	                                
+	                                
+	                                <li class="tournament" id="t_43114">
+                                            <a href="/soccer/belarus/belarusian-cup/">Belarusian Cup</a><span class="number"> (2)</span>  </li>
+	                                
+	                                      </ul></li><li class="country"><span class="f f-6">&nbsp;</span><a onclick="return clickMenu('sub_1_6');" href="/soccer/europe/"> <span>Europe</span></a>  <ul class="hidden" id="sub_1_6">
+	                                <li class="tournament" id="t_36088">
+                                            <a href="/soccer/europe/uefa-nations-league/">UEFA Nations League</a><span class="number"> (27)</span>  </li>
+	                                
+	                                      </ul></li><li class="country"><span class="f f-141">&nbsp;</span><a onclick="return clickMenu('sub_1_141');" href="/soccer/nicaragua/"> <span>Nicaragua</span></a>  <ul class="hidden" id="sub_1_141"><li class="tournament" id="t_43401">
+                                            <a href="/soccer/nicaragua/liga-primera/">Liga Primera</a><span class="number"> (2)</span>  </li>
+	                                <li class="tournament" id="t_51459">
+                                            <a href="/soccer/nicaragua/liga-primera-u20/">Liga Primera U20</a><span class="number"> (2)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-176">&nbsp;</span><a onclick="return clickMenu('sub_1_176');" href="/soccer/spain/"> <span>Spain</span></a>  <ul class="hidden" id="sub_1_176"><li class="tournament" id="t_38855">
+                                            <a href="/soccer/spain/laliga/">LaLiga</a><span class="number"> (1)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-218">&nbsp;</span><a onclick="return clickMenu('sub_1_218');" href="/soccer/taiwan/"> <span>Taiwan</span></a>  <ul class="hidden" id="sub_1_218"><li class="tournament" id="t_51733">
+                                            <a href="/soccer/taiwan/premier-league/">Premier League</a><span class="number"> (4)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-184">&nbsp;</span><a onclick="return clickMenu('sub_1_184');" href="/soccer/tajikistan/"> <span>Tajikistan</span></a>  <ul class="hidden" id="sub_1_184"><li class="tournament" id="t_43506">
+                                            <a href="/soccer/tajikistan/vysshaya-liga/">Vysshaya Liga</a><span class="number"> (6)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s2" onclick="return clickMenu('s_2');" href="/tennis/">Tennis</a></div>
+                                        <div class="hidden" id="s_2">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/tennis/">Today's matches</a></li><li class="country"><span class="f f-8">&nbsp;</span><a onclick="return clickMenu('sub_2_8');" href="/tennis/world/"> <span>World</span></a>  <ul id="sub_2_8"><li class="tournament" id="t_52268">
+                                            <a href="/tennis/world/exhibition-international-tennis-series-men/">Exhibition International Tennis Series Men</a><span class="number"> (8)</span>  </li>
+	                                <li class="tournament" id="t_51802">
+                                            <a href="/tennis/world/exhibition-others-matches-men/">Exhibition Others matches Men</a><span class="number"> (35)</span>  </li>
+	                                <li class="tournament" id="t_51803">
+                                            <a href="/tennis/world/exhibition-others-matches-women/">Exhibition Others matches Women</a><span class="number"> (7)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s3" onclick="return clickMenu('s_3');" href="/basketball/">Basketball</a></div>
+                                        <div class="hidden" id="s_3">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/basketball/">Today's matches</a></li><li class="country"><span class="f f-218">&nbsp;</span><a onclick="return clickMenu('sub_3_218');" href="/basketball/taiwan/"> <span>Taiwan</span></a>  <ul class="hidden" id="sub_3_218"><li class="tournament" id="t_51214">
+                                            <a href="/basketball/taiwan/sbl/">SBL</a><span class="number"> (2)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s4" onclick="return clickMenu('s_4');" href="/hockey/">Hockey</a></div>
+                                        <div class="hidden" id="s_4">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/hockey/">Today's matches</a></li><li class="country"><span class="f f-158">&nbsp;</span><a onclick="return clickMenu('sub_4_158');" href="/hockey/russia/"> <span>Russia</span></a>  <ul class="hidden" id="sub_4_158"><li class="tournament" id="t_52243">
+                                            <a href="/hockey/russia/comet-division-short-hockey/">Comet Division - Short Hockey</a><span class="number"> (12)</span>  </li>
+	                                <li class="tournament" id="t_51484">
+                                            <a href="/hockey/russia/liga-pro-short-hockey/">Liga Pro - Short Hockey</a><span class="number"> (28)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s7" onclick="return clickMenu('s_7');" href="/handball/">Handball</a></div>
+                                        <div class="hidden" id="s_7">
+                                            <ul>
+	                            <li class="country"><span class="f f-31">&nbsp;</span><a onclick="return clickMenu('sub_7_31');" href="/handball/belarus/"> <span>Belarus</span></a>  <ul class="hidden" id="sub_7_31"><li class="tournament" id="t_45290">
+                                            <a href="/handball/belarus/division-1/">Division 1</a><span class="number"> (2)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s6" onclick="return clickMenu('s_6');" href="/baseball/">Baseball</a></div>
+                                        <div class="hidden" id="s_6">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/baseball/">Today's matches</a></li><li class="country"><span class="f f-106">&nbsp;</span><a onclick="return clickMenu('sub_6_106');" href="/baseball/south-korea/"> <span>South Korea</span></a>  <ul class="hidden" id="sub_6_106"><li class="tournament" id="t_44180">
+                                            <a href="/baseball/south-korea/kbo/">KBO</a><span class="number"> (7)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-218">&nbsp;</span><a onclick="return clickMenu('sub_6_218');" href="/baseball/taiwan/"> <span>Taiwan</span></a>  <ul class="hidden" id="sub_6_218"><li class="tournament" id="t_44202">
+                                            <a href="/baseball/taiwan/cpbl/">CPBL</a><span class="number"> (3)</span>  </li>
+	                                <li class="tournament" id="t_51757">
+                                            <a href="/baseball/taiwan/cpbl-minor-league/">CPBL Minor League</a><span class="number"> (4)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s5" onclick="return clickMenu('s_5');" href="/american-football/">American Football</a></div>
+                                        <div class="hidden" id="s_5">
+                                            <ul>
+	                            <li class="country"><span class="f f-200">&nbsp;</span><a onclick="return clickMenu('sub_5_200');" href="/american-football/usa/"> <span>USA</span></a>  <ul class="hidden" id="sub_5_200"><li class="tournament" id="t_44141">
+                                            <a href="/american-football/usa/ncaa/">NCAA</a><span class="number"> (175)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s12" onclick="return clickMenu('s_12');" href="/volleyball/">Volleyball</a></div>
+                                        <div class="hidden" id="s_12">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/volleyball/">Today's matches</a></li><li class="country"><span class="f f-158">&nbsp;</span><a onclick="return clickMenu('sub_12_158');" href="/volleyball/russia/"> <span>Russia</span></a>  <ul class="hidden" id="sub_12_158"><li class="tournament" id="t_52040">
+                                            <a href="/volleyball/russia/ural-championship/">Ural Championship</a><span class="number"> (6)</span>  </li>
+	                                <li class="tournament" id="t_52042">
+                                            <a href="/volleyball/russia/ural-championship-women/">Ural Championship Women</a><span class="number"> (4)</span>  </li>
+	                                <li class="tournament" id="t_52267">
+                                            <a href="/volleyball/russia/liberty-league-women/">Liberty League Women</a><span class="number"> (4)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-184">&nbsp;</span><a onclick="return clickMenu('sub_12_184');" href="/volleyball/tajikistan/"> <span>Tajikistan</span></a>  <ul class="hidden" id="sub_12_184"><li class="tournament" id="t_52255">
+                                            <a href="/volleyball/tajikistan/champions-cup/">Champions Cup</a><span class="number"> (2)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s14" onclick="return clickMenu('s_14');" href="/darts/">Darts</a></div>
+                                        <div class="hidden" id="s_14">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/darts/">Today's matches</a></li><li class="country"><span class="f f-62">&nbsp;</span><a onclick="return clickMenu('sub_14_62');" href="/darts/czech-republic/"> <span>Czech Republic</span></a>  <ul class="hidden" id="sub_14_62"><li class="tournament" id="t_51528">
+                                            <a href="/darts/czech-republic/premier-league/">Premier League</a><span class="number"> (5)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-8">&nbsp;</span><a onclick="return clickMenu('sub_14_8');" href="/darts/world/"> <span>World</span></a>  <ul class="hidden" id="sub_14_8">
+	                                <li class="tournament" id="t_52130">
+                                            <a href="/darts/world/pdc-home-tour/">PDC Home Tour</a><span class="number"> (24)</span>  </li>
+	                                <li class="tournament" id="t_51659">
+                                            <a href="/darts/world/icons-of-darts-live-league/">Icons of Darts Live League</a><span class="number"> (20)</span>  </li>
+	                                <li class="tournament" id="t_52097">
+                                            <a href="/darts/world/a-night-at-the-darts/">A Night at the Darts</a><span class="number"> (12)</span>  </li>
+	                                <li class="tournament" id="t_52260">
+                                            <a href="/darts/world/remote-darts-league/">Remote Darts League</a><span class="number"> (5)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s21" onclick="return clickMenu('s_21');" href="/badminton/">Badminton</a></div>
+                                        <div class="hidden" id="s_21">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/badminton/">Today's matches</a></li><li class="country"><span class="f f-23">&nbsp;</span><a onclick="return clickMenu('sub_21_23');" href="/badminton/armenia/"> <span>Armenia</span></a>  <ul class="hidden" id="sub_21_23"><li class="tournament" id="t_52085">
+                                            <a href="/badminton/armenia/infinity-cup-doubles-men/">Infinity Cup Doubles Men</a><span class="number"> (6)</span>  </li>
+	                                <li class="tournament" id="t_52084">
+                                            <a href="/badminton/armenia/infinity-cup-men/">Infinity Cup Men</a><span class="number"> (12)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s36" onclick="return clickMenu('s_36');" href="/esports/">eSports</a></div>
+                                        <div class="hidden" id="s_36">
+                                            <ul>
+	                            <li><span class="f f-todays-matches">&nbsp;</span><a href="/matches/esports/">Today's matches</a></li><li class="country"><span class="f f-24">&nbsp;</span><a onclick="return clickMenu('sub_36_24');" href="/esports/australia/"> <span>Australia</span></a>  <ul class="hidden" id="sub_36_24"><li class="tournament" id="t_49838">
+                                            <a href="/esports/australia/league-of-legends-oceanic-pro-league/">League of Legends Oceanic Pro League</a><span class="number"> (1)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-39">&nbsp;</span><a onclick="return clickMenu('sub_36_39');" href="/esports/brazil/"> <span>Brazil</span></a>  <ul class="hidden" id="sub_36_39"><li class="tournament" id="t_49705">
+                                            <a href="/esports/brazil/league-of-legends-circuito-brasileiro-de-league-of-legends/">League of Legends Circuito Brasileiro de League of Legends</a><span class="number"> (12)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-52">&nbsp;</span><a onclick="return clickMenu('sub_36_52');" href="/esports/china/"> <span>China</span></a>  <ul class="hidden" id="sub_36_52"><li class="tournament" id="t_51473">
+                                            <a href="/esports/china/dota-2-china-professional-league-season-2/">Dota 2 China Professional League - Season 2</a><span class="number"> (8)</span>  </li>
+	                                <li class="tournament" id="t_48337">
+                                            <a href="/esports/china/league-of-legends-lol-pro-league/">League of Legends LoL Pro League</a><span class="number"> (2)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-6">&nbsp;</span><a onclick="return clickMenu('sub_36_6');" href="/esports/europe/"> <span>Europe</span></a>  <ul class="hidden" id="sub_36_6"><li class="tournament" id="t_51631">
+                                            <a href="/esports/europe/league-of-legends-european-masters/">League of Legends European Masters</a><span class="number"> (24)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-158">&nbsp;</span><a onclick="return clickMenu('sub_36_158');" href="/esports/russia/"> <span>Russia</span></a>  <ul class="hidden" id="sub_36_158"><li class="tournament" id="t_50306">
+                                            <a href="/esports/russia/league-of-legends-lol-continental-league/">League of Legends LoL Continental League</a><span class="number"> (1)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-106">&nbsp;</span><a onclick="return clickMenu('sub_36_106');" href="/esports/south-korea/"> <span>South Korea</span></a>  <ul class="hidden" id="sub_36_106"><li class="tournament" id="t_48339">
+                                            <a href="/esports/south-korea/league-of-legends-champions-korea/">League of Legends Champions Korea</a><span class="number"> (1)</span>  </li>
+	                                <li class="tournament" id="t_51645">
+                                            <a href="/esports/south-korea/starcraft-2-global-starcraft-ii-league-season-1/">Starcraft 2 Global StarCraft II League - Season 1</a><span class="number"> (6)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-200">&nbsp;</span><a onclick="return clickMenu('sub_36_200');" href="/esports/usa/"> <span>USA</span></a>  <ul class="hidden" id="sub_36_200"><li class="tournament" id="t_49839">
+                                            <a href="/esports/usa/overwatch-overwatch-league/">OverWatch Overwatch League</a><span class="number"> (10)</span>  </li>
+	                                      </ul></li><li class="country"><span class="f f-8">&nbsp;</span><a onclick="return clickMenu('sub_36_8');" href="/esports/world/"> <span>World</span></a>  <ul class="hidden" id="sub_36_8"><li class="tournament" id="t_51955">
+                                            <a href="/esports/world/dota-2-bts-pro-series/">Dota 2 BTS Pro Series</a><span class="number"> (9)</span>  </li>
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    
+		                            <li class="sport"><div class="sport_name"><a class="siconleft s28" onclick="return clickMenu('s_28');" href="/mma/">MMA</a></div>
+                                        <div class="hidden" id="s_28">
+                                            <ul>
+	                            <li class="country"><span class="f f-8">&nbsp;</span><a onclick="return clickMenu('sub_28_8');" href="/mma/world/"> <span>World</span></a>  <ul class="hidden" id="sub_28_8"><li class="tournament" id="t_46063">
+                                            <a href="/mma/world/bantamweight-ufc-men/">Bantamweight - UFC Men</a><span class="number"> (1)</span>  </li>
+	                                <li class="tournament" id="t_46064">
+                                            <a href="/mma/world/featherweight-bellator-men/">Featherweight - Bellator Men</a><span class="number"> (1)</span>  </li>
+	                                
+	                                <li class="tournament" id="t_46056">
+                                            <a href="/mma/world/flyweight-ufc-men/">Flyweight - UFC Men</a><span class="number"> (2)</span>  </li>
+	                                <li class="tournament" id="t_46061">
+                                            <a href="/mma/world/heavyweight-ufc-men/">Heavyweight - UFC Men</a><span class="number"> (3)</span>  </li>
+	                                
+	                                <li class="tournament" id="t_46057">
+                                            <a href="/mma/world/light-heavyweight-ufc-men/">Light Heavyweight - UFC Men</a><span class="number"> (2)</span>  </li>
+	                                <li class="tournament" id="t_46062">
+                                            <a href="/mma/world/lightweight-bellator-men/">Lightweight - Bellator Men</a><span class="number"> (2)</span>  </li>
+	                                <li class="tournament" id="t_46058">
+                                            <a href="/mma/world/lightweight-ufc-men/">Lightweight - UFC Men</a><span class="number"> (1)</span>  </li>
+	                                
+	                                <li class="tournament" id="t_46067">
+                                            <a href="/mma/world/middleweight-ufc-men/">Middleweight - UFC Men</a><span class="number"> (2)</span>  </li>
+	                                
+	                                
+	                                
+	                                
+	                                <li class="tournament" id="t_46126">
+                                            <a href="/mma/world/featherweight-ufc-women/">Featherweight - Women UFC</a><span class="number"> (1)</span>  </li>
+	                                <li class="tournament" id="t_46129">
+                                            <a href="/mma/world/flyweight-ufc-women/">Flyweight - Women UFC</a><span class="number"> (5)</span>  </li>
+	                                
+	                                
+	                                      </ul></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                    </ul><div class="spacer10"></div></div>
+                    <!-- END SPORT MENU -->
+					<div class="spacer10"></div>
+
+					<hr class="hidden">
+				</div>
+				            </div>
+                <!-- END LEFT MENU -->
+
+                <!-- RIGHT MENU -->
+
+								<div id="col-right">
+					
+	<div id="my-box">
+		<div class="head">
+			<div class="head-bottom" id="head-coupon-bottom">
+				<h2 class="coupon"><a href="/coupon/">My Coupon</a> <span id="coupon-outcomes-count"></span></h2>
+				<a class="coupon-arrow" id="coupon-arrow" onclick="globals.coupon.getActive().truncate()" href="#">&nbsp;</a>
+			</div>
+		</div>
+
+		<div id="my-coupon-container"><ul><li class="coupon-empty-info"><p>No bets selected yet. To add a bet click the odds while browsing through OddsPortal!</p></li></ul><div class="coupon-footer"><span class="all-white"><a href="/login/">Log in to save and share your coupons.</a></span></div></div>
+	</div>
+
+		<div class="corner-box3" id="country-tournaments-widget">
+		<div class="spc dark">
+			<div class="head">
+				<div class="dark-title hiconright"><h2><span class="siconright sr36">USA					(eSports)</span></h2></div>
+			</div>
+
+			<div class="box body"><ul class="rightSportMenu"><li><span class="f f-200"> </span> 
+                                            <a href="/esports/usa/overwatch-overwatch-league/">OverWatch Overwatch League</a><span class="number"> (10)</span>  </li></ul></div>
+
+			<div class="corner-box">
+				<div class="spc light">
+					<div class="body">
+						<p class="all">
+							<a href="/esports/usa/">USA</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="corner-box">
+		<div class="spc dark2">
+			<div class="head">
+				<div class="dark-title"><h2>Betting Tools</h2></div>
+			</div>
+
+			<table>
+								<tbody><tr>
+					<td class="bold">
+						<div id="bt-dropping-odds">&nbsp;</div>
+						<a href="/dropping-odds/">Dropping Odds</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-blocked-games">&nbsp;</div>
+						<a href="/blocked/">Blocked Odds</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-value-bets">&nbsp;</div>
+						<a href="/value-bets/">Value Bets</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-hot-matches">&nbsp;</div>
+						<a href="/hot-matches/">Hot Matches</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-divergent-margins">&nbsp;</div>
+						<a href="/handicaps/">Best Handicaps</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-moving-margins">&nbsp;</div>
+						<a href="/moving-margins/">Moving Margins</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-odds-archive">&nbsp;</div>
+						<a href="/results/">Archived Results</a></td>
+				</tr>
+								<tr>
+					<td class="bold">
+						<div id="bt-all-events-standings">&nbsp;</div>
+						<a href="/standings/">Standings</a></td>
+				</tr>
+							</tbody></table>
+
+
+			<div class="corner-box">
+				<div class="spc light">
+					<div class="body">
+						<p class="all"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				<div class="corner-box-no-margin">
+<div class="adsenvelope banx-right_menu" id="lsadvert-zid-1041" style="width: 235px; display: none;"><div style="height:235px"><div class="adscontent" id="lsadvert-right_menu"><iframe name="banx-right_menu" id="lsadvert-zid-1041-iframe" frameborder="0" scrolling="no" style="allowTransparency: true; visibility: hidden; width:235px; height:235px"></iframe></div></div></div><div class="adstext"><span>advertisement</span></div>			</div>
+	<div class="corner-box3">
+		<div class="spc dark">
+			<div class="head">
+				<div class="dark-title"><h2>Top Events</h2></div>
+			</div>
+			<div class="box body" id="top-event-box">
+				<table class="table-main top-event">
+																			<tbody><tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s1" href="/soccer/taiwan/premier-league/">Premier League</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s1" href="/soccer/belarus/vysshaya-liga/">Vysshaya Liga</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="even">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s1" href="/soccer/tajikistan/vysshaya-liga/">Vysshaya Liga</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/brazil/league-of-legends-circuito-brasileiro-de-league-of-legends/">LoL Brasileiro</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/china/dota-2-china-professional-league-season-2/">Dota 2 China Pro</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/europe/league-of-legends-european-masters/">LoL Euro Masters</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="even">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/china/league-of-legends-lol-pro-league/">LoL Pro League</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/south-korea/league-of-legends-champions-korea/">LoL Champions Korea</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/south-korea/starcraft-2-global-starcraft-ii-league-season-1/">Global StarCraft II</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s36" href="/esports/australia/league-of-legends-oceanic-pro-league/">Oceanic Pro League</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="even">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s2" href="/tennis/world/exhibition-others-matches-men/">ATP Exhibition</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s2" href="/tennis/world/exhibition-others-matches-women/">WTA Exhibition</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s6" href="/baseball/south-korea/kbo/">KBO</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s6" href="/baseball/taiwan/cpbl/">Taiwan CPBL</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="even">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s4" href="/hockey/russia/liga-pro-short-hockey/">Liga Pro</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s4" href="/hockey/russia/comet-division-short-hockey/">Comet Division</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s21" href="/badminton/armenia/infinity-cup-men/">Infinity Cup</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s14" href="/darts/czech-republic/premier-league/">Premier League</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="even">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s14" href="/darts/world/pdc-home-tour/">PDC Home Tour</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s14" href="/darts/world/icons-of-darts-live-league/">Icons of Darts</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																																	<tr class="odd">
+									
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s14" href="/darts/world/remote-darts-league/">Darts League</a></span>
+						</div>
+					</td>
+
+																				
+					<td class="column overflow">
+						<div class="overflow">
+							<span class="event"><a class="sicona s14" href="/darts/world/a-night-at-the-darts/">A Night at the Darts</a></span>
+						</div>
+					</td>
+
+																				</tr>
+																			
+									</tbody></table>
+			</div>
+
+			<div class="corner-box">
+				<div class="spc light">
+					<div class="body">
+						<p class="all">
+							<a href="/events/">All events</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="corner-box">
+			<div class="spc dark2">
+				<div class="head">
+					<div class="dark-title"><h2 class="ico-bonus">RebelBetting</h2></div>
+				</div>
+
+				<table>
+					<tbody><tr>
+						<td>
+							<table class="rm-bonus-offer">
+								<colgroup><col width="1%">
+								<col width="99%">
+								</colgroup><tbody><tr>
+									<td class="logo" valign="top">
+										<!--  <a onclick="window.open(this.href); return false;" href="http://RebelBetting.com/?x=oddsportal" class="bb bb-rebelbetting" title="Try RebelBetting for FREE" rel="nofollow"></a>-->
+										<a title="Try RebelBetting for FREE" class="bb bb-rebelbetting" href="/professional-sure-bets/" rel="nofollow"></a>
+									</td>
+
+									<td class="desc">
+										<!--  <a onclick="window.open(this.href); return false;" href="http://RebelBetting.com/?x=oddsportal" title="Try RebelBetting for FREE" rel="nofollow">-->
+										<a title="Try RebelBetting for FREE" href="/professional-sure-bets/" rel="nofollow">
+											<span class="bold">Try RebelBetting for FREE</span>
+										</a>
+
+										<div class="break"></div>
+										Increase your investment by 10-20%. Learn everything you need to know about sure bets and <span class="bold">make profit now!</span>
+									</td>
+								</tr>
+							</tbody></table>
+
+						</td>
+					</tr>
+				</tbody></table>
+
+
+				<div class="corner-box">
+					<div class="spc light">
+						<div class="body">
+							<p class="all">
+								<a href="/professional-sure-bets/">Read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="corner-box">
+			<div class="spc dark2">
+				<div class="head">
+					<div class="dark-title"><h2 class="ico-bonus">Skrill and Neteller VIP</h2></div>
+				</div>
+
+				<table>
+					<tbody><tr>
+						<td>
+							<table class="rm-bonus-offer">
+								<colgroup><col width="1%">
+								<col width="99%">
+								</colgroup><tbody><tr>
+									<td class="logo" valign="top">
+										<a title="Get VIP status!" class="bb bb-skrillneteller" href="/online-wallets/" rel="nofollow"></a>
+									</td>
+
+									<td class="desc">
+										<a title="Get VIP status!" href="/online-wallets/" rel="nofollow">
+											<span class="bold">Get VIP status!</span>
+										</a>
+
+										<div class="break"></div>
+										Register via OddsPortal.com, verify your account and enjoy instant VIP account benefits!
+									</td>
+								</tr>
+							</tbody></table>
+
+						</td>
+					</tr>
+				</tbody></table>
+
+
+				<div class="corner-box">
+					<div class="spc light">
+						<div class="body">
+							<p class="all">
+								<a href="/online-wallets/">Read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="rm-banner no-logged">
+				<a title="Join OddsPortal.com today and get all the benefits of Odds Portal membership." class="multi-line-button" href="/register/">
+					<span class="line-top">REGISTER</span>
+					<span class="line-normal">your account and</span>
+					<span class="line-normal highlight-off">CUSTOMIZE OddsPortal</span>
+					<span class="line-normal">to your needs!</span>
+				</a>
+			</div>
+							</div>
+				
+
+				<div class="break"></div>
+				<hr class="hidden">
+			</div>
+            <!-- END RIGHT MENU -->
+
+            <!-- FOOTER -->
+			<div id="footer">
+
+								<p>
+                        <span class="r footer">
+							<a href="/faq/">FAQ</a> |
+                            <a href="/site-map-active/">Site map</a> |
+                            <a href="/terms/">Terms of Use</a> |
+                            <a href="/widgets/next-matches/">Widgets</a> |
+                            <a href="/webmasters/">Webmasters</a> |
+	                        	                        <a href="/contact/">Contact</a>
+	                        <br><br> Gamble Responsibly. <a href="https://www.gamblingtherapy.org/" target="_gt">Gambling Therapy</a>. 18+
+                        </span>
+
+					<span class="l footer">Copyright © 2008-20 OddsPortal.com<span class="status-dot-green" id="status-dot"></span></span>
+
+                        <span>
+
+                            <a class="twitter" onclick="window.open(this.href); return false;" href="/redirect/?url=http://www.twitter.com/oddsportal" rel="nofollow"></a>
+                            <a class="facebook" onclick="window.open(this.href); return false;" href="/redirect/?url=http://www.facebook.com/OddsPortal" rel="nofollow"></a>
+                            <a class="gpwa" onclick="window.open(this.href); return false;" href="/redirect/?url=http://certify.gpwa.org/verify/oddsportal.com/" rel="nofollow"></a>
+                        </span>
+				</p>
+
+				<div class="break"></div>
+							</div>
+		</div>
+	</div>
+
+	<span class="cor-l-t">&nbsp;</span>
+	<span class="cor-r-t">&nbsp;</span>
+	<span class="cor-l-b">&nbsp;</span>
+	<span class="cor-r-b">&nbsp;</span>
+
+	<div class="break"></div>
+	<a id="scroll-to-top" style="display: none;"><span>Top</span></a>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+	//<![CDATA[
+	var op = new OpHandler();if(!page)var page = new PageTournament({"id":"fTANbXxl","sid":36,"cid":200,"archive":true});var menu_open = null;vJs();op.init();if(page && page.display)page.display();	var sigEndPage = true;
+	try
+	{
+		if (sigEndJs)
+		{
+			globals.onPageReady();
+		}
+	} catch (e)
+	{
+	}
+
+	//]]>
+</script><div class="autofill_body" style="left: 139px; top: 401.23px; width: 131px;"><div class="autofill_body_content"></div></div>
+				<script type="text/javascript">
+				// <![CDATA[
+				var banners; 
+				banners = new BannerHandler([254,1041,523,1877], [], window.bannersAdsServers || ["content.livesportmedia.eu"], [], $, "", null, null, true, []);
+
+				
+				document.lsadvert_display = function() {
+					banners.display();
+				}
+								// ]]>
+				</script>
+				<script type="text/javascript">if(typeof banners != 'undefined'){banners.addSetBackgroundCallback(function(){$('#top-right-social-column').hide();$('#right-ad-column').hide();});document.lsadvert_display();}</script>
+<!-- DEBUG -->
+<!-- END DEBUG -->
+<span id="mlc-4ck3s9wd8c"></span>
+<span id="mlc-aks81bkdz"></span>
+
+
+<script type="text/javascript">(function(g,a,c){"undefined"!==typeof module&&module.exports?module.exports=c():"function"===typeof define&&define.amd?define(c):a[g]=c()})("Fingerprint",this,function(){var g=function(a){var c=Array.prototype.forEach;var e=Array.prototype.map;this.each=function(a,e,b){if(null!==a)if(c&&a.forEach===c)a.forEach(e,b);else if(a.length===+a.length)for(var f=0,h=a.length;f<h&&e.call(b,a[f],f,a)!=={};f++);else for(f in a)if(a.hasOwnProperty(f)&&e.call(b,a[f],f,a)==={})break};this.map=function(a,c,b){var f=
+[];if(null==a)return f;if(e&&a.map===e)return a.map(c,b);this.each(a,function(a,d,e){f[f.length]=c.call(b,a,d,e)});return f};"object"==typeof a?(this.hasher=a.hasher,this.screen_resolution=a.screen_resolution,this.screen_orientation=a.screen_orientation,this.canvas=a.canvas,this.ie_activex=a.ie_activex):"function"==typeof a&&(this.hasher=a)};g.prototype={get:function(){var a=[];a.push(navigator.userAgent);a.push(navigator.language);a.push(screen.colorDepth);if(this.screen_resolution){var c=this.getScreenResolution();
+"undefined"!==typeof c&&a.push(c.join("x"))}a.push((new Date).getTimezoneOffset());a.push(this.hasSessionStorage());a.push(this.hasLocalStorage());a.push(this.hasIndexDb());document.body?a.push(typeof document.body.addBehavior):a.push("undefined");a.push(typeof window.openDatabase);a.push(navigator.cpuClass);a.push(navigator.platform);a.push(navigator.doNotTrack);a.push(this.getPluginsString());this.canvas&&this.isCanvasSupported()&&a.push(this.getCanvasFingerprint());return this.hasher?this.hasher(a.join("###"),
+31):this.murmurhash3_32_gc(a.join("###"),31)},murmurhash3_32_gc:function(a,c){var e;var g=a.length&3;var k=a.length-g;var b=c;var f=3432918353;var h=461845907;for(e=0;e<k;){var d=a.charCodeAt(e)&255|(a.charCodeAt(++e)&255)<<8|(a.charCodeAt(++e)&255)<<16|(a.charCodeAt(++e)&255)<<24;++e;d=(d&65535)*f+(((d>>>16)*f&65535)<<16)&4294967295;d=d<<15|d>>>17;d=(d&65535)*h+(((d>>>16)*h&65535)<<16)&4294967295;b^=d;b=b<<13|b>>>19;b=5*(b&65535)+((5*(b>>>16)&65535)<<16)&4294967295;b=(b&65535)+27492+(((b>>>16)+58964&
+65535)<<16)}d=0;switch(g){case 3:d^=(a.charCodeAt(e+2)&255)<<16;case 2:d^=(a.charCodeAt(e+1)&255)<<8;case 1:d^=a.charCodeAt(e)&255,d=(d&65535)*f+(((d>>>16)*f&65535)<<16)&4294967295,d=d<<15|d>>>17,d=(d&65535)*h+(((d>>>16)*h&65535)<<16)&4294967295,b^=d}b^=a.length;b^=b>>>16;b=2246822507*(b&65535)+((2246822507*(b>>>16)&65535)<<16)&4294967295;b^=b>>>13;b=3266489909*(b&65535)+((3266489909*(b>>>16)&65535)<<16)&4294967295;b^=b>>>16;return b>>>0},hasLocalStorage:function(){try{return!!window.localStorage}catch(a){return!0}},
+hasSessionStorage:function(){try{return!!window.sessionStorage}catch(a){return!0}},hasIndexDb:function(){try{return!!window.indexedDB}catch(a){return!0}},isCanvasSupported:function(){var a=document.createElement("canvas");return!(!a.getContext||!a.getContext("2d"))},isIE:function(){return"Microsoft Internet Explorer"===navigator.appName||"Netscape"===navigator.appName&&/Trident/.test(navigator.userAgent)?!0:!1},getPluginsString:function(){return this.isIE()&&this.ie_activex?this.getIEPluginsString():
+this.getRegularPluginsString()},getRegularPluginsString:function(){return this.map(navigator.plugins,function(a){var c=this.map(a,function(a){return[a.type,a.suffixes].join("~")}).join(",");return[a.name,a.description,c].join("::")},this).join(";")},getIEPluginsString:function(){if(window.ActiveXObject){var a="ShockwaveFlash.ShockwaveFlash;AcroPDF.PDF;PDF.PdfCtrl;QuickTime.QuickTime;rmocx.RealPlayer G2 Control;rmocx.RealPlayer G2 Control.1;RealPlayer.RealPlayer(tm) ActiveX Control (32-bit);RealVideo.RealVideo(tm) ActiveX Control (32-bit);RealPlayer;SWCtl.SWCtl;WMPlayer.OCX;AgControl.AgControl;Skype.Detection".split(";");
+return this.map(a,function(a){try{return new ActiveXObject(a),a}catch(e){return null}}).join(";")}return""},getScreenResolution:function(){var a;return a=this.screen_orientation?screen.height>screen.width?[screen.height,screen.width]:[screen.width,screen.height]:[screen.height,screen.width]},getCanvasFingerprint:function(){var a=document.createElement("canvas"),c=a.getContext("2d"),e="http://valve.github.io";c.textBaseline="top";c.font="14px 'Arial'";c.textBaseline="alphabetic";c.fillStyle="#f60";
+c.fillRect(125,1,62,20);c.fillStyle="#069";c.fillText(e,2,15);c.fillStyle="rgba(102, 204, 0, 0.7)";c.fillText(e,4,17);return a.toDataURL()}};return g});dataLayer.push({event:"gtm.fingerprint"});</script><div class=" fb_reset" id="fb-root"><div style="top: -10000px; width: 0px; height: 0px; position: absolute;"><div></div></div></div><iframe id="criteo-syncframe" src='https://gum.criteo.com/syncframe?topUrl=www.oddsportal.com#{"optout":{"value":false,"origin":0},"uid":{"origin":0},"idfs":{"origin":0},"sid":{"origin":0},"origin":"publishertag","version":88,"lwid":{"origin":0},"tld":"oddsportal.com","bundle":{"value":"W167Zl94S2c3aUNDY3ZkNURiZXdxUzdZeFRvd3plTVRWdE54azVhbVZDM2xweUJROVhjSFVWd0J4dU0lMkZhTkt0S0VvRHlCWFBXNU1CZWVBSXM1TlVjYzdTZnNlU0xSVW5QaXF0Z2owZ1VKSzBERER0c2VQNGlxMVEwQlNobFg5ZEwyd1o2d2FLQmxDQ1dZVmc2ZVElMkJVeXQybiUyRnBPZjBaWUlvSCUyQlBWUWtVeHhjcFl6QklZaG9GU1U5RHhaaWFWSG5KODdySA","origin":3},"topUrl":"www.oddsportal.com","cw":true}' style="display: none;"></iframe><div class="effect-sqare-parent" style="left: 130px; top: 288.55px; width: 185px; height: 40px; display: none; opacity: 1;"></div><div id="tooltipdiv" style="left: 573.61px; top: 588.7px; display: none; position: absolute; z-index: 100;"><span class="help"><span class="help-box4 y-h wider"><span class="wrap-help"><span class="spc spc-nowrap" id="tooltiptext">1st leg.</span></span></span></span></div></body>
+</html>
