@@ -1,0 +1,662 @@
+,id,team_one,team_two,stage,winner,date
+0,10223,Los Angeles Valiant,San Francisco Shock,Overwatch League - Stage 1,Los Angeles Valiant,1/11/2018
+1,10224,Los Angeles Gladiators,Shanghai Dragons,Overwatch League - Stage 1,Los Angeles Gladiators,1/11/2018
+2,10225,Seoul Dynasty,Dallas Fuel,Overwatch League - Stage 1,Seoul Dynasty,1/11/2018
+3,10226,Florida Mayhem,London Spitfire,Overwatch League - Stage 1,London Spitfire,1/11/2018
+4,10227,Houston Outlaws,Philadelphia Fusion,Overwatch League - Stage 1,Philadelphia Fusion,1/11/2018
+5,10228,New York Excelsior,Boston Uprising,Overwatch League - Stage 1,New York Excelsior,1/12/2018
+6,10229,Dallas Fuel,Los Angeles Valiant,Overwatch League - Stage 1,Los Angeles Valiant,1/13/2018
+7,10230,Boston Uprising,Florida Mayhem,Overwatch League - Stage 1,Boston Uprising,1/13/2018
+8,10231,Shanghai Dragons,San Francisco Shock,Overwatch League - Stage 1,San Francisco Shock,1/13/2018
+9,10232,Philadelphia Fusion,London Spitfire,Overwatch League - Stage 1,London Spitfire,1/13/2018
+10,10233,Houston Outlaws,New York Excelsior,Overwatch League - Stage 1,New York Excelsior,1/13/2018
+11,10234,Los Angeles Gladiators,Seoul Dynasty,Overwatch League - Stage 1,Seoul Dynasty,1/13/2018
+12,10235,Philadelphia Fusion,San Francisco Shock,Overwatch League - Stage 1,Philadelphia Fusion,1/18/2018
+13,10236,Seoul Dynasty,Florida Mayhem,Overwatch League - Stage 1,Seoul Dynasty,1/18/2018
+14,10237,Shanghai Dragons,Houston Outlaws,Overwatch League - Stage 1,Houston Outlaws,1/18/2018
+15,10238,Houston Outlaws,Dallas Fuel,Overwatch League - Stage 1,Houston Outlaws,1/18/2018
+16,10239,Los Angeles Valiant,New York Excelsior,Overwatch League - Stage 1,New York Excelsior,1/19/2018
+17,10240,Los Angeles Gladiators,Philadelphia Fusion,Overwatch League - Stage 1,Los Angeles Gladiators,1/19/2018
+18,10241,Boston Uprising,Seoul Dynasty,Overwatch League - Stage 1,Seoul Dynasty,1/20/2018
+19,10242,Florida Mayhem,Shanghai Dragons,Overwatch League - Stage 1,Florida Mayhem,1/20/2018
+20,10243,Dallas Fuel,London Spitfire,Overwatch League - Stage 1,London Spitfire,1/20/2018
+21,10244,London Spitfire,Los Angeles Valiant,Overwatch League - Stage 1,London Spitfire,1/20/2018
+22,10245,New York Excelsior,Los Angeles Gladiators,Overwatch League - Stage 1,New York Excelsior,1/20/2018
+23,10246,San Francisco Shock,Boston Uprising,Overwatch League - Stage 1,San Francisco Shock,1/20/2018
+24,10247,London Spitfire,San Francisco Shock,Overwatch League - Stage 1,London Spitfire,1/25/2018
+25,10248,Seoul Dynasty,Shanghai Dragons,Overwatch League - Stage 1,Seoul Dynasty,1/25/2018
+26,10249,Los Angeles Valiant,Los Angeles Gladiators,Overwatch League - Stage 1,Los Angeles Valiant,1/25/2018
+27,10250,London Spitfire,Boston Uprising,Overwatch League - Stage 1,Boston Uprising,1/25/2018
+28,10251,New York Excelsior,Philadelphia Fusion,Overwatch League - Stage 1,Philadelphia Fusion,1/26/2018
+29,10252,Florida Mayhem,Houston Outlaws,Overwatch League - Stage 1,Houston Outlaws,1/26/2018
+30,10253,New York Excelsior,Seoul Dynasty,Overwatch League - Stage 1,New York Excelsior,1/27/2018
+31,10254,Philadelphia Fusion,Shanghai Dragons,Overwatch League - Stage 1,Philadelphia Fusion,1/27/2018
+32,10255,San Francisco Shock,Dallas Fuel,Overwatch League - Stage 1,Dallas Fuel,1/27/2018
+33,10256,Boston Uprising,Dallas Fuel,Overwatch League - Stage 1,Boston Uprising,1/27/2018
+34,10257,Florida Mayhem,Los Angeles Valiant,Overwatch League - Stage 1,Los Angeles Valiant,1/27/2018
+35,10258,Houston Outlaws,Los Angeles Gladiators,Overwatch League - Stage 1,Houston Outlaws,1/27/2018
+36,10259,Philadelphia Fusion,Los Angeles Valiant,Overwatch League - Stage 1,Los Angeles Valiant,2/1/2018
+37,10260,Los Angeles Gladiators,Florida Mayhem,Overwatch League - Stage 1,Los Angeles Gladiators,2/1/2018
+38,10261,San Francisco Shock,Houston Outlaws,Overwatch League - Stage 1,Houston Outlaws,2/1/2018
+39,10262,Dallas Fuel,Philadelphia Fusion,Overwatch League - Stage 1,Philadelphia Fusion,2/1/2018
+40,10263,Shanghai Dragons,New York Excelsior,Overwatch League - Stage 1,New York Excelsior,2/2/2018
+41,10264,Seoul Dynasty,London Spitfire,Overwatch League - Stage 1,London Spitfire,2/2/2018
+42,10265,Florida Mayhem,San Francisco Shock,Overwatch League - Stage 1,San Francisco Shock,2/3/2018
+43,10266,Houston Outlaws,Seoul Dynasty,Overwatch League - Stage 1,Seoul Dynasty,2/3/2018
+44,10267,Boston Uprising,Los Angeles Gladiators,Overwatch League - Stage 1,Boston Uprising,2/3/2018
+45,10268,London Spitfire,Shanghai Dragons,Overwatch League - Stage 1,London Spitfire,2/3/2018
+46,10269,New York Excelsior,Dallas Fuel,Overwatch League - Stage 1,New York Excelsior,2/3/2018
+47,10270,Los Angeles Valiant,Boston Uprising,Overwatch League - Stage 1,Boston Uprising,2/3/2018
+48,10564,Dallas Fuel,Shanghai Dragons,Overwatch League - Stage 1,Dallas Fuel,2/8/2018
+49,10565,Los Angeles Gladiators,San Francisco Shock,Overwatch League - Stage 1,Los Angeles Gladiators,2/8/2018
+50,10566,Seoul Dynasty,Los Angeles Valiant,Overwatch League - Stage 1,Los Angeles Valiant,2/8/2018
+51,10567,Boston Uprising,Philadelphia Fusion,Overwatch League - Stage 1,Boston Uprising,2/8/2018
+52,10568,New York Excelsior,Florida Mayhem,Overwatch League - Stage 1,New York Excelsior,2/9/2018
+53,10569,Houston Outlaws,London Spitfire,Overwatch League - Stage 1,Houston Outlaws,2/9/2018
+54,10570,Dallas Fuel,Los Angeles Gladiators,Overwatch League - Stage 1,Dallas Fuel,2/10/2018
+55,10571,San Francisco Shock,Seoul Dynasty,Overwatch League - Stage 1,Seoul Dynasty,2/10/2018
+56,10572,Shanghai Dragons,Los Angeles Valiant,Overwatch League - Stage 1,Los Angeles Valiant,2/10/2018
+57,10573,London Spitfire,New York Excelsior,Overwatch League - Stage 1,New York Excelsior,2/10/2018
+58,10574,Boston Uprising,Houston Outlaws,Overwatch League - Stage 1,Houston Outlaws,2/10/2018
+59,10575,Philadelphia Fusion,Florida Mayhem,Overwatch League - Stage 1,Philadelphia Fusion,2/11/2018
+60,10537,Houston Outlaws,London Spitfire,Overwatch League - Stage 1 - Title Matches,London Spitfire,2/11/2018
+61,10539,New York Excelsior,London Spitfire,Overwatch League - Stage 1 - Title Matches,London Spitfire,2/11/2018
+62,10278,Los Angeles Valiant,Seoul Dynasty,Overwatch League - Stage 2,Seoul Dynasty,2/22/2018
+63,10279,Shanghai Dragons,Dallas Fuel,Overwatch League - Stage 2,Dallas Fuel,2/22/2018
+64,10280,San Francisco Shock,Los Angeles Gladiators,Overwatch League - Stage 2,Los Angeles Gladiators,2/22/2018
+65,10281,London Spitfire,Houston Outlaws,Overwatch League - Stage 2,Houston Outlaws,2/23/2018
+66,10282,Florida Mayhem,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,2/23/2018
+67,10283,Philadelphia Fusion,Boston Uprising,Overwatch League - Stage 2,Philadelphia Fusion,2/23/2018
+68,10284,New York Excelsior,London Spitfire,Overwatch League - Stage 2,London Spitfire,2/24/2018
+69,10285,Los Angeles Gladiators,Dallas Fuel,Overwatch League - Stage 2,Dallas Fuel,2/24/2018
+70,10286,Seoul Dynasty,San Francisco Shock,Overwatch League - Stage 2,Seoul Dynasty,2/24/2018
+71,10287,Florida Mayhem,Philadelphia Fusion,Overwatch League - Stage 2,Philadelphia Fusion,2/24/2018
+72,10288,Houston Outlaws,Boston Uprising,Overwatch League - Stage 2,Houston Outlaws,2/24/2018
+73,10289,Los Angeles Valiant,Shanghai Dragons,Overwatch League - Stage 2,Los Angeles Valiant,2/25/2018
+74,10290,Dallas Fuel,Seoul Dynasty,Overwatch League - Stage 2,Seoul Dynasty,3/1/2018
+75,10291,San Francisco Shock,Los Angeles Valiant,Overwatch League - Stage 2,Los Angeles Valiant,3/1/2018
+76,10292,Shanghai Dragons,Los Angeles Gladiators,Overwatch League - Stage 2,Los Angeles Gladiators,3/1/2018
+77,10293,London Spitfire,Florida Mayhem,Overwatch League - Stage 2,London Spitfire,3/2/2018
+78,10294,Philadelphia Fusion,Houston Outlaws,Overwatch League - Stage 2,Philadelphia Fusion,3/2/2018
+79,10295,Boston Uprising,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,3/2/2018
+80,10296,Florida Mayhem,Boston Uprising,Overwatch League - Stage 2,Boston Uprising,3/3/2018
+81,10297,Seoul Dynasty,Los Angeles Gladiators,Overwatch League - Stage 2,Seoul Dynasty,3/3/2018
+82,10298,Los Angeles Valiant,Dallas Fuel,Overwatch League - Stage 2,Los Angeles Valiant,3/3/2018
+83,10299,London Spitfire,Philadelphia Fusion,Overwatch League - Stage 2,London Spitfire,3/3/2018
+84,10300,New York Excelsior,Houston Outlaws,Overwatch League - Stage 2,New York Excelsior,3/3/2018
+85,10301,San Francisco Shock,Shanghai Dragons,Overwatch League - Stage 2,San Francisco Shock,3/4/2018
+86,10302,Shanghai Dragons,Seoul Dynasty,Overwatch League - Stage 2,Seoul Dynasty,3/8/2018
+87,10303,Dallas Fuel,San Francisco Shock,Overwatch League - Stage 2,San Francisco Shock,3/8/2018
+88,10304,Los Angeles Gladiators,Los Angeles Valiant,Overwatch League - Stage 2,Los Angeles Gladiators,3/8/2018
+89,10305,Seoul Dynasty,Philadelphia Fusion,Overwatch League - Stage 2,Seoul Dynasty,3/9/2018
+90,10306,Los Angeles Valiant,Houston Outlaws,Overwatch League - Stage 2,Los Angeles Valiant,3/9/2018
+91,10307,Shanghai Dragons,Boston Uprising,Overwatch League - Stage 2,Boston Uprising,3/9/2018
+92,10308,Boston Uprising,London Spitfire,Overwatch League - Stage 2,London Spitfire,3/10/2018
+93,10309,Philadelphia Fusion,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,3/10/2018
+94,10310,Houston Outlaws,Florida Mayhem,Overwatch League - Stage 2,Houston Outlaws,3/10/2018
+95,10311,Los Angeles Gladiators,London Spitfire,Overwatch League - Stage 2,Los Angeles Gladiators,3/10/2018
+96,10312,San Francisco Shock,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,3/10/2018
+97,10313,Dallas Fuel,Florida Mayhem,Overwatch League - Stage 2,Florida Mayhem,3/11/2018
+98,10314,Dallas Fuel,Boston Uprising,Overwatch League - Stage 2,Boston Uprising,3/14/2018
+99,10315,Seoul Dynasty,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,3/15/2018
+100,10316,Shanghai Dragons,Philadelphia Fusion,Overwatch League - Stage 2,Philadelphia Fusion,3/15/2018
+101,10317,New York Excelsior,Shanghai Dragons,Overwatch League - Stage 2,New York Excelsior,3/15/2018
+102,10318,Los Angeles Valiant,Florida Mayhem,Overwatch League - Stage 2,Florida Mayhem,3/16/2018
+103,10319,Los Angeles Gladiators,Houston Outlaws,Overwatch League - Stage 2,Los Angeles Gladiators,3/16/2018
+104,10320,Florida Mayhem,Los Angeles Gladiators,Overwatch League - Stage 2,Los Angeles Gladiators,3/16/2018
+105,10321,San Francisco Shock,London Spitfire,Overwatch League - Stage 2,London Spitfire,3/17/2018
+106,10322,Boston Uprising,Los Angeles Valiant,Overwatch League - Stage 2,Boston Uprising,3/17/2018
+107,10323,London Spitfire,Seoul Dynasty,Overwatch League - Stage 2,London Spitfire,3/17/2018
+108,10324,Houston Outlaws,San Francisco Shock,Overwatch League - Stage 2,San Francisco Shock,3/17/2018
+109,10325,Philadelphia Fusion,Dallas Fuel,Overwatch League - Stage 2,Philadelphia Fusion,3/18/2018
+110,10576,Philadelphia Fusion,Los Angeles Gladiators,Overwatch League - Stage 2,Philadelphia Fusion,3/21/2018
+111,10577,San Francisco Shock,Florida Mayhem,Overwatch League - Stage 2,Florida Mayhem,3/22/2018
+112,10578,Houston Outlaws,Shanghai Dragons,Overwatch League - Stage 2,Houston Outlaws,3/22/2018
+113,10579,Seoul Dynasty,Houston Outlaws,Overwatch League - Stage 2,Houston Outlaws,3/22/2018
+114,10580,Dallas Fuel,New York Excelsior,Overwatch League - Stage 2,New York Excelsior,3/23/2018
+115,10581,Boston Uprising,San Francisco Shock,Overwatch League - Stage 2,Boston Uprising,3/23/2018
+116,10582,Florida Mayhem,Seoul Dynasty,Overwatch League - Stage 2,Seoul Dynasty,3/23/2018
+117,10583,Los Angeles Valiant,Philadelphia Fusion,Overwatch League - Stage 2,Philadelphia Fusion,3/24/2018
+118,10584,Shanghai Dragons,London Spitfire,Overwatch League - Stage 2,London Spitfire,3/24/2018
+119,10585,London Spitfire,Dallas Fuel,Overwatch League - Stage 2,London Spitfire,3/24/2018
+120,10586,New York Excelsior,Los Angeles Valiant,Overwatch League - Stage 2,New York Excelsior,3/24/2018
+121,10587,Los Angeles Gladiators,Boston Uprising,Overwatch League - Stage 2,Boston Uprising,3/25/2018
+122,10540,London Spitfire,Philadelphia Fusion,Overwatch League - Stage 2 Title Matches,Philadelphia Fusion,3/25/2018
+123,10542,New York Excelsior,Philadelphia Fusion,Overwatch League - Stage 2 Title Matches,New York Excelsior,3/25/2018
+124,10333,Dallas Fuel,Shanghai Dragons,Overwatch League - Stage 3,Dallas Fuel,4/4/2018
+125,10334,Seoul Dynasty,Los Angeles Valiant,Overwatch League - Stage 3,Los Angeles Valiant,4/5/2018
+126,10335,Los Angeles Gladiators,San Francisco Shock,Overwatch League - Stage 3,San Francisco Shock,4/5/2018
+127,10336,New York Excelsior,Florida Mayhem,Overwatch League - Stage 3,New York Excelsior,4/5/2018
+128,10337,Boston Uprising,Philadelphia Fusion,Overwatch League - Stage 3,Boston Uprising,4/6/2018
+129,10338,Houston Outlaws,London Spitfire,Overwatch League - Stage 3,Houston Outlaws,4/6/2018
+130,10339,Dallas Fuel,Los Angeles Gladiators,Overwatch League - Stage 3,Los Angeles Gladiators,4/6/2018
+131,10340,Shanghai Dragons,Los Angeles Valiant,Overwatch League - Stage 3,Los Angeles Valiant,4/7/2018
+132,10341,San Francisco Shock,Seoul Dynasty,Overwatch League - Stage 3,Seoul Dynasty,4/7/2018
+133,10342,Philadelphia Fusion,Florida Mayhem,Overwatch League - Stage 3,Philadelphia Fusion,4/7/2018
+134,10343,Boston Uprising,Houston Outlaws,Overwatch League - Stage 3,Boston Uprising,4/7/2018
+135,10344,London Spitfire,New York Excelsior,Overwatch League - Stage 3,New York Excelsior,4/7/2018
+136,10345,Los Angeles Gladiators,Shanghai Dragons,Overwatch League - Stage 3,Los Angeles Gladiators,4/11/2018
+137,10346,Los Angeles Valiant,San Francisco Shock,Overwatch League - Stage 3,Los Angeles Valiant,4/12/2018
+138,10347,Seoul Dynasty,Dallas Fuel,Overwatch League - Stage 3,Seoul Dynasty,4/12/2018
+139,10348,New York Excelsior,Boston Uprising,Overwatch League - Stage 3,Boston Uprising,4/12/2018
+140,10349,Florida Mayhem,London Spitfire,Overwatch League - Stage 3,London Spitfire,4/13/2018
+141,10350,Houston Outlaws,Philadelphia Fusion,Overwatch League - Stage 3,Philadelphia Fusion,4/13/2018
+142,10351,Dallas Fuel,Los Angeles Valiant,Overwatch League - Stage 3,Los Angeles Valiant,4/13/2018
+143,10352,Shanghai Dragons,San Francisco Shock,Overwatch League - Stage 3,San Francisco Shock,4/14/2018
+144,10353,Los Angeles Gladiators,Seoul Dynasty,Overwatch League - Stage 3,Los Angeles Gladiators,4/14/2018
+145,10354,Philadelphia Fusion,London Spitfire,Overwatch League - Stage 3,Philadelphia Fusion,4/14/2018
+146,10355,Houston Outlaws,New York Excelsior,Overwatch League - Stage 3,New York Excelsior,4/14/2018
+147,10356,Boston Uprising,Florida Mayhem,Overwatch League - Stage 3,Boston Uprising,4/15/2018
+148,10357,Los Angeles Valiant,Los Angeles Gladiators,Overwatch League - Stage 3,Los Angeles Valiant,4/18/2018
+149,10358,San Francisco Shock,Dallas Fuel,Overwatch League - Stage 3,San Francisco Shock,4/19/2018
+150,10359,Seoul Dynasty,Shanghai Dragons,Overwatch League - Stage 3,Seoul Dynasty,4/19/2018
+151,10360,Florida Mayhem,Houston Outlaws,Overwatch League - Stage 3,Houston Outlaws,4/19/2018
+152,10361,London Spitfire,Boston Uprising,Overwatch League - Stage 3,Boston Uprising,4/20/2018
+153,10362,New York Excelsior,Philadelphia Fusion,Overwatch League - Stage 3,New York Excelsior,4/20/2018
+154,10363,San Francisco Shock,Philadelphia Fusion,Overwatch League - Stage 3,San Francisco Shock,4/20/2018
+155,10364,Shanghai Dragons,Florida Mayhem,Overwatch League - Stage 3,Florida Mayhem,4/21/2018
+156,10365,Seoul Dynasty,Boston Uprising,Overwatch League - Stage 3,Boston Uprising,4/21/2018
+157,10366,Los Angeles Valiant,London Spitfire,Overwatch League - Stage 3,London Spitfire,4/21/2018
+158,10367,Los Angeles Gladiators,New York Excelsior,Overwatch League - Stage 3,New York Excelsior,4/21/2018
+159,10368,Dallas Fuel,Houston Outlaws,Overwatch League - Stage 3,Houston Outlaws,4/22/2018
+160,10369,Boston Uprising,Shanghai Dragons,Overwatch League - Stage 3,Boston Uprising,4/25/2018
+161,10370,Houston Outlaws,Los Angeles Valiant,Overwatch League - Stage 3,Houston Outlaws,4/26/2018
+162,10371,Florida Mayhem,Dallas Fuel,Overwatch League - Stage 3,Florida Mayhem,4/26/2018
+163,10372,London Spitfire,Los Angeles Gladiators,Overwatch League - Stage 3,Los Angeles Gladiators,4/26/2018
+164,10373,New York Excelsior,San Francisco Shock,Overwatch League - Stage 3,New York Excelsior,4/27/2018
+165,10374,Philadelphia Fusion,Seoul Dynasty,Overwatch League - Stage 3,Seoul Dynasty,4/27/2018
+166,10375,Boston Uprising,Dallas Fuel,Overwatch League - Stage 3,Boston Uprising,4/27/2018
+167,10376,Houston Outlaws,Los Angeles Gladiators,Overwatch League - Stage 3,Los Angeles Gladiators,4/28/2018
+168,10377,Florida Mayhem,Los Angeles Valiant,Overwatch League - Stage 3,Los Angeles Valiant,4/28/2018
+169,10378,London Spitfire,San Francisco Shock,Overwatch League - Stage 3,London Spitfire,4/28/2018
+170,10379,New York Excelsior,Seoul Dynasty,Overwatch League - Stage 3,New York Excelsior,4/28/2018
+171,10380,Philadelphia Fusion,Shanghai Dragons,Overwatch League - Stage 3,Philadelphia Fusion,4/28/2018
+172,10588,Dallas Fuel,Philadelphia Fusion,Overwatch League - Stage 3,Philadelphia Fusion,5/2/2018
+173,10589,Los Angeles Gladiators,Florida Mayhem,Overwatch League - Stage 3,Los Angeles Gladiators,5/3/2018
+174,10590,San Francisco Shock,Houston Outlaws,Overwatch League - Stage 3,San Francisco Shock,5/3/2018
+175,10591,Florida Mayhem,San Francisco Shock,Overwatch League - Stage 3,San Francisco Shock,5/3/2018
+176,10592,Los Angeles Valiant,Boston Uprising,Overwatch League - Stage 3,Boston Uprising,5/4/2018
+177,10593,New York Excelsior,Dallas Fuel,Overwatch League - Stage 3,New York Excelsior,5/4/2018
+178,10594,Boston Uprising,Los Angeles Gladiators,Overwatch League - Stage 3,Boston Uprising,5/4/2018
+179,10595,Shanghai Dragons,New York Excelsior,Overwatch League - Stage 3,New York Excelsior,5/5/2018
+180,10596,Seoul Dynasty,London Spitfire,Overwatch League - Stage 3,London Spitfire,5/5/2018
+181,10597,London Spitfire,Shanghai Dragons,Overwatch League - Stage 3,London Spitfire,5/5/2018
+182,10598,Houston Outlaws,Seoul Dynasty,Overwatch League - Stage 3,Seoul Dynasty,5/5/2018
+183,10599,Philadelphia Fusion,Los Angeles Valiant,Overwatch League - Stage 3,Los Angeles Valiant,5/6/2018
+184,10543,Boston Uprising,Los Angeles Gladiators,Overwatch League - Stage 3 Title Matches,Boston Uprising,5/6/2018
+185,10544,New York Excelsior,Los Angeles Valiant,Overwatch League - Stage 3 Title Matches,New York Excelsior,5/6/2018
+186,10545,Boston Uprising,New York Excelsior,Overwatch League - Stage 3 Title Matches,New York Excelsior,5/6/2018
+187,10443,San Francisco Shock,Los Angeles Gladiators,Overwatch League - Stage 4,Los Angeles Gladiators,5/16/2018
+188,10444,Los Angeles Valiant,Seoul Dynasty,Overwatch League - Stage 4,Los Angeles Valiant,5/17/2018
+189,10445,Shanghai Dragons,Dallas Fuel,Overwatch League - Stage 4,Dallas Fuel,5/17/2018
+190,10446,Philadelphia Fusion,Boston Uprising,Overwatch League - Stage 4,Philadelphia Fusion,5/17/2018
+191,10447,Florida Mayhem,New York Excelsior,Overwatch League - Stage 4,New York Excelsior,5/18/2018
+192,10448,London Spitfire,Houston Outlaws,Overwatch League - Stage 4,Houston Outlaws,5/18/2018
+193,10449,Los Angeles Gladiators,Dallas Fuel,Overwatch League - Stage 4,Los Angeles Gladiators,5/18/2018
+194,10450,Houston Outlaws,Boston Uprising,Overwatch League - Stage 4,Houston Outlaws,5/19/2018
+195,10451,Seoul Dynasty,San Francisco Shock,Overwatch League - Stage 4,San Francisco Shock,5/19/2018
+196,10452,Florida Mayhem,Philadelphia Fusion,Overwatch League - Stage 4,Philadelphia Fusion,5/19/2018
+197,10453,Los Angeles Valiant,Shanghai Dragons,Overwatch League - Stage 4,Los Angeles Valiant,5/19/2018
+198,10454,New York Excelsior,London Spitfire,Overwatch League - Stage 4,New York Excelsior,5/20/2018
+199,10455,Dallas Fuel,Boston Uprising,Overwatch League - Stage 4,Dallas Fuel,5/23/2018
+200,10456,Los Angeles Valiant,Florida Mayhem,Overwatch League - Stage 4,Los Angeles Valiant,5/24/2018
+201,10457,Los Angeles Gladiators,Houston Outlaws,Overwatch League - Stage 4,Los Angeles Gladiators,5/24/2018
+202,10458,San Francisco Shock,London Spitfire,Overwatch League - Stage 4,London Spitfire,5/24/2018
+203,10459,Florida Mayhem,Los Angeles Gladiators,Overwatch League - Stage 4,Los Angeles Gladiators,5/25/2018
+204,10460,Shanghai Dragons,Philadelphia Fusion,Overwatch League - Stage 4,Philadelphia Fusion,5/25/2018
+205,10461,Boston Uprising,Los Angeles Valiant,Overwatch League - Stage 4,Los Angeles Valiant,5/25/2018
+206,10462,Seoul Dynasty,New York Excelsior,Overwatch League - Stage 4,New York Excelsior,5/26/2018
+207,10463,Houston Outlaws,San Francisco Shock,Overwatch League - Stage 4,San Francisco Shock,5/26/2018
+208,10464,London Spitfire,Seoul Dynasty,Overwatch League - Stage 4,London Spitfire,5/26/2018
+209,10465,New York Excelsior,Shanghai Dragons,Overwatch League - Stage 4,New York Excelsior,5/26/2018
+210,10466,Philadelphia Fusion,Dallas Fuel,Overwatch League - Stage 4,Dallas Fuel,5/27/2018
+211,10467,Philadelphia Fusion,New York Excelsior,Overwatch League - Stage 4,New York Excelsior,5/30/2018
+212,10468,Shanghai Dragons,Seoul Dynasty,Overwatch League - Stage 4,Seoul Dynasty,5/31/2018
+213,10469,Los Angeles Gladiators,Los Angeles Valiant,Overwatch League - Stage 4,Los Angeles Valiant,5/31/2018
+214,10470,Boston Uprising,London Spitfire,Overwatch League - Stage 4,London Spitfire,5/31/2018
+215,10471,Dallas Fuel,San Francisco Shock,Overwatch League - Stage 4,San Francisco Shock,6/1/2018
+216,10472,Los Angeles Gladiators,Philadelphia Fusion,Overwatch League - Stage 4,Los Angeles Gladiators,6/1/2018
+217,10473,Shanghai Dragons,Houston Outlaws,Overwatch League - Stage 4,Houston Outlaws,6/1/2018
+218,10474,Seoul Dynasty,Florida Mayhem,Overwatch League - Stage 4,Seoul Dynasty,6/2/2018
+219,10475,San Francisco Shock,Boston Uprising,Overwatch League - Stage 4,San Francisco Shock,6/2/2018
+220,10476,Dallas Fuel,London Spitfire,Overwatch League - Stage 4,Dallas Fuel,6/2/2018
+221,10477,Los Angeles Valiant,New York Excelsior,Overwatch League - Stage 4,Los Angeles Valiant,6/2/2018
+222,10478,Houston Outlaws,Florida Mayhem,Overwatch League - Stage 4,Houston Outlaws,6/3/2018
+223,10479,Boston Uprising,Seoul Dynasty,Overwatch League - Stage 4,Boston Uprising,6/6/2018
+224,10480,Florida Mayhem,Shanghai Dragons,Overwatch League - Stage 4,Florida Mayhem,6/7/2018
+225,10481,Houston Outlaws,Dallas Fuel,Overwatch League - Stage 4,Houston Outlaws,6/7/2018
+226,10482,London Spitfire,Los Angeles Valiant,Overwatch League - Stage 4,Los Angeles Valiant,6/7/2018
+227,10483,New York Excelsior,Los Angeles Gladiators,Overwatch League - Stage 4,Los Angeles Gladiators,6/8/2018
+228,10484,Philadelphia Fusion,San Francisco Shock,Overwatch League - Stage 4,Philadelphia Fusion,6/8/2018
+229,10485,Shanghai Dragons,Boston Uprising,Overwatch League - Stage 4,Boston Uprising,6/8/2018
+230,10486,Dallas Fuel,Florida Mayhem,Overwatch League - Stage 4,Dallas Fuel,6/9/2018
+231,10487,Seoul Dynasty,Philadelphia Fusion,Overwatch League - Stage 4,Philadelphia Fusion,6/9/2018
+232,10488,Los Angeles Gladiators,London Spitfire,Overwatch League - Stage 4,Los Angeles Gladiators,6/9/2018
+233,10489,San Francisco Shock,New York Excelsior,Overwatch League - Stage 4,New York Excelsior,6/9/2018
+234,10490,Los Angeles Valiant,Houston Outlaws,Overwatch League - Stage 4,Los Angeles Valiant,6/10/2018
+235,10621,Shanghai Dragons,Los Angeles Gladiators,Overwatch League - Stage 4,Los Angeles Gladiators,6/13/2018
+236,10622,San Francisco Shock,Los Angeles Valiant,Overwatch League - Stage 4,Los Angeles Valiant,6/14/2018
+237,10623,Dallas Fuel,Seoul Dynasty,Overwatch League - Stage 4,Seoul Dynasty,6/14/2018
+238,10624,Philadelphia Fusion,Houston Outlaws,Overwatch League - Stage 4,Houston Outlaws,6/14/2018
+239,10625,London Spitfire,Florida Mayhem,Overwatch League - Stage 4,London Spitfire,6/15/2018
+240,10626,Boston Uprising,New York Excelsior,Overwatch League - Stage 4,Boston Uprising,6/15/2018
+241,10627,New York Excelsior,Houston Outlaws,Overwatch League - Stage 4,New York Excelsior,6/15/2018
+242,10628,Seoul Dynasty,Los Angeles Gladiators,Overwatch League - Stage 4,Los Angeles Gladiators,6/16/2018
+243,10629,Los Angeles Valiant,Dallas Fuel,Overwatch League - Stage 4,Dallas Fuel,6/16/2018
+244,10630,London Spitfire,Philadelphia Fusion,Overwatch League - Stage 4,Philadelphia Fusion,6/16/2018
+245,10631,San Francisco Shock,Shanghai Dragons,Overwatch League - Stage 4,San Francisco Shock,6/16/2018
+246,10632,Florida Mayhem,Boston Uprising,Overwatch League - Stage 4,Boston Uprising,6/17/2018
+247,10546,Los Angeles Gladiators,Los Angeles Valiant,Overwatch League - Stage 4 Title Matches,Los Angeles Valiant,6/17/2018
+248,10547,New York Excelsior,Dallas Fuel,Overwatch League - Stage 4 Title Matches,New York Excelsior,6/17/2018
+249,10548,Los Angeles Valiant,New York Excelsior,Overwatch League - Stage 4 Title Matches,Los Angeles Valiant,6/18/2018
+250,13121,Boston Uprising,Philadelphia Fusion,Overwatch League Inaugural Season Championship,Philadelphia Fusion,7/12/2018
+251,13124,Los Angeles Gladiators,London Spitfire,Overwatch League Inaugural Season Championship,Los Angeles Gladiators,7/12/2018
+252,13122,Boston Uprising,Philadelphia Fusion,Overwatch League Inaugural Season Championship,Boston Uprising,7/14/2018
+253,13123,Boston Uprising,Philadelphia Fusion,Overwatch League Inaugural Season Championship,Philadelphia Fusion,7/14/2018
+254,13125,Los Angeles Gladiators,London Spitfire,Overwatch League Inaugural Season Championship,London Spitfire,7/14/2018
+255,13126,Los Angeles Gladiators,London Spitfire,Overwatch League Inaugural Season Championship,London Spitfire,7/14/2018
+256,13130,New York Excelsior,Philadelphia Fusion,Overwatch League Inaugural Season Championship,Philadelphia Fusion,7/19/2018
+257,13127,Los Angeles Valiant,London Spitfire,Overwatch League Inaugural Season Championship,London Spitfire,7/19/2018
+258,13128,Los Angeles Valiant,London Spitfire,Overwatch League Inaugural Season Championship,London Spitfire,7/20/2018
+259,13131,New York Excelsior,Philadelphia Fusion,Overwatch League Inaugural Season Championship,Philadelphia Fusion,7/21/2018
+260,13133,London Spitfire,Philadelphia Fusion,Overwatch League Inaugural Season Championship,London Spitfire,7/27/2018
+261,13134,London Spitfire,Philadelphia Fusion,Overwatch League Inaugural Season Championship,London Spitfire,7/28/2018
+262,21211,Philadelphia Fusion,London Spitfire,Overwatch League Stage 1,Philadelphia Fusion,2/15/2019
+263,21221,New York Excelsior,Boston Uprising,Overwatch League Stage 1,New York Excelsior,2/15/2019
+264,21231,Seoul Dynasty,Los Angeles Gladiators,Overwatch League Stage 1,Seoul Dynasty,2/15/2019
+265,21176,Shanghai Dragons,Hangzhou Spark,Overwatch League Stage 1,Hangzhou Spark,2/15/2019
+266,21177,Toronto Defiant,Houston Outlaws,Overwatch League Stage 1,Toronto Defiant,2/16/2019
+267,21241,Atlanta Reign,Florida Mayhem,Overwatch League Stage 1,Atlanta Reign,2/16/2019
+268,21126,Dallas Fuel,San Francisco Shock,Overwatch League Stage 1,San Francisco Shock,2/16/2019
+269,21212,Chengdu Hunters,Guangzhou Charge,Overwatch League Stage 1,Chengdu Hunters,2/16/2019
+270,21209,London Spitfire,Paris Eternal,Overwatch League Stage 1,Paris Eternal,2/16/2019
+271,21127,Washington Justice,New York Excelsior,Overwatch League Stage 1,New York Excelsior,2/16/2019
+272,21251,Los Angeles Valiant,Hangzhou Spark,Overwatch League Stage 1,Hangzhou Spark,2/16/2019
+273,21222,Vancouver Titans,Shanghai Dragons,Overwatch League Stage 1,Vancouver Titans,2/17/2019
+274,21213,Houston Outlaws,Boston Uprising,Overwatch League Stage 1,Boston Uprising,2/17/2019
+275,21261,Philadelphia Fusion,Atlanta Reign,Overwatch League Stage 1,Philadelphia Fusion,2/17/2019
+276,21128,San Francisco Shock,Los Angeles Gladiators,Overwatch League Stage 1,Los Angeles Gladiators,2/18/2019
+277,21271,Seoul Dynasty,Dallas Fuel,Overwatch League Stage 1,Dallas Fuel,2/18/2019
+278,21210,Washington Justice,London Spitfire,Overwatch League Stage 1,London Spitfire,2/22/2019
+279,21232,Philadelphia Fusion,Florida Mayhem,Overwatch League Stage 1,Florida Mayhem,2/22/2019
+280,21272,Guangzhou Charge,Dallas Fuel,Overwatch League Stage 1,Guangzhou Charge,2/22/2019
+281,21233,Seoul Dynasty,Chengdu Hunters,Overwatch League Stage 1,Seoul Dynasty,2/22/2019
+282,21178,Atlanta Reign,Toronto Defiant,Overwatch League Stage 1,Atlanta Reign,2/23/2019
+283,21242,New York Excelsior,Los Angeles Valiant,Overwatch League Stage 1,New York Excelsior,2/23/2019
+284,21281,Shanghai Dragons,Boston Uprising,Overwatch League Stage 1,Shanghai Dragons,2/23/2019
+285,21179,Houston Outlaws,Hangzhou Spark,Overwatch League Stage 1,Houston Outlaws,2/23/2019
+286,21243,Los Angeles Gladiators,Paris Eternal,Overwatch League Stage 1,Paris Eternal,2/23/2019
+287,21282,Philadelphia Fusion,Dallas Fuel,Overwatch League Stage 1,Dallas Fuel,2/23/2019
+288,21291,Vancouver Titans,Guangzhou Charge,Overwatch League Stage 1,Vancouver Titans,2/23/2019
+289,21234,Chengdu Hunters,Florida Mayhem,Overwatch League Stage 1,Chengdu Hunters,2/24/2019
+290,21301,Hangzhou Spark,London Spitfire,Overwatch League Stage 1,London Spitfire,2/24/2019
+291,21235,New York Excelsior,Houston Outlaws,Overwatch League Stage 1,New York Excelsior,2/24/2019
+292,21180,Toronto Defiant,Los Angeles Valiant,Overwatch League Stage 1,Toronto Defiant,2/24/2019
+293,21244,Vancouver Titans,San Francisco Shock,Overwatch League Stage 1,Vancouver Titans,2/25/2019
+294,21252,Washington Justice,Philadelphia Fusion,Overwatch League Stage 1,Philadelphia Fusion,3/1/2019
+295,21223,Seoul Dynasty,Boston Uprising,Overwatch League Stage 1,Boston Uprising,3/1/2019
+296,21214,Florida Mayhem,Guangzhou Charge,Overwatch League Stage 1,Guangzhou Charge,3/1/2019
+297,21262,San Francisco Shock,Hangzhou Spark,Overwatch League Stage 1,San Francisco Shock,3/1/2019
+298,21129,Los Angeles Gladiators,London Spitfire,Overwatch League Stage 1,London Spitfire,3/2/2019
+299,21253,Toronto Defiant,New York Excelsior,Overwatch League Stage 1,New York Excelsior,3/2/2019
+300,21224,Vancouver Titans,Los Angeles Valiant,Overwatch League Stage 1,Vancouver Titans,3/2/2019
+301,21215,Shanghai Dragons,Chengdu Hunters,Overwatch League Stage 1,Shanghai Dragons,3/2/2019
+302,21263,Paris Eternal,Atlanta Reign,Overwatch League Stage 1,Atlanta Reign,3/2/2019
+303,21130,Florida Mayhem,Houston Outlaws,Overwatch League Stage 1,Houston Outlaws,3/2/2019
+304,21273,San Francisco Shock,Washington Justice,Overwatch League Stage 1,San Francisco Shock,3/2/2019
+305,21245,Shanghai Dragons,Dallas Fuel,Overwatch League Stage 1,Dallas Fuel,3/3/2019
+306,21302,Boston Uprising,Toronto Defiant,Overwatch League Stage 1,Toronto Defiant,3/3/2019
+307,21254,Hangzhou Spark,Los Angeles Gladiators,Overwatch League Stage 1,Hangzhou Spark,3/3/2019
+308,21225,Los Angeles Valiant,Guangzhou Charge,Overwatch League Stage 1,Guangzhou Charge,3/3/2019
+309,21264,New York Excelsior,Seoul Dynasty,Overwatch League Stage 1,New York Excelsior,3/4/2019
+310,21292,Atlanta Reign,Los Angeles Gladiators,Overwatch League Stage 1,Los Angeles Gladiators,3/8/2019
+311,21246,Los Angeles Valiant,Philadelphia Fusion,Overwatch League Stage 1,Philadelphia Fusion,3/8/2019
+312,21283,Toronto Defiant,Chengdu Hunters,Overwatch League Stage 1,Toronto Defiant,3/8/2019
+313,21303,Paris Eternal,Vancouver Titans,Overwatch League Stage 1,Vancouver Titans,3/9/2019
+314,21255,New York Excelsior,San Francisco Shock,Overwatch League Stage 1,New York Excelsior,3/9/2019
+315,21226,Dallas Fuel,Shanghai Dragons,Overwatch League Stage 1,Dallas Fuel,3/9/2019
+316,21216,Los Angeles Valiant,Houston Outlaws,Overwatch League Stage 1,Houston Outlaws,3/9/2019
+317,21265,Seoul Dynasty,Washington Justice,Overwatch League Stage 1,Seoul Dynasty,3/9/2019
+318,21311,Guangzhou Charge,Los Angeles Gladiators,Overwatch League Stage 1,Los Angeles Gladiators,3/9/2019
+319,21284,Hangzhou Spark,Toronto Defiant,Overwatch League Stage 1,Toronto Defiant,3/10/2019
+320,21236,Paris Eternal,San Francisco Shock,Overwatch League Stage 1,San Francisco Shock,3/10/2019
+321,21266,London Spitfire,Shanghai Dragons,Overwatch League Stage 1,Shanghai Dragons,3/10/2019
+322,21312,Florida Mayhem,Boston Uprising,Overwatch League Stage 1,Boston Uprising,3/10/2019
+323,21274,Vancouver Titans,Chengdu Hunters,Overwatch League Stage 1,Vancouver Titans,3/11/2019
+324,21227,Washington Justice,Paris Eternal,Overwatch League Stage 1,Paris Eternal,3/16/2019
+325,21217,London Spitfire,Seoul Dynasty,Overwatch League Stage 1,Seoul Dynasty,3/16/2019
+326,21267,Boston Uprising,Dallas Fuel,Overwatch League Stage 1,Boston Uprising,3/16/2019
+327,21304,Atlanta Reign,Chengdu Hunters,Overwatch League Stage 1,Chengdu Hunters,3/17/2019
+328,21256,Philadelphia Fusion,Paris Eternal,Overwatch League Stage 1,Philadelphia Fusion,3/17/2019
+329,21228,Washington Justice,Florida Mayhem,Overwatch League Stage 1,Washington Justice,3/17/2019
+330,21218,Houston Outlaws,Atlanta Reign,Overwatch League Stage 1,Atlanta Reign,3/17/2019
+331,21268,Guangzhou Charge,Vancouver Titans,Overwatch League Stage 1,Vancouver Titans,3/18/2019
+332,20301,Seoul Dynasty,New York Excelsior,Overwatch League Stage 1 Title Matches,Seoul Dynasty,3/22/2019
+333,20302,Boston Uprising,Vancouver Titans,Overwatch League Stage 1 Title Matches,Vancouver Titans,3/22/2019
+334,20303,Atlanta Reign,Philadelphia Fusion,Overwatch League Stage 1 Title Matches,Philadelphia Fusion,3/23/2019
+335,20304,San Francisco Shock,Toronto Defiant,Overwatch League Stage 1 Title Matches,San Francisco Shock,3/23/2019
+336,20305,Seoul Dynasty,Vancouver Titans,Overwatch League Stage 1 Title Matches,Vancouver Titans,3/23/2019
+337,20307,San Francisco Shock,Philadelphia Fusion,Overwatch League Stage 1 Title Matches,San Francisco Shock,3/23/2019
+338,20306,San Francisco Shock,Vancouver Titans,Overwatch League Stage 1 Title Matches,Vancouver Titans,3/24/2019
+339,21313,Philadelphia Fusion,New York Excelsior,Overwatch League Stage 2,New York Excelsior,4/4/2019
+340,21293,Boston Uprising,Atlanta Reign,Overwatch League Stage 2,Boston Uprising,4/5/2019
+341,21219,Shanghai Dragons,Los Angeles Gladiators,Overwatch League Stage 2,Los Angeles Gladiators,4/5/2019
+342,21294,Guangzhou Charge,Paris Eternal,Overwatch League Stage 2,Paris Eternal,4/5/2019
+343,21237,London Spitfire,Florida Mayhem,Overwatch League Stage 2,London Spitfire,4/5/2019
+344,21275,Washington Justice,Toronto Defiant,Overwatch League Stage 2,Toronto Defiant,4/6/2019
+345,21238,Los Angeles Valiant,San Francisco Shock,Overwatch League Stage 2,San Francisco Shock,4/6/2019
+346,21321,Los Angeles Gladiators,Seoul Dynasty,Overwatch League Stage 2,Los Angeles Gladiators,4/6/2019
+347,21247,Florida Mayhem,Philadelphia Fusion,Overwatch League Stage 2,Philadelphia Fusion,4/6/2019
+348,21305,Toronto Defiant,Boston Uprising,Overwatch League Stage 2,Boston Uprising,4/6/2019
+349,21229,New York Excelsior,Shanghai Dragons,Overwatch League Stage 2,New York Excelsior,4/6/2019
+350,21220,Chengdu Hunters,Paris Eternal,Overwatch League Stage 2,Chengdu Hunters,4/7/2019
+351,21269,San Francisco Shock,Guangzhou Charge,Overwatch League Stage 2,San Francisco Shock,4/7/2019
+352,21276,Atlanta Reign,London Spitfire,Overwatch League Stage 2,London Spitfire,4/7/2019
+353,21295,Vancouver Titans,Hangzhou Spark,Overwatch League Stage 2,Vancouver Titans,4/7/2019
+354,21239,Washington Justice,Chengdu Hunters,Overwatch League Stage 2,Chengdu Hunters,4/8/2019
+355,21257,Paris Eternal,Florida Mayhem,Overwatch League Stage 2,Paris Eternal,4/11/2019
+356,21230,New York Excelsior,Washington Justice,Overwatch League Stage 2,New York Excelsior,4/12/2019
+357,21248,Vancouver Titans,Seoul Dynasty,Overwatch League Stage 2,Vancouver Titans,4/12/2019
+358,21277,Toronto Defiant,Philadelphia Fusion,Overwatch League Stage 2,Philadelphia Fusion,4/12/2019
+359,21296,Los Angeles Valiant,Atlanta Reign,Overwatch League Stage 2,Los Angeles Valiant,4/12/2019
+360,21322,Boston Uprising,Hangzhou Spark,Overwatch League Stage 2,Hangzhou Spark,4/13/2019
+361,21331,Guangzhou Charge,San Francisco Shock,Overwatch League Stage 2,San Francisco Shock,4/13/2019
+362,21258,Chengdu Hunters,Shanghai Dragons,Overwatch League Stage 2,Shanghai Dragons,4/13/2019
+363,21332,London Spitfire,Philadelphia Fusion,Overwatch League Stage 2,London Spitfire,4/13/2019
+364,21341,Vancouver Titans,Houston Outlaws,Overwatch League Stage 2,Vancouver Titans,4/13/2019
+365,21270,Dallas Fuel,Toronto Defiant,Overwatch League Stage 2,Dallas Fuel,4/13/2019
+366,21278,Los Angeles Gladiators,Guangzhou Charge,Overwatch League Stage 2,Los Angeles Gladiators,4/13/2019
+367,21297,Dallas Fuel,Paris Eternal,Overwatch League Stage 2,Dallas Fuel,4/14/2019
+368,21240,Atlanta Reign,Washington Justice,Overwatch League Stage 2,Atlanta Reign,4/14/2019
+369,21323,New York Excelsior,Florida Mayhem,Overwatch League Stage 2,New York Excelsior,4/14/2019
+370,21249,Los Angeles Valiant,Los Angeles Gladiators,Overwatch League Stage 2,Los Angeles Gladiators,4/14/2019
+371,21285,New York Excelsior,Philadelphia Fusion,Overwatch League Stage 2,New York Excelsior,4/18/2019
+372,21306,San Francisco Shock,Toronto Defiant,Overwatch League Stage 2,San Francisco Shock,4/19/2019
+373,21259,Florida Mayhem,Los Angeles Gladiators,Overwatch League Stage 2,Los Angeles Gladiators,4/19/2019
+374,21286,Vancouver Titans,Dallas Fuel,Overwatch League Stage 2,Vancouver Titans,4/19/2019
+375,21324,New York Excelsior,Atlanta Reign,Overwatch League Stage 2,Atlanta Reign,4/19/2019
+376,21250,Philadelphia Fusion,Houston Outlaws,Overwatch League Stage 2,Philadelphia Fusion,4/20/2019
+377,21287,Los Angeles Valiant,Washington Justice,Overwatch League Stage 2,Los Angeles Valiant,4/20/2019
+378,21260,Hangzhou Spark,Guangzhou Charge,Overwatch League Stage 2,Hangzhou Spark,4/20/2019
+379,21342,London Spitfire,Boston Uprising,Overwatch League Stage 2,London Spitfire,4/20/2019
+380,21279,Shanghai Dragons,Florida Mayhem,Overwatch League Stage 2,Shanghai Dragons,4/20/2019
+381,21325,Dallas Fuel,Seoul Dynasty,Overwatch League Stage 2,Seoul Dynasty,4/20/2019
+382,21333,Los Angeles Gladiators,Chengdu Hunters,Overwatch League Stage 2,Los Angeles Gladiators,4/21/2019
+383,21288,Vancouver Titans,Boston Uprising,Overwatch League Stage 2,Vancouver Titans,4/21/2019
+384,21280,Houston Outlaws,Shanghai Dragons,Overwatch League Stage 2,Shanghai Dragons,4/21/2019
+385,21351,Hangzhou Spark,San Francisco Shock,Overwatch League Stage 2,San Francisco Shock,4/21/2019
+386,21343,Atlanta Reign,Guangzhou Charge,Overwatch League Stage 2,Guangzhou Charge,4/22/2019
+387,21352,Paris Eternal,London Spitfire,Overwatch League Stage 2,London Spitfire,
+388,21344,Hangzhou Spark,Chengdu Hunters,Overwatch League Stage 2,Hangzhou Spark,4/27/2019
+389,21334,Houston Outlaws,Seoul Dynasty,Overwatch League Stage 2,Seoul Dynasty,4/27/2019
+390,21345,Los Angeles Valiant,Dallas Fuel,Overwatch League Stage 2,Dallas Fuel,4/27/2019
+391,21361,Hangzhou Spark,Paris Eternal,Overwatch League Stage 2,Hangzhou Spark,4/28/2019
+392,21289,Chengdu Hunters,London Spitfire,Overwatch League Stage 2,Chengdu Hunters,4/28/2019
+393,21362,Seoul Dynasty,Los Angeles Valiant,Overwatch League Stage 2,Seoul Dynasty,4/28/2019
+394,21314,Houston Outlaws,Dallas Fuel,Overwatch League Stage 2,Dallas Fuel,4/28/2019
+395,21371,Dallas Fuel,Florida Mayhem,Overwatch League Stage 2,Dallas Fuel,5/3/2019
+396,21298,Philadelphia Fusion,San Francisco Shock,Overwatch League Stage 2,San Francisco Shock,5/3/2019
+397,21381,Guangzhou Charge,Houston Outlaws,Overwatch League Stage 2,Guangzhou Charge,5/3/2019
+398,21353,Boston Uprising,Los Angeles Gladiators,Overwatch League Stage 2,Boston Uprising,5/4/2019
+399,21335,Toronto Defiant,Vancouver Titans,Overwatch League Stage 2,Vancouver Titans,5/4/2019
+400,21346,Shanghai Dragons,Washington Justice,Overwatch League Stage 2,Shanghai Dragons,5/4/2019
+401,21347,London Spitfire,Houston Outlaws,Overwatch League Stage 2,London Spitfire,5/4/2019
+402,21363,Atlanta Reign,New York Excelsior,Overwatch League Stage 2,Atlanta Reign,5/4/2019
+403,21315,Seoul Dynasty,Vancouver Titans,Overwatch League Stage 2,Vancouver Titans,5/4/2019
+404,21372,Chengdu Hunters,Los Angeles Valiant,Overwatch League Stage 2,Los Angeles Valiant,5/5/2019
+405,21299,Toronto Defiant,Paris Eternal,Overwatch League Stage 2,Toronto Defiant,5/5/2019
+406,21364,Washington Justice,Boston Uprising,Overwatch League Stage 2,Washington Justice,5/5/2019
+407,21316,Shanghai Dragons,San Francisco Shock,Overwatch League Stage 2,San Francisco Shock,5/5/2019
+408,21373,Seoul Dynasty,Hangzhou Spark,Overwatch League Stage 2,Hangzhou Spark,5/6/2019
+409,20311,Shanghai Dragons,San Francisco Shock,Overwatch League Stage 2 Title Matches,San Francisco Shock,5/10/2019
+410,20312,Hangzhou Spark,London Spitfire,Overwatch League Stage 2 Title Matches,Hangzhou Spark,5/10/2019
+411,20313,New York Excelsior,Los Angeles Gladiators,Overwatch League Stage 2 Title Matches,New York Excelsior,5/11/2019
+412,20314,Dallas Fuel,Vancouver Titans,Overwatch League Stage 2 Title Matches,Vancouver Titans,5/11/2019
+413,20315,Hangzhou Spark,San Francisco Shock,Overwatch League Stage 2 Title Matches,San Francisco Shock,5/11/2019
+414,20317,New York Excelsior,Vancouver Titans,Overwatch League Stage 2 Title Matches,Vancouver Titans,5/11/2019
+415,20316,Vancouver Titans,San Francisco Shock,Overwatch League Stage 2 Title Matches,San Francisco Shock,5/12/2019
+416,21300,San Francisco Shock,Atlanta Reign,Overwatch League Stage 3,San Francisco Shock,6/6/2019
+417,21348,Florida Mayhem,Seoul Dynasty,Overwatch League Stage 3,Seoul Dynasty,6/7/2019
+418,21365,Guangzhou Charge,Chengdu Hunters,Overwatch League Stage 3,Guangzhou Charge,6/7/2019
+419,21374,Los Angeles Valiant,Shanghai Dragons,Overwatch League Stage 3,Shanghai Dragons,6/7/2019
+420,21391,Paris Eternal,Toronto Defiant,Overwatch League Stage 3,Paris Eternal,6/7/2019
+421,21382,Boston Uprising,London Spitfire,Overwatch League Stage 3,London Spitfire,6/8/2019
+422,21354,Houston Outlaws,New York Excelsior,Overwatch League Stage 3,New York Excelsior,6/8/2019
+423,21336,Los Angeles Gladiators,Dallas Fuel,Overwatch League Stage 3,Los Angeles Gladiators,6/8/2019
+424,21349,Hangzhou Spark,Philadelphia Fusion,Overwatch League Stage 3,Hangzhou Spark,6/8/2019
+425,21366,Vancouver Titans,Atlanta Reign,Overwatch League Stage 3,Vancouver Titans,6/8/2019
+426,21317,Seoul Dynasty,Guangzhou Charge,Overwatch League Stage 3,Seoul Dynasty,6/8/2019
+427,21375,Los Angeles Valiant,Chengdu Hunters,Overwatch League Stage 3,Los Angeles Valiant,6/8/2019
+428,21350,New York Excelsior,London Spitfire,Overwatch League Stage 3,New York Excelsior,6/9/2019
+429,21367,Paris Eternal,Boston Uprising,Overwatch League Stage 3,Paris Eternal,6/9/2019
+430,21318,Washington Justice,Dallas Fuel,Overwatch League Stage 3,Dallas Fuel,6/9/2019
+431,21376,Vancouver Titans,Los Angeles Gladiators,Overwatch League Stage 3,Vancouver Titans,6/9/2019
+432,21392,Houston Outlaws,San Francisco Shock,Overwatch League Stage 3,Houston Outlaws,6/13/2019
+433,21383,Shanghai Dragons,Atlanta Reign,Overwatch League Stage 3,Shanghai Dragons,6/14/2019
+434,21326,Dallas Fuel,Chengdu Hunters,Overwatch League Stage 3,Chengdu Hunters,6/14/2019
+435,21401,Hangzhou Spark,Vancouver Titans,Overwatch League Stage 3,Vancouver Titans,6/14/2019
+436,21290,Paris Eternal,New York Excelsior,Overwatch League Stage 3,New York Excelsior,6/14/2019
+437,21319,Toronto Defiant,London Spitfire,Overwatch League Stage 3,London Spitfire,6/15/2019
+438,21377,Boston Uprising,Houston Outlaws,Overwatch League Stage 3,Houston Outlaws,6/15/2019
+439,21393,Los Angeles Gladiators,Philadelphia Fusion,Overwatch League Stage 3,Los Angeles Gladiators,6/15/2019
+440,21384,Washington Justice,Hangzhou Spark,Overwatch League Stage 3,Hangzhou Spark,6/15/2019
+441,21355,Seoul Dynasty,Atlanta Reign,Overwatch League Stage 3,Seoul Dynasty,6/15/2019
+442,21402,Dallas Fuel,Vancouver Titans,Overwatch League Stage 3,Vancouver Titans,6/15/2019
+443,21411,Guangzhou Charge,Los Angeles Valiant,Overwatch League Stage 3,Los Angeles Valiant,6/15/2019
+444,21327,San Francisco Shock,Seoul Dynasty,Overwatch League Stage 3,San Francisco Shock,6/16/2019
+445,21307,Florida Mayhem,Paris Eternal,Overwatch League Stage 3,Paris Eternal,6/16/2019
+446,21337,Philadelphia Fusion,Boston Uprising,Overwatch League Stage 3,Philadelphia Fusion,6/16/2019
+447,21368,Washington Justice,Los Angeles Gladiators,Overwatch League Stage 3,Los Angeles Gladiators,6/16/2019
+448,21378,San Francisco Shock,Boston Uprising,Overwatch League Stage 3,San Francisco Shock,6/20/2019
+449,21394,Paris Eternal,Houston Outlaws,Overwatch League Stage 3,Houston Outlaws,6/21/2019
+450,21386,Hangzhou Spark,Dallas Fuel,Overwatch League Stage 3,Hangzhou Spark,6/21/2019
+451,21328,Shanghai Dragons,Los Angeles Valiant,Overwatch League Stage 3,Los Angeles Valiant,6/21/2019
+452,21403,London Spitfire,New York Excelsior,Overwatch League Stage 3,New York Excelsior,6/21/2019
+453,21412,San Francisco Shock,Florida Mayhem,Overwatch League Stage 3,San Francisco Shock,6/22/2019
+454,21308,Los Angeles Gladiators,Shanghai Dragons,Overwatch League Stage 3,Shanghai Dragons,6/22/2019
+455,21385,Chengdu Hunters,Vancouver Titans,Overwatch League Stage 3,Vancouver Titans,6/22/2019
+456,21404,London Spitfire,Washington Justice,Overwatch League Stage 3,London Spitfire,6/22/2019
+457,21413,Atlanta Reign,Philadelphia Fusion,Overwatch League Stage 3,Philadelphia Fusion,6/22/2019
+458,21369,Toronto Defiant,Guangzhou Charge,Overwatch League Stage 3,Guangzhou Charge,6/22/2019
+459,21329,Hangzhou Spark,Seoul Dynasty,Overwatch League Stage 3,Hangzhou Spark,6/23/2019
+460,21320,Chengdu Hunters,Dallas Fuel,Overwatch League Stage 3,Chengdu Hunters,6/23/2019
+461,21379,Boston Uprising,Paris Eternal,Overwatch League Stage 3,Boston Uprising,6/23/2019
+462,21395,Houston Outlaws,Florida Mayhem,Overwatch League Stage 3,Florida Mayhem,6/23/2019
+463,21330,Los Angeles Valiant,Vancouver Titans,Overwatch League Stage 3,Los Angeles Valiant,6/24/2019
+464,21309,Hangzhou Spark,Los Angeles Valiant,Overwatch League Stage 3,Hangzhou Spark,6/28/2019
+465,21356,Paris Eternal,Seoul Dynasty,Overwatch League Stage 3,Seoul Dynasty,6/28/2019
+466,21338,San Francisco Shock,Chengdu Hunters,Overwatch League Stage 3,Chengdu Hunters,6/28/2019
+467,21421,London Spitfire,Los Angeles Valiant,Overwatch League Stage 3,Los Angeles Valiant,6/29/2019
+468,21370,Toronto Defiant,Los Angeles Gladiators,Overwatch League Stage 3,Los Angeles Gladiators,6/29/2019
+469,21431,Houston Outlaws,Washington Justice,Overwatch League Stage 3,Houston Outlaws,6/29/2019
+470,21405,Dallas Fuel,New York Excelsior,Overwatch League Stage 3,New York Excelsior,6/29/2019
+471,21310,Boston Uprising,Philadelphia Fusion,Overwatch League Stage 3,Philadelphia Fusion,6/29/2019
+472,21414,Florida Mayhem,Hangzhou Spark,Overwatch League Stage 3,Hangzhou Spark,6/29/2019
+473,21441,Shanghai Dragons,Guangzhou Charge,Overwatch League Stage 3,Shanghai Dragons,6/30/2019
+474,21422,Los Angeles Gladiators,Vancouver Titans,Overwatch League Stage 3,Vancouver Titans,6/30/2019
+475,21357,London Spitfire,San Francisco Shock,Overwatch League Stage 3,San Francisco Shock,6/30/2019
+476,21339,Houston Outlaws,Toronto Defiant,Overwatch League Stage 3,Houston Outlaws,6/30/2019
+477,21451,Chengdu Hunters,Seoul Dynasty,Overwatch League Stage 3,Seoul Dynasty,7/1/2019
+478,21461,Florida Mayhem,New York Excelsior,Overwatch League Stage 3,New York Excelsior,7/6/2019
+479,21380,Philadelphia Fusion,Washington Justice,Overwatch League Stage 3,Philadelphia Fusion,7/6/2019
+480,21387,Toronto Defiant,Atlanta Reign,Overwatch League Stage 3,Atlanta Reign,7/6/2019
+481,21396,Guangzhou Charge,Shanghai Dragons,Overwatch League Stage 3,Guangzhou Charge,7/6/2019
+482,21432,Philadelphia Fusion,Shanghai Dragons,Overwatch League Stage 3,Shanghai Dragons,7/7/2019
+483,21406,Washington Justice,Guangzhou Charge,Overwatch League Stage 3,Guangzhou Charge,7/7/2019
+484,21442,Florida Mayhem,Atlanta Reign,Overwatch League Stage 3,Atlanta Reign,7/7/2019
+485,21415,New York Excelsior,Toronto Defiant,Overwatch League Stage 3,New York Excelsior,7/7/2019
+486,20321,Houston Outlaws,Vancouver Titans,Overwatch League Stage 3 Title Matches,Vancouver Titans,7/12/2019
+487,20322,Shanghai Dragons,New York Excelsior,Overwatch League Stage 3 Title Matches,Shanghai Dragons,7/12/2019
+488,20323,Seoul Dynasty,San Francisco Shock,Overwatch League Stage 3 Title Matches,San Francisco Shock,7/13/2019
+489,20324,Los Angeles Valiant,Hangzhou Spark,Overwatch League Stage 3 Title Matches,Los Angeles Valiant,7/13/2019
+490,20325,Shanghai Dragons,Vancouver Titans,Overwatch League Stage 3 Title Matches,Shanghai Dragons,7/14/2019
+491,20327,Los Angeles Valiant,San Francisco Shock,Overwatch League Stage 3 Title Matches,San Francisco Shock,7/14/2019
+492,20326,Shanghai Dragons,San Francisco Shock,Overwatch League Stage 3 Title Matches,Shanghai Dragons,7/14/2019
+493,21358,Houston Outlaws,Paris Eternal,Overwatch League Stage 4,Paris Eternal,7/25/2019
+494,21423,Los Angeles Gladiators,New York Excelsior,Overwatch League Stage 4,Los Angeles Gladiators,7/26/2019
+495,21340,Guangzhou Charge,Philadelphia Fusion,Overwatch League Stage 4,Guangzhou Charge,7/26/2019
+496,21424,Shanghai Dragons,Vancouver Titans,Overwatch League Stage 4,Vancouver Titans,7/26/2019
+497,21452,Toronto Defiant,Washington Justice,Overwatch League Stage 4,Washington Justice,7/26/2019
+498,21425,Dallas Fuel,London Spitfire,Overwatch League Stage 4,London Spitfire,7/27/2019
+499,21453,Seoul Dynasty,San Francisco Shock,Overwatch League Stage 4,San Francisco Shock,7/27/2019
+500,21471,Philadelphia Fusion,Chengdu Hunters,Overwatch League Stage 4,Chengdu Hunters,7/27/2019
+501,21481,Paris Eternal,Los Angeles Valiant,Overwatch League Stage 4,Los Angeles Valiant,7/27/2019
+502,21397,Boston Uprising,Guangzhou Charge,Overwatch League Stage 4,Guangzhou Charge,7/27/2019
+503,21454,Los Angeles Gladiators,Houston Outlaws,Overwatch League Stage 4,Houston Outlaws,7/27/2019
+504,21462,Atlanta Reign,Hangzhou Spark,Overwatch League Stage 4,Atlanta Reign,7/28/2019
+505,21433,Shanghai Dragons,Seoul Dynasty,Overwatch League Stage 4,Shanghai Dragons,7/28/2019
+506,21482,London Spitfire,Toronto Defiant,Overwatch League Stage 4,London Spitfire,7/28/2019
+507,21398,Vancouver Titans,Florida Mayhem,Overwatch League Stage 4,Vancouver Titans,7/28/2019
+508,21388,Boston Uprising,Chengdu Hunters,Overwatch League Stage 4,Chengdu Hunters,7/28/2019
+509,21472,Guangzhou Charge,London Spitfire,Overwatch League Stage 4,London Spitfire,8/1/2019
+510,21359,Florida Mayhem,Washington Justice,Overwatch League Stage 4,Washington Justice,8/2/2019
+511,21399,Shanghai Dragons,Toronto Defiant,Overwatch League Stage 4,Toronto Defiant,8/2/2019
+512,21389,Los Angeles Valiant,Seoul Dynasty,Overwatch League Stage 4,Seoul Dynasty,8/2/2019
+513,21416,New York Excelsior,Paris Eternal,Overwatch League Stage 4,New York Excelsior,8/2/2019
+514,21443,Houston Outlaws,Philadelphia Fusion,Overwatch League Stage 4,Philadelphia Fusion,8/3/2019
+515,21400,Chengdu Hunters,Los Angeles Gladiators,Overwatch League Stage 4,Los Angeles Gladiators,8/3/2019
+516,21390,Guangzhou Charge,Hangzhou Spark,Overwatch League Stage 4,Guangzhou Charge,8/3/2019
+517,21434,Atlanta Reign,Paris Eternal,Overwatch League Stage 4,Atlanta Reign,8/3/2019
+518,21407,Florida Mayhem,London Spitfire,Overwatch League Stage 4,Florida Mayhem,8/3/2019
+519,21455,Dallas Fuel,Los Angeles Valiant,Overwatch League Stage 4,Los Angeles Valiant,8/3/2019
+520,21491,Los Angeles Gladiators,San Francisco Shock,Overwatch League Stage 4,San Francisco Shock,8/4/2019
+521,21435,Atlanta Reign,Houston Outlaws,Overwatch League Stage 4,Atlanta Reign,8/4/2019
+522,21501,Philadelphia Fusion,Toronto Defiant,Overwatch League Stage 4,Philadelphia Fusion,8/4/2019
+523,21408,Vancouver Titans,Washington Justice,Overwatch League Stage 4,Washington Justice,8/4/2019
+524,21417,Chengdu Hunters,New York Excelsior,Overwatch League Stage 4,Chengdu Hunters,8/5/2019
+525,21444,London Spitfire,Vancouver Titans,Overwatch League Stage 4,Vancouver Titans,8/8/2019
+526,21360,Paris Eternal,Philadelphia Fusion,Overwatch League Stage 4,Paris Eternal,8/9/2019
+527,21473,Toronto Defiant,Florida Mayhem,Overwatch League Stage 4,Florida Mayhem,8/9/2019
+528,21436,Guangzhou Charge,Seoul Dynasty,Overwatch League Stage 4,Guangzhou Charge,8/9/2019
+529,21409,Boston Uprising,Washington Justice,Overwatch League Stage 4,Washington Justice,8/9/2019
+530,21418,Dallas Fuel,Los Angeles Gladiators,Overwatch League Stage 4,Los Angeles Gladiators,8/10/2019
+531,21445,San Francisco Shock,Shanghai Dragons,Overwatch League Stage 4,San Francisco Shock,8/10/2019
+532,21511,Hangzhou Spark,New York Excelsior,Overwatch League Stage 4,New York Excelsior,8/10/2019
+533,21474,Houston Outlaws,London Spitfire,Overwatch League Stage 4,London Spitfire,8/10/2019
+534,21426,Seoul Dynasty,Toronto Defiant,Overwatch League Stage 4,Seoul Dynasty,8/10/2019
+535,21456,Florida Mayhem,Los Angeles Valiant,Overwatch League Stage 4,Los Angeles Valiant,8/10/2019
+536,21463,Chengdu Hunters,Hangzhou Spark,Overwatch League Stage 4,Hangzhou Spark,8/11/2019
+537,21492,Philadelphia Fusion,Vancouver Titans,Overwatch League Stage 4,Vancouver Titans,8/11/2019
+538,21483,Washington Justice,Houston Outlaws,Overwatch League Stage 4,Washington Justice,8/11/2019
+539,21502,San Francisco Shock,Dallas Fuel,Overwatch League Stage 4,San Francisco Shock,8/11/2019
+540,21437,Guangzhou Charge,New York Excelsior,Overwatch League Stage 4,Guangzhou Charge,8/12/2019
+541,21410,Boston Uprising,Florida Mayhem,Overwatch League Stage 4,Florida Mayhem,8/15/2019
+542,21457,Dallas Fuel,Hangzhou Spark,Overwatch League Stage 4,Hangzhou Spark,8/16/2019
+543,21427,Seoul Dynasty,Shanghai Dragons,Overwatch League Stage 4,Seoul Dynasty,8/16/2019
+544,21458,Washington Justice,Atlanta Reign,Overwatch League Stage 4,Atlanta Reign,8/16/2019
+545,21464,Chengdu Hunters,San Francisco Shock,Overwatch League Stage 4,San Francisco Shock,8/17/2019
+546,21484,Los Angeles Gladiators,Hangzhou Spark,Overwatch League Stage 4,Hangzhou Spark,8/17/2019
+547,21493,Paris Eternal,Shanghai Dragons,Overwatch League Stage 4,Paris Eternal,8/17/2019
+548,21503,Los Angeles Valiant,Boston Uprising,Overwatch League Stage 4,Los Angeles Valiant,8/17/2019
+549,21428,Seoul Dynasty,Philadelphia Fusion,Overwatch League Stage 4,Philadelphia Fusion,8/17/2019
+550,21459,Chengdu Hunters,Houston Outlaws,Overwatch League Stage 4,Chengdu Hunters,8/18/2019
+551,21504,London Spitfire,Atlanta Reign,Overwatch League Stage 4,Atlanta Reign,8/18/2019
+552,21465,Paris Eternal,Washington Justice,Overwatch League Stage 4,Washington Justice,8/18/2019
+553,21460,Florida Mayhem,Toronto Defiant,Overwatch League Stage 4,Florida Mayhem,8/18/2019
+554,21512,Dallas Fuel,Guangzhou Charge,Overwatch League Stage 4,Guangzhou Charge,8/19/2019
+555,21485,Atlanta Reign,Dallas Fuel,Overwatch League Stage 4,Atlanta Reign,8/24/2019
+556,21494,Boston Uprising,New York Excelsior,Overwatch League Stage 4,New York Excelsior,8/24/2019
+557,21521,San Francisco Shock,Vancouver Titans,Overwatch League Stage 4,San Francisco Shock,8/25/2019
+558,21419,Los Angeles Gladiators,Los Angeles Valiant,Overwatch League Stage 4,Los Angeles Gladiators,8/25/2019
+559,21514,Hangzhou Spark,Shanghai Dragons,Overwatch League Stage 4,Hangzhou Spark,8/25/2019
+560,21446,Atlanta Reign,Boston Uprising,Overwatch League Stage 4,Atlanta Reign,8/25/2019
+561,21513,New York Excelsior,Vancouver Titans,Overwatch League Stage 4,Vancouver Titans,8/25/2019
+562,21515,San Francisco Shock,Los Angeles Valiant,Overwatch League Stage 4,San Francisco Shock,8/26/2019
+563,30172,Chengdu Hunters,Guangzhou Charge,Overwatch League 2019 Post-Season,Guangzhou Charge,8/31/2019
+564,30173,Shanghai Dragons,Philadelphia Fusion,Overwatch League 2019 Post-Season,Shanghai Dragons,8/31/2019
+565,30175,Shanghai Dragons,London Spitfire,Overwatch League 2019 Post-Season,London Spitfire,8/31/2019
+566,30176,Guangzhou Charge,Seoul Dynasty,Overwatch League 2019 Post-Season,Seoul Dynasty,8/31/2019
+567,30151,Seoul Dynasty,Vancouver Titans,Overwatch League 2019 Post-Season,Vancouver Titans,9/5/2019
+568,30152,Los Angeles Gladiators,Hangzhou Spark,Overwatch League 2019 Post-Season,Los Angeles Gladiators,9/6/2019
+569,30153,London Spitfire,New York Excelsior,Overwatch League 2019 Post-Season,New York Excelsior,9/6/2019
+570,30154,Atlanta Reign,San Francisco Shock,Overwatch League 2019 Post-Season,Atlanta Reign,9/7/2019
+571,30161,Seoul Dynasty,Hangzhou Spark,Overwatch League 2019 Post-Season,Hangzhou Spark,9/8/2019
+572,30164,London Spitfire,San Francisco Shock,Overwatch League 2019 Post-Season,San Francisco Shock,9/8/2019
+573,30155,Los Angeles Gladiators,Vancouver Titans,Overwatch League 2019 Post-Season,Vancouver Titans,9/8/2019
+574,30163,Atlanta Reign,New York Excelsior,Overwatch League 2019 Post-Season,New York Excelsior,9/8/2019
+575,30162,Atlanta Reign,Hangzhou Spark,Overwatch League 2019 Post-Season,Hangzhou Spark,9/12/2019
+576,30159,Los Angeles Gladiators,San Francisco Shock,Overwatch League 2019 Post-Season,San Francisco Shock,9/13/2019
+577,30156,New York Excelsior,Vancouver Titans,Overwatch League 2019 Post-Season,Vancouver Titans,9/13/2019
+578,30160,Hangzhou Spark,San Francisco Shock,Overwatch League 2019 Post-Season,San Francisco Shock,9/14/2019
+579,30158,San Francisco Shock,New York Excelsior,Overwatch League 2019 Post-Season,San Francisco Shock,9/15/2019
+580,30157,San Francisco Shock,Vancouver Titans,Overwatch League 2019 Post-Season,San Francisco Shock,9/29/2019
+581,30991,Toronto Defiant,Paris Eternal,OWL 2020 Regular Season,Toronto Defiant,2/8/2020
+582,30992,London Spitfire,New York Excelsior,OWL 2020 Regular Season,New York Excelsior,2/8/2020
+583,30993,Los Angeles Gladiators,Vancouver Titans,OWL 2020 Regular Season,Vancouver Titans,2/8/2020
+584,30994,Los Angeles Valiant,Dallas Fuel,OWL 2020 Regular Season,Los Angeles Valiant,2/9/2020
+585,30995,London Spitfire,Paris Eternal,OWL 2020 Regular Season,Paris Eternal,2/9/2020
+586,30996,Boston Uprising,New York Excelsior,OWL 2020 Regular Season,New York Excelsior,2/9/2020
+587,30997,Los Angeles Valiant,Vancouver Titans,OWL 2020 Regular Season,Vancouver Titans,2/9/2020
+588,30998,San Francisco Shock,Dallas Fuel,OWL 2020 Regular Season,San Francisco Shock,2/10/2020
+589,31001,Florida Mayhem,Houston Outlaws,OWL 2020 Regular Season,Florida Mayhem,2/15/2020
+590,31002,Washington Justice,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,2/15/2020
+591,31005,Washington Justice,Houston Outlaws,OWL 2020 Regular Season,Washington Justice,2/16/2020
+592,31006,Florida Mayhem,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,2/16/2020
+593,31010,New York Excelsior,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,2/22/2020
+594,31011,Boston Uprising,Houston Outlaws,OWL 2020 Regular Season,Boston Uprising,2/22/2020
+595,31012,Paris Eternal,Washington Justice,OWL 2020 Regular Season,Paris Eternal,2/23/2020
+596,31016,New York Excelsior,Houston Outlaws,OWL 2020 Regular Season,New York Excelsior,2/23/2020
+597,31017,Toronto Defiant,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,2/23/2020
+598,31018,London Spitfire,Washington Justice,OWL 2020 Regular Season,London Spitfire,2/24/2020
+599,31023,New York Excelsior,Florida Mayhem,OWL 2020 Regular Season,New York Excelsior,2/29/2020
+600,31024,Toronto Defiant,Atlanta Reign,OWL 2020 Regular Season,Atlanta Reign,2/29/2020
+601,31025,London Spitfire,Houston Outlaws,OWL 2020 Regular Season,London Spitfire,2/29/2020
+602,31029,Boston Uprising,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,3/1/2020
+603,31030,Paris Eternal,Atlanta Reign,OWL 2020 Regular Season,Paris Eternal,3/1/2020
+604,31031,London Spitfire,Florida Mayhem,OWL 2020 Regular Season,London Spitfire,3/1/2020
+605,31032,Toronto Defiant,Houston Outlaws,OWL 2020 Regular Season,Houston Outlaws,3/1/2020
+606,31036,Toronto Defiant,Florida Mayhem,OWL 2020 Regular Season,Florida Mayhem,3/7/2020
+607,31037,Paris Eternal,Houston Outlaws,OWL 2020 Regular Season,Houston Outlaws,3/7/2020
+608,31038,Boston Uprising,Washington Justice,OWL 2020 Regular Season,Washington Justice,3/7/2020
+609,31042,Paris Eternal,Philadelphia Fusion,OWL 2020 Regular Season,Paris Eternal,3/8/2020
+610,31044,New York Excelsior,Washington Justice,OWL 2020 Regular Season,New York Excelsior,3/8/2020
+611,31043,Boston Uprising,Atlanta Reign,OWL 2020 Regular Season,Atlanta Reign,3/8/2020
+612,32811,Guangzhou Charge,Shanghai Dragons,OWL 2020 Regular Season,Shanghai Dragons,3/28/2020
+613,31003,Chengdu Hunters,Hangzhou Spark,OWL 2020 Regular Season,Hangzhou Spark,3/28/2020
+614,31066,Toronto Defiant,Boston Uprising,OWL 2020 Regular Season,Toronto Defiant,3/28/2020
+615,33021,Los Angeles Valiant,Seoul Dynasty,OWL 2020 Regular Season,Seoul Dynasty,3/28/2020
+616,32813,San Francisco Shock,Los Angeles Gladiators,OWL 2020 Regular Season,Los Angeles Gladiators,3/28/2020
+617,31000,Chengdu Hunters,Shanghai Dragons,OWL 2020 Regular Season,Chengdu Hunters,3/29/2020
+618,31058,Hangzhou Spark,Guangzhou Charge,OWL 2020 Regular Season,Guangzhou Charge,3/29/2020
+619,31060,Florida Mayhem,Atlanta Reign,OWL 2020 Regular Season,Atlanta Reign,3/29/2020
+620,32857,Seoul Dynasty,Los Angeles Gladiators,OWL 2020 Regular Season,Seoul Dynasty,3/29/2020
+621,32814,Los Angeles Valiant,San Francisco Shock,OWL 2020 Regular Season,Los Angeles Valiant,3/29/2020
+622,31054,Toronto Defiant,Washington Justice,OWL 2020 Regular Season,Toronto Defiant,4/4/2020
+623,31071,Los Angeles Gladiators,Dallas Fuel,OWL 2020 Regular Season,Los Angeles Gladiators,4/4/2020
+624,32804,Los Angeles Valiant,San Francisco Shock,OWL 2020 Regular Season,San Francisco Shock,4/4/2020
+625,32864,Shanghai Dragons,Hangzhou Spark,OWL 2020 Regular Season,Shanghai Dragons,4/5/2020
+626,32863,Chengdu Hunters,Guangzhou Charge,OWL 2020 Regular Season,Guangzhou Charge,4/5/2020
+627,31073,Houston Outlaws,Paris Eternal,OWL 2020 Regular Season,Paris Eternal,4/5/2020
+628,31059,Philadelphia Fusion,Washington Justice,OWL 2020 Regular Season,Philadelphia Fusion,4/5/2020
+629,32817,Dallas Fuel,Los Angeles Valiant,OWL 2020 Regular Season,Dallas Fuel,4/5/2020
+630,32832,Chengdu Hunters,Shanghai Dragons,OWL 2020 Regular Season,Shanghai Dragons,4/6/2020
+631,32833,Guangzhou Charge,Hangzhou Spark,OWL 2020 Regular Season,Hangzhou Spark,4/6/2020
+632,32854,Hangzhou Spark,Chengdu Hunters,OWL 2020 Regular Season,Hangzhou Spark,4/11/2020
+633,33022,Vancouver Titans,Guangzhou Charge,OWL 2020 Regular Season,Guangzhou Charge,4/11/2020
+634,31094,Philadelphia Fusion,Paris Eternal,OWL 2020 Regular Season,Philadelphia Fusion,4/11/2020
+635,31087,Houston Outlaws,Boston Uprising,OWL 2020 Regular Season,Houston Outlaws,4/11/2020
+636,33071,Washington Justice,Dallas Fuel,OWL 2020 Regular Season,Dallas Fuel,4/11/2020
+637,33081,Chengdu Hunters,Vancouver Titans,OWL 2020 Regular Season,Chengdu Hunters,4/12/2020
+638,32852,Shanghai Dragons,Guangzhou Charge,OWL 2020 Regular Season,Shanghai Dragons,4/12/2020
+639,31093,Houston Outlaws,Toronto Defiant,OWL 2020 Regular Season,Houston Outlaws,4/12/2020
+640,31064,Philadelphia Fusion,Atlanta Reign,OWL 2020 Regular Season,Philadelphia Fusion,4/12/2020
+641,32841,San Francisco Shock,Los Angeles Gladiators,OWL 2020 Regular Season,San Francisco Shock,4/13/2020
+642,32862,Atlanta Reign,Washington Justice,OWL 2020 Regular Season,Atlanta Reign,4/16/2020
+643,32861,Los Angeles Gladiators,Los Angeles Valiant,OWL 2020 Regular Season,Los Angeles Gladiators,4/17/2020
+644,32856,Florida Mayhem,Paris Eternal,OWL 2020 Regular Season,Florida Mayhem,4/17/2020
+645,32855,Boston Uprising,Toronto Defiant,OWL 2020 Regular Season,Toronto Defiant,4/18/2020
+646,32853,Dallas Fuel,San Francisco Shock,OWL 2020 Regular Season,San Francisco Shock,4/18/2020
+647,32851,Chengdu Hunters,Guangzhou Charge,OWL 2020 Regular Season,Chengdu Hunters,4/18/2020
+648,32845,Shanghai Dragons,Hangzhou Spark,OWL 2020 Regular Season,Shanghai Dragons,4/18/2020
+649,32844,Guangzhou Charge,Hangzhou Spark,OWL 2020 Regular Season,Guangzhou Charge,4/19/2020
+650,32843,Chengdu Hunters,Shanghai Dragons,OWL 2020 Regular Season,Shanghai Dragons,4/19/2020
+651,90000,Seoul Dynasty,Hangzhou Spark,OWL 2020 Regular Season,Hangzhou Spark,4/25/2020
+652,90001,Guangzhou Charge,Shanghai Dragons,OWL 2020 Regular Season,Shanghai Dragons,4/25/2020
+653,90002,New York Excelsior,Chengdu Hunters,OWL 2020 Regular Season,Chengdu Hunters,4/25/2020
+654,90003,Atlanta Reign,Philadelphia Fusion,OWL 2020 Regular Season,Philadelphia Fusion,4/25/2020
+655,90004,San Francisco Shock,Los Angeles Valiant,OWL 2020 Regular Season,Los Angeles Valiant,4/25/2020
+656,90005,Hangzhou Spark,Chengdu Hunters,OWL 2020 Regular Season,Chengdu Hunters,4/25/2020
+657,90006,Shanghai Dragons,Seoul Dynasty,OWL 2020 Regular Season,Seoul Dynasty,4/25/2020
+658,90007,Guangzhou Charge,New York Excelsior,OWL 2020 Regular Season,New York Excelsior,4/25/2020
+659,90008,Florida Mayhem,Boston Uprising,OWL 2020 Regular Season,Boston Uprising,4/25/2020
+660,90009,Houston Outlaws,Dallas Fuel,OWL 2020 Regular Season,Dallas Fuel,4/25/2020
