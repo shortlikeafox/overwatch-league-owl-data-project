@@ -332,7 +332,7 @@ def get_bet_return(odds):
 #winner (0 or 1)
 #OUTPUT: Profit per bet (based on bet of $100)
 
-def get_ev_from_df(ev_df, print_stats = False):
+def get_ev_from_df(ev_df, print_stats = False, min_ev = 0):
     num_matches = 0
     num_bets = 0
     num_wins = 0
@@ -362,11 +362,11 @@ def get_ev_from_df(ev_df, print_stats = False):
         t2_bet_return = get_bet_return(row['t2_odds'])
         
         
-        if (t1_bet_ev > 0 or t2_bet_ev > 0):
+        if (t1_bet_ev > min_ev or t2_bet_ev > min_ev):
             num_bets = num_bets+1
 
             
-        if t1_bet_ev > 0:
+        if t1_bet_ev > min_ev:
             if row['winner'] == 0:
                 num_wins += 1
                 profit = profit + t1_bet_return
@@ -393,7 +393,7 @@ def get_ev_from_df(ev_df, print_stats = False):
                 elif row['winner'] == 1:
                     num_even_losses += 1
 
-        if t2_bet_ev > 0:
+        if t2_bet_ev > min_ev:
             if row['winner'] == 1:
                 num_wins += 1                    
                 profit = profit + t2_bet_return
@@ -450,7 +450,7 @@ def get_ev_from_df(ev_df, print_stats = False):
 #Input the train df and model and we will return a customer 5x cross validation score based off of expected value
 #t1_odds and t2_odd MUST be the last 2 columns or this will break.
 
-def custom_cv_eval(df, m):
+def custom_cv_eval(df, m, min_ev = 0):
     #We need to split away the winner...
     y = df['winner_label'].copy()
     #display(y)
@@ -479,7 +479,7 @@ def custom_cv_eval(df, m):
         #display(temp_df)
         #print(f"{count}: {get_ev_from_df(ev_prepped_df, print_stats = False)}")
         count=count+1
-        running_total = running_total + get_ev_from_df(ev_prepped_df, print_stats = False)
+        running_total = running_total + get_ev_from_df(ev_prepped_df, print_stats = False, min_ev = min_ev)
     return running_total
 
 
