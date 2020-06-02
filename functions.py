@@ -332,7 +332,7 @@ def get_bet_return(odds):
 #winner (0 or 1)
 #OUTPUT: Profit per bet (based on bet of $100)
 
-def get_ev_from_df(ev_df, print_stats = False, min_ev = 0):
+def get_ev_from_df(ev_df, print_stats = False, min_ev = 0, get_total = False):
     num_matches = 0
     num_bets = 0
     num_wins = 0
@@ -443,8 +443,11 @@ def get_ev_from_df(ev_df, print_stats = False, min_ev = 0):
           Profit per match: {profit_per_match}
           
           """)
-        
-    return (profit_per_bet)
+    if (get_total):
+        print(f"# Matches: {num_matches}, # Bets: {num_bets} # Wins: {num_wins}")
+        return(profit)
+    else:
+        return (profit_per_bet)
             
 
 #Input the train df and model and we will return a customer 5x cross validation score based off of expected value
@@ -528,7 +531,7 @@ def get_best_features(features, model, df, current_features, scale=False):
 # labels: The labels
 #odds: The odds
 #min_ev: The minimum EV to place a bet
-def custom_cv_eval_v2(df, m, labels, odds, min_ev=0):
+def custom_cv_eval_v2(df, m, labels, odds, min_ev=0, verbose=False, get_total=False):
     X = np.array(df)
     y = np.array(labels)
     odds = np.array(odds)
@@ -552,7 +555,7 @@ def custom_cv_eval_v2(df, m, labels, odds, min_ev=0):
         #display(temp_df)
         #print(f"{count}: {get_ev_from_df(ev_prepped_df, print_stats = False)}")
         count=count+1
-        running_total = running_total + get_ev_from_df(ev_prepped_df, print_stats = False, min_ev = min_ev)
+        running_total = running_total + get_ev_from_df(ev_prepped_df, print_stats = False, min_ev = min_ev, get_total=get_total)
         #display(ev_prepped_df)
     
     return running_total    
