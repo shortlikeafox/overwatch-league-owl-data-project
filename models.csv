@@ -13,9 +13,9 @@ model_1,model_2,model_3,model_4,model_5,model_6
                        max_leaf_nodes=None, max_samples=None,
                        min_impurity_decrease=0.0, min_impurity_split=None,
                        min_samples_leaf=1, min_samples_split=2,
-                       min_weight_fraction_leaf=0.0, n_estimators=100,
-                       n_jobs=None, oob_score=False, random_state=75, verbose=0,
-                       warm_start=False)","GradientBoostingClassifier(ccp_alpha=0.0, criterion='mse', init=None,
+                       min_weight_fraction_leaf=0.0, n_estimators=65, n_jobs=-1,
+                       oob_score=False, random_state=75, verbose=0,
+                       warm_start=False)","GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
                            learning_rate=0.1, loss='deviance', max_depth=3,
                            max_features='sqrt', max_leaf_nodes=None,
                            min_impurity_decrease=0.0, min_impurity_split=None,
@@ -24,8 +24,8 @@ model_1,model_2,model_3,model_4,model_5,model_6
                            n_iter_no_change=None, presort='deprecated',
                            random_state=75, subsample=1.0, tol=0.0001,
                            validation_fraction=0.1, verbose=0,
-                           warm_start=False)","GaussianNB(priors=None, var_smoothing=1e-09)","LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           warm_start=False)","GaussianNB(priors=None, var_smoothing=1e-06)","LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
                            solver='svd', store_covariance=False, tol=0.0001)"
-"['t2_losses_last_10', 't1_matches_season', 'corona_virus_isolation', 't2_losses_season', 't1_matches_vs_t2', 't1_losses_alltime', 't2_wins_last_10']","['t2_losses_last_5', 't2_wins_last_5', 't1_win_percent_last_10', 't1_losses_last_10', 't1_matches_alltime', 't1_wins_last_10']","['t1_wins_vs_t2', 't2_wins_last_5', 't1_wins_last_10']","['t1_losses_last_10', 't2_win_percent_season', 't1_losses_season', 't2_losses_last_5', 't1_wins_last_10']","['t1_matches_season', 't2_matches_season', 't1_win_percent_season', 't1_wins_last_10']","['corona_virus_isolation', 't2_wins_alltime', 't1_matches_vs_t2', 't2_losses_season', 't1_losses_alltime', 't2_wins_last_10']"
-89,20,4,1,0,0
--383.0,-1538.3276939465204,589.71,-44.77,-883.11,0
+"['t2_losses_last_10', 't1_matches_season', 'corona_virus_isolation', 't2_losses_season', 't1_matches_vs_t2', 't1_losses_alltime', 't2_wins_last_10']","['t2_losses_last_5', 't2_wins_last_5', 't1_win_percent_last_10', 't1_losses_last_10', 't1_matches_alltime', 't1_wins_last_10']","['t2_losses_last_5', 't1_matches_season', 'corona_virus_isolation', 't1_wins_vs_t2', 't2_wins_last_5', 't1_wins_last_10']","['t2_losses_alltime', 'corona_virus_isolation', 't1_losses_last_10', 't2_win_percent_season', 't1_losses_season', 't2_losses_last_5', 't1_wins_last_10']","['t1_matches_alltime', 't1_losses_last_10', 't2_wins_alltime', 'corona_virus_isolation', 't1_matches_season', 't2_matches_season', 't1_win_percent_season', 't1_wins_last_10']","['t1_matches_alltime', 't2_win_percent_season', 't1_losses_season', 'corona_virus_isolation', 't2_wins_alltime', 't1_matches_vs_t2', 't2_losses_season', 't2_wins_last_10']"
+89,20,4,0,0,26
+-383.0,-1538.3276939465204,-241.8611424258169,-1560.1880469581217,-1151.9379991390597,-308.0
